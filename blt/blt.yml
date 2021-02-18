@@ -7,3 +7,8 @@ multisites:
   - multisite
   - second
   - third
+cloud:
+  appId: b025f101-d6bf-413f-8483-33072a85146d
+drush:
+  aliases:
+    remote: multisite.dev

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f1437b01f6082513aa65445d9ad178f",
+    "content-hash": "a0cc72c53574f82e7c6cdafa04473569",
     "packages": [
         {
             "name": "acquia/blt",
@@ -9545,6 +9545,52 @@
             "time": "2020-09-14T14:23:00+00:00"
         },
         {
+            "name": "lcatlett/blt-drush-alias",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcatlett/blt-drush-alias.git",
+                "reference": "cabf7c559b34d0a8089d09550cdba6371ae6deeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcatlett/blt-drush-alias/zipball/cabf7c559b34d0a8089d09550cdba6371ae6deeb",
+                "reference": "cabf7c559b34d0a8089d09550cdba6371ae6deeb",
+                "shasum": ""
+            },
+            "require": {
+                "typhonius/acquia-php-sdk-v2": "^1.0.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lcatlett\\BltDrushAlias\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lindsey Catlett",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Acquia Drush Alias Generator Plugin for Acquia BLT",
+            "homepage": "https://github.com/lcatlett/blt-drush-alias",
+            "keywords": [
+                "Drush",
+                "acquia",
+                "blt"
+            ],
+            "support": {
+                "issues": "https://github.com/lcatlett/blt-drush-alias/issues",
+                "source": "https://github.com/lcatlett/blt-drush-alias/tree/1.0.0"
+            },
+            "time": "2020-02-11T21:44:22+00:00"
+        },
+        {
             "name": "lcobucci/jwt",
             "version": "3.4.5",
             "source": {
@@ -9743,6 +9789,76 @@
                 "source": "https://github.com/thephpleague/event/tree/master"
             },
             "time": "2018-11-26T11:52:41+00:00"
+        },
+        {
+            "name": "league/oauth2-client",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-client.git",
+                "reference": "badb01e62383430706433191b82506b6df24ad98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/badb01e62383430706433191b82506b6df24ad98",
+                "reference": "badb01e62383430706433191b82506b6df24ad98",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0 || ^7.0",
+                "paragonie/random_compat": "^1 || ^2 || ^9.99",
+                "php": "^5.6 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
+                "phpunit/phpunit": "^5.7 || ^6.0 || ^9.3",
+                "squizlabs/php_codesniffer": "^2.3 || ^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Bilbie",
+                    "email": "hello@alexbilbie.com",
+                    "homepage": "http://www.alexbilbie.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Woody Gilk",
+                    "homepage": "https://github.com/shadowhand",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "OAuth 2.0 Client Library",
+            "keywords": [
+                "Authentication",
+                "SSO",
+                "authorization",
+                "identity",
+                "idp",
+                "oauth",
+                "oauth2",
+                "single sign on"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/oauth2-client/issues",
+                "source": "https://github.com/thephpleague/oauth2-client/tree/2.6.0"
+            },
+            "time": "2020-10-28T02:03:40+00:00"
         },
         {
             "name": "league/oauth2-server",
@@ -14103,6 +14219,60 @@
                 }
             ],
             "time": "2020-10-27T19:25:29+00:00"
+        },
+        {
+            "name": "typhonius/acquia-php-sdk-v2",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/typhonius/acquia-php-sdk-v2.git",
+                "reference": "498c9c75028f795286f417dbc504027c8a38ed1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/typhonius/acquia-php-sdk-v2/zipball/498c9c75028f795286f417dbc504027c8a38ed1c",
+                "reference": "498c9c75028f795286f417dbc504027c8a38ed1c",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3",
+                "league/oauth2-client": "^2.4",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.0.0",
+                "phpunit/phpunit": "^6.4",
+                "squizlabs/php_codesniffer": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AcquiaCloudApi\\CloudApi\\": "src/CloudApi",
+                    "AcquiaCloudApi\\Response\\": "src/Response"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Malone",
+                    "email": "adam@adammalone.net"
+                }
+            ],
+            "description": "A PHP SDK for Acquia CloudAPI v2",
+            "support": {
+                "issues": "https://github.com/typhonius/acquia-php-sdk-v2/issues",
+                "source": "https://github.com/typhonius/acquia-php-sdk-v2/tree/1.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/typhonius",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-06-01T19:47:03+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",

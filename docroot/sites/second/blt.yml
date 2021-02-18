@@ -7,7 +7,7 @@ project:
 drush:
   aliases:
     local: second.local
-    remote: second.remote
+    remote: second.dev
 drupal:
   db:
     database: drupal_second
