@@ -282,7 +282,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'lai9g7X0VtqSNyRVNg0QSvYRuA1-YeIeJxifirP3Y5K7SRtWYWWW5hctp5ZAACUyipatDmo27Q';
+$settings['hash_salt'] = '';
 
 /**
  * Deployment identifier.
@@ -762,6 +762,10 @@ $settings['entity_update_backup'] = TRUE;
  */
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
+if (file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/eemmadison/eemmadison-settings.inc';
+}
+
 /**
  * Load local development override configuration, if available.
  *
@@ -779,17 +783,6 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'drupal',
-  'username' => 'drupal',
-  'password' => 'drupal',
-  'prefix' => '',
-  'host' => '127.0.0.1',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Driver\\Database\\mysql',
-  'driver' => 'mysql',
-);
-$settings['config_sync_directory'] = 'sites/multisite/files/config_Gt_W0fCTIOe-41BzWWZBa4NSwBZqgXn1MbalBPd5ElWctX4LYn7__I_g1qKlBqbbcGhXHezLaQ/sync';
 require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 /**
  * IMPORTANT.
@@ -799,3 +792,5 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
  *
  * @link https://docs.acquia.com/blt/
  */
+
+$config['config_split.config_split.second']['status'] = TRUE;
