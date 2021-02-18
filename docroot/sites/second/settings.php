@@ -762,6 +762,10 @@ $settings['entity_update_backup'] = TRUE;
  */
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
+if (file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/eemmadison/drupal_second-settings.inc';
+}
+
 /**
  * Load local development override configuration, if available.
  *
