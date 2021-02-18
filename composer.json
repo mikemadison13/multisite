@@ -23,7 +23,8 @@
         "drupal/core-recommended": "^9",
         "drupal/devel": "^4.1",
         "drupal/environment_indicator": "^4.0",
-        "drupal/mysql56": "^1.0@beta"
+        "drupal/mysql56": "^1.0@beta",
+        "lcatlett/blt-drush-alias": "^1"
     },
     "config": {
         "sort-packages": true
