@@ -1,0 +1,16 @@
+uuid: d0d10030-fe59-47f7-8960-d8342e202365
+langcode: en
+status: false
+dependencies: {  }
+id: second
+label: Second
+description: ''
+folder: ../config/sites/second
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - system.settings
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 1
