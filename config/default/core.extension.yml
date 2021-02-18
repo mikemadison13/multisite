@@ -8,6 +8,7 @@ module:
   config_split: 0
   contextual: 0
   dynamic_page_cache: 0
+  environment_indicator: 0
   field: 0
   field_ui: 0
   file: 0
