@@ -57,16 +57,11 @@
  */
 
 $sites['local.multisite.com'] = 'default';
-$sites['dev.site2.com'] = 'default';
-$sites['stage.site2.com'] = 'default';
-$sites['default.com'] = 'default';
+$sites['eemmadisondev.prod.acquia-sites.com.multisite'] = 'default';
 
 $sites['local.second.com'] = 'second';
-$sites['dev.second.com'] = 'second';
-$sites['stage.second.com'] = 'second';
-$sites['second.com'] = 'second';
+$sites['eemmadisondev.prod.acquia-sites.com.second'] = 'second';
 
 $sites['local.third.com'] = 'third';
-$sites['dev.third.com'] = 'third';
-$sites['stage.third.com'] = 'third';
-$sites['third.com'] = 'third';
+$sites['eemmadisondev.prod.acquia-sites.com.third'] = 'third';
+

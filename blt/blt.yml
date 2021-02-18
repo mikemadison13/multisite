@@ -1,1 +1,5 @@
 project: {  }
+git:
+  default_branch: main
+  remotes:
+    - 'eemmadison@svn-15816.prod.hosting.acquia.com:eemmadison.git'
