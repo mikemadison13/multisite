@@ -10,7 +10,7 @@ vagrant_machine_name: multisite
 vagrant_ip: 192.168.39.166
 
 # Use Ubuntu 16.04 LTS to match Acquia Cloud environments.
-vagrant_box: geerlingguy/ubuntu1404
+vagrant_box: geerlingguy/drupal-vm
 workspace: /root
 drupal_site_name: 'My BLT site'
 
@@ -27,6 +27,7 @@ drupal_composer_path: false
 drupal_composer_install_dir: /var/www/multisite
 drupal_core_path: /var/www/multisite/docroot
 ssh_home: /var/www/multisite
+firewall_disable_firewalld: false
 
 # Multisite installations should configure additional domains here.
 apache_vhosts:
@@ -113,7 +114,7 @@ php_packages_extra:
   - imagemagick
 
 # XDebug configuration.
-php_xdebug_version: 2.7.1
+php_xdebug_version: 2.9.5
 # Change this value to 1 in order to enable xdebug by default.
 php_xdebug_default_enable: 0
 php_xdebug_cli_disable: 'yes'

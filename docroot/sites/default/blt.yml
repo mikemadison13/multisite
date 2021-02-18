@@ -1,0 +1,9 @@
+project:
+  local:
+    hostname: local.multisite.com
+    protocol: http
+  machine_name: multisite
+drush:
+  aliases:
+    local: self
+    remote: null

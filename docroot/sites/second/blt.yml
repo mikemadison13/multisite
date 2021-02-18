@@ -1,0 +1,17 @@
+project:
+  local:
+    hostname: local.second.com
+    protocol: http
+  machine_name: second
+  human_name: second
+drush:
+  aliases:
+    local: second.local
+    remote: second.remote
+drupal:
+  db:
+    database: drupal_second
+    username: drupal
+    password: drupal
+    host: localhost
+    port: 3306

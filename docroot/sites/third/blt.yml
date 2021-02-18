@@ -1,0 +1,17 @@
+project:
+  local:
+    hostname: local.third.com
+    protocol: http
+  machine_name: third
+  human_name: third
+drush:
+  aliases:
+    local: third.local
+    remote: third.remote
+drupal:
+  db:
+    database: drupal_third
+    username: drupal
+    password: drupal
+    host: localhost
+    port: 3306

@@ -1,0 +1,3 @@
+local:
+  root: '${env.cwd}/docroot'
+  uri: 'http://local.multisite.com'
