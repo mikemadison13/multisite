@@ -1,0 +1,70 @@
+uuid: 18cb94f1-24aa-4c17-8d09-6475e9e34e2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.cohesion
+  module:
+    - ckeditor
+_core:
+  default_config_hash: f9mC4M9LvHx-aF5n3JksRoXYt0AO5wW3-wp2rMJUHTU
+format: cohesion
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - RemoveFormat
+        -
+          name: Layout
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - DrupalMediaLibrary
+            - Blockquote
+        -
+          name: Tools
+          items:
+            - Source
+            - Maximize
+        -
+          name: Styles
+          items:
+            - Format
+            - Styles
+            - DX8Styles
+            - DX8InlineStyles
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

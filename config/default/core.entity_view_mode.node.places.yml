@@ -1,0 +1,12 @@
+uuid: baeec3f6-036e-4191-ba6a-d2258111abec
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: u-hxPini8x8pvLWu5hkpC-c4QLnGRSX7kbq-0jTes9w
+id: node.places
+label: Places
+targetEntityType: node
+cache: true

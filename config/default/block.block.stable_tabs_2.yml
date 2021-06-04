@@ -1,0 +1,32 @@
+uuid: c9a06b34-8965-47e9-8b01-9b5da8a611da
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion
+    - collapsiblock
+  theme:
+    - stable
+third_party_settings:
+  collapsiblock:
+    collapse_action: '0'
+_core:
+  default_config_hash: TotEWK3_yXEY-4ebzFchIZjQ_ofvG1w5i_g3dS1KkeU
+id: stable_tabs_2
+theme: stable
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

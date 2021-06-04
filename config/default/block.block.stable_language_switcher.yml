@@ -1,0 +1,27 @@
+uuid: 1f14298d-7e4c-4822-8652-099b26769130
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion
+    - language
+  theme:
+    - stable
+_core:
+  default_config_hash: YDDhVYgb19fYjTSf_9KAa_zZgFVLc_Y2sEqPIF6xubY
+id: stable_language_switcher
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: visible
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

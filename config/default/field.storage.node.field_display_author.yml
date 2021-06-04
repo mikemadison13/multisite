@@ -1,0 +1,21 @@
+uuid: 772e38b1-d6a3-4de3-8aee-cc92fb865856
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: _At9z1FTVuUL3oBCtbnovEuy1CF2cMvI_8a1uGL6siE
+id: node.field_display_author
+field_name: field_display_author
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

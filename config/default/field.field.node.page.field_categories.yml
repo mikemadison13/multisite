@@ -1,0 +1,26 @@
+uuid: e6c41aff-9325-4b87-b6ce-148b375c852b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categories
+    - node.type.page
+    - taxonomy.vocabulary.categories
+_core:
+  default_config_hash: pUewO8dZ1qsqUEwqCKPCwC5YCaXbsgOWOynbD-K7FGE
+id: node.page.field_categories
+field_name: field_categories
+entity_type: node
+bundle: page
+label: Categories
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories: categories
+field_type: entity_reference

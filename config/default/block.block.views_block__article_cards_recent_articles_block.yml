@@ -1,0 +1,31 @@
+uuid: 7c4ef5e8-e17f-4017-8f81-b5edf65307d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.article_cards
+  module:
+    - cohesion
+    - views
+  theme:
+    - cohesion_theme
+_core:
+  default_config_hash: zNzPjKq5RKygTsy5sftev7knAOWVDBWm9h6VsqLLsHU
+id: views_block__article_cards_recent_articles_block
+theme: cohesion_theme
+region: dx8_hidden
+weight: 0
+provider: null
+plugin: 'views_block:article_cards-recent_articles_block'
+settings:
+  id: 'views_block:article_cards-recent_articles_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

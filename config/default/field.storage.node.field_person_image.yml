@@ -1,0 +1,22 @@
+uuid: 82401950-8e4d-486f-bb47-068b231b68a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: RVfu1EeGy7PNwohdrZAU0sBqbDUlwO6YyuYbB3W_SpQ
+id: node.field_person_image
+field_name: field_person_image
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

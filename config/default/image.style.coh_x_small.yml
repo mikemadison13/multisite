@@ -1,0 +1,17 @@
+uuid: d7625202-9993-4be1-a040-dd8afaac2cbe
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: evUEwRKDcq1TJecN3toI9Dn9q-FRFmv4aPkocol1IyQ
+name: coh_x_small
+label: 'X Small (W480)'
+effects:
+  7fe8c665-d621-4928-812d-10165060b5a7:
+    uuid: 7fe8c665-d621-4928-812d-10165060b5a7
+    id: image_scale
+    weight: 2
+    data:
+      width: 480
+      height: null
+      upscale: false

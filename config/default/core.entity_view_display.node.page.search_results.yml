@@ -1,0 +1,58 @@
+uuid: 6ed83d6a-980a-478d-b7ea-1da7e71ac705
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_results
+    - field.field.node.page.body
+    - field.field.node.page.field_categories
+    - field.field.node.page.field_layout_canvas
+    - field.field.node.page.field_page_image
+    - field.field.node.page.field_tags
+    - node.type.page
+  module:
+    - smart_trim
+    - user
+_core:
+  default_config_hash: 4m_wFTx5UytNWAUV08RS6pn3TNe4yS5v9UAphBFCxb0
+id: node.page.search_results
+targetEntityType: node
+bundle: page
+mode: search_results
+content:
+  body:
+    type: smart_trim
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      trim_length: 128
+      trim_type: chars
+      trim_suffix: ...
+      wrap_class: trimmed
+      more_text: More
+      more_class: more-link
+      summary_handler: trim
+      wrap_output: false
+      more_link: false
+      trim_options:
+        text: false
+        trim_zero: false
+    third_party_settings: {  }
+  content_moderation_control:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_categories: true
+  field_layout_canvas: true
+  field_page_image: true
+  field_tags: true
+  langcode: true
+  search_api_excerpt: true

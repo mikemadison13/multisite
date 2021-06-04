@@ -1,0 +1,30 @@
+uuid: a9cad9bd-1cf3-4686-bf6f-6c14844eb686
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place_image
+    - media.type.image
+    - node.type.place
+_core:
+  default_config_hash: jIpLHu_QXBPMo06dJgfDZLGFQyoTZban_3nLp146C5k
+id: node.place.field_place_image
+field_name: field_place_image
+entity_type: node
+bundle: place
+label: Image
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

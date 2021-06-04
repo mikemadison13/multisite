@@ -1,0 +1,25 @@
+channels:
+  -
+    id: purgers
+    grants:
+      - 0
+      - 2
+      - 3
+  -
+    id: queue
+    grants:
+      - 0
+      - 2
+      - 3
+  -
+    id: diagnostics
+    grants:
+      - 3
+  -
+    id: purger_acquia_purge_cee22bc3fe
+    grants:
+      - 0
+      - 2
+      - 3
+_core:
+  default_config_hash: 4odWMFb392Acb5qB5Pl0UUEPDJBx6C0MMtPRFPzrLXk

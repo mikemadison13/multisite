@@ -1,0 +1,19 @@
+uuid: b480dac5-2208-4560-aa56-57e612313698
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+_core:
+  default_config_hash: iliCQr28pBTMHcGk-75SUl_X5MDzN6qWI88er9j711M
+id: database
+name: 'Database Search Server'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: partial
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

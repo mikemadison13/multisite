@@ -1,0 +1,10 @@
+uuid: 76a7ef7a-cc34-410e-a280-f72ee08c394f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xpBS00p2YTHGlE8q-5g9D28uhbeJEWCs12jb7ZTnllg
+name: 'Article Type'
+vid: article_type
+description: 'Descriptive metadata, for categorizing content and making search engines happy.'
+weight: 0

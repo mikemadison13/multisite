@@ -1,0 +1,15 @@
+uuid: 7e7af3aa-9027-4fae-bb45-3c5173b44b2e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GV0CXf2Ed5D5vuwGdTCFwENNFs8oUDjxbtqMObAVe5Y
+id: googlemaps
+label: GoogleMaps
+plugin: googlemaps
+configuration:
+  region: ''
+  apiKey: ''
+  throttle:
+    period: null
+    limit: null
