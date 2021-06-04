@@ -19,3 +19,6 @@ site-studio:
   cohesion-import: false
   sync-import: false
   rebuild: false
+cm:
+  core:
+    install_from_config: true
