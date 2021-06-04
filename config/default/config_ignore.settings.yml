@@ -2,5 +2,12 @@ ignored_config_entities:
   - 'language.entity.*'
   - 'media.type.image:uuid'
   - 'crop.type.focal_point:uuid'
+  - 'acquia_contenthub.*'
+  - 'acquia_contenthub.admin_settings:*'
+  - 'cohesion.settings:organization_key'
+  - 'cohesion.settings:api_key'
+  - 'acquia_lift.settings credential.account_id'
+  - 'acquia_lift.settings credential.site_id'
+  - 'acquia_lift.settings credential.assets_url'
 _core:
   default_config_hash: V6pv68tVU00OObD_6g4dBxiUzPL1HZwllO6bV0vQ8Og
