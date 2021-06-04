@@ -1,0 +1,6 @@
+ignored_config_entities:
+  - 'language.entity.*'
+  - 'media.type.image:uuid'
+  - 'crop.type.focal_point:uuid'
+_core:
+  default_config_hash: V6pv68tVU00OObD_6g4dBxiUzPL1HZwllO6bV0vQ8Og

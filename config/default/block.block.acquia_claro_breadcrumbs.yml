@@ -1,0 +1,22 @@
+uuid: e0dea882-2a87-4daf-8230-1db57b2eaf24
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - acquia_claro
+_core:
+  default_config_hash: KaWdbhv97zshpOl0bWXyhf9bFZKt_89F1xkiOv-nu9o
+id: acquia_claro_breadcrumbs
+theme: acquia_claro
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,74 @@
+uuid: 76661708-f02c-42d0-affd-5b2892126e08
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.event
+    - node.type.page
+    - node.type.person
+    - node.type.place
+  module:
+    - acquia_cms
+third_party_settings:
+  acquia_cms:
+    workflow_id: editorial
+    workflow_transitions:
+      - publish
+      - archived_published
+_core:
+  default_config_hash: lf5eUH3O8nDTMVx3UpSmyjKLiREZMKmvjBcFn6JW_GQ
+id: to_published
+label: 'To Published'
+subject: '[node:title] State Changed'
+body:
+  value: '[node:title] is published now'
+  format: plain_text
+bundles:
+  'node:article': 'node:article'
+  'node:event': 'node:event'
+  'node:page': 'node:page'
+  'node:person': 'node:person'
+  'node:place': 'node:place'
+recipient_types:
+  author:
+    id: author
+    provider: workbench_email
+    status: true
+    settings: {  }
+  email:
+    id: email
+    provider: workbench_email
+    status: false
+    settings:
+      fields: {  }
+  entity_reference_user:
+    id: entity_reference_user
+    provider: workbench_email
+    status: false
+    settings:
+      fields: {  }
+  fixed_email:
+    id: fixed_email
+    provider: workbench_email
+    status: false
+    settings:
+      recipients: ''
+  last_revision_author:
+    id: last_revision_author
+    provider: workbench_email
+    status: false
+    settings: {  }
+  role:
+    id: role
+    provider: workbench_email
+    status: false
+    settings:
+      roles: {  }
+  roles_with_access:
+    id: roles_with_access
+    provider: workbench_email
+    status: false
+    settings:
+      roles: {  }
+replyTo: null

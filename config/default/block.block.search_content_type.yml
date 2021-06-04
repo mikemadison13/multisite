@@ -1,0 +1,34 @@
+uuid: af2dbf54-f6fd-4d9a-b7cb-6ebe3e4fc7d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.search_content_type
+  module:
+    - cohesion
+    - collapsiblock
+    - facets
+  theme:
+    - cohesion_theme
+third_party_settings:
+  collapsiblock:
+    collapse_action: '2'
+_core:
+  default_config_hash: ifs0-ECouEAwkrTlMcprBzfIOo5VZBAHi0OLWtSBgnA
+id: search_content_type
+theme: cohesion_theme
+region: dx8_hidden
+weight: 0
+provider: null
+plugin: 'facet_block:search_content_type'
+settings:
+  id: 'facet_block:search_content_type'
+  label: 'Content Type'
+  provider: facets
+  label_display: visible
+  block_id: search_content_type
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

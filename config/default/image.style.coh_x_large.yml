@@ -1,0 +1,17 @@
+uuid: 68ad81ad-66cf-4c2d-9824-66b205f4f65a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SMlBIx44Kobc4KZ9MHiVR737M7i7AXqHibB7I67gAzk
+name: coh_x_large
+label: 'X Large (1360)'
+effects:
+  872a1099-e3fd-4ccb-a7fe-f672465a07b3:
+    uuid: 872a1099-e3fd-4ccb-a7fe-f672465a07b3
+    id: image_scale
+    weight: 2
+    data:
+      width: 1360
+      height: null
+      upscale: false

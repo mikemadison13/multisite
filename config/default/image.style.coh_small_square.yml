@@ -1,0 +1,19 @@
+uuid: c8da0d23-aafa-4116-a77e-875339bff7c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: L-8Z-W3x6FyyviWb4EmU4QpJkM2umksXi_15teGydhc
+name: coh_small_square
+label: 'Small square (568x568)'
+effects:
+  34322c52-b7f4-4755-bd49-62d4bb2b8e08:
+    uuid: 34322c52-b7f4-4755-bd49-62d4bb2b8e08
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 568
+      height: 568
+      crop_type: focal_point

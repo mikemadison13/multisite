@@ -1,0 +1,22 @@
+uuid: 7fadd15b-caff-4e62-a1b6-d5d260fd3c78
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - acquia_claro
+_core:
+  default_config_hash: f8LNiNF9yY3MVaQTZRgUI-zIb5F_1lQtVayznuf8yzA
+id: acquia_claro_content
+theme: acquia_claro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

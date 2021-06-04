@@ -1,0 +1,25 @@
+uuid: 0bbbc265-7dfc-4d0a-9cc1-86e674dad9c1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XRB_1fn39W8QK7yrHli9UCYwAMAXU15k6RvW7sXid5c
+id: site_builder
+label: 'Site Builder'
+weight: -8
+is_admin: null
+permissions:
+  - 'access cohesion sync'
+  - 'access toolbar'
+  - 'administer cohesion'
+  - 'administer component categories'
+  - 'administer component content'
+  - 'administer components'
+  - 'administer custom styles'
+  - 'administer helper categories'
+  - 'administer helpers'
+  - 'administer style helpers'
+  - 'administer style_guide'
+  - 'use text format cohesion'
+  - 'use text format filtered_html'
+  - 'view the administration theme'

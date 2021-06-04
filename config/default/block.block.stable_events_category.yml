@@ -1,0 +1,34 @@
+uuid: b17c3836-7a51-4fad-a6fe-893300d3b037
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.events_category
+  module:
+    - cohesion
+    - collapsiblock
+    - facets
+  theme:
+    - stable
+third_party_settings:
+  collapsiblock:
+    collapse_action: '2'
+_core:
+  default_config_hash: Pg6L9H9DdBeBBB1m2GNNHjNz74gWo3iBHu0N4mAYRQo
+id: stable_events_category
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:events_category'
+settings:
+  id: 'facet_block:events_category'
+  label: Category
+  provider: facets
+  label_display: visible
+  block_id: events_category
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

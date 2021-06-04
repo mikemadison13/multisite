@@ -1,0 +1,31 @@
+uuid: adaa1570-19b9-4704-92f6-5b2d85bd8041
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.event_cards
+  module:
+    - cohesion
+    - views
+  theme:
+    - cohesion_theme
+_core:
+  default_config_hash: AJGfsgSxoXKI9iFTEHAnTVcc0TphCr58ETx1WD87SmM
+id: views_block__event_cards_past_events_block
+theme: cohesion_theme
+region: dx8_hidden
+weight: 0
+provider: null
+plugin: 'views_block:event_cards-past_events_block'
+settings:
+  id: 'views_block:event_cards-past_events_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

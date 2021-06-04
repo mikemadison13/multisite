@@ -1,0 +1,21 @@
+uuid: 1e0f6c66-9997-4ada-9a80-4725fe93016c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LBJi2TlGJ94FXP5Wx7EFrb40AU-z2qlp6vtcCsAbjvQ
+id: node.field_event_place
+field_name: field_event_place
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

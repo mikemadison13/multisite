@@ -1,0 +1,23 @@
+uuid: fa4ab54e-de64-4572-bf84-0110ee1b8d12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place_telephone
+    - node.type.place
+  module:
+    - telephone
+_core:
+  default_config_hash: iCX3tzpvttqwlBLF46RNIR_5YbFRghAFKctbXI4Vilw
+id: node.place.field_place_telephone
+field_name: field_place_telephone
+entity_type: node
+bundle: place
+label: Telephone
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

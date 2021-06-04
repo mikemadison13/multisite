@@ -1,0 +1,28 @@
+uuid: 20671aba-caee-4d03-b415-19b17d1f29a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion
+  theme:
+    - stable
+_core:
+  default_config_hash: CRH1eV3ZJTs3IsWm3-4EfGkcL-vdx0vkPJ3Dasoe8_E
+id: stable_tabs
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

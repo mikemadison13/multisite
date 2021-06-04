@@ -1,0 +1,26 @@
+uuid: 8f955973-0d87-4ce5-8554-630b04a67d86
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion
+  theme:
+    - cohesion_theme
+_core:
+  default_config_hash: beMZN25xRUiJS0L9ZB4kzrilZfUqNUOO4fASJQBZK_o
+id: pagetitle
+theme: cohesion_theme
+region: dx8_hidden
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

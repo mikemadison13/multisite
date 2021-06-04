@@ -11,20 +11,27 @@
     ],
     "require": {
         "php": ">=7.4",
-        "acquia/blt": "^12",
+        "acquia/acquia_cms": "^1.2",
+        "acquia/blt": "^13",
         "acquia/blt-drupal-vm": "dev-master",
         "acquia/blt-phpcs": "^1.0",
-        "acquia/lightning": "^5",
+        "acquia/blt-site-studio": "dev-develop",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6",
-        "drupal/admin_toolbar": "^3.0",
+        "drupal/acquia_contenthub": "^2.24",
+        "drupal/acquia_lift": "^4.3",
+        "drupal/admin_toolbar": "^2.0",
         "drupal/config_split": "^1.7",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
         "drupal/devel": "^4.1",
         "drupal/environment_indicator": "^4.0",
+        "drupal/media_acquiadam": "^1.47",
         "drupal/mysql56": "^1.0@beta",
-        "lcatlett/blt-drush-alias": "^1"
+        "drupal/search_api_solr": "^4.1",
+        "drupol/phposinfo": "^1.6",
+        "lcatlett/blt-drush-alias": "^1",
+        "mikemadison13/blt-lando": "dev-main"
     },
     "config": {
         "sort-packages": true
@@ -94,6 +101,11 @@
         "asset-packagist": {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        "blt-site-studio": {
+            "type": "vcs",
+            "url": "https://github.com/davidtrainer/blt-site-studio.git",
+            "no-api": true
         }
     },
     "minimum-stability": "dev",

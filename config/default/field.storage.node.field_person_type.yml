@@ -1,0 +1,27 @@
+uuid: e5303578-740b-47bf-9804-23f8fcebc1d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - acquia_cms
+    - node
+    - taxonomy
+third_party_settings:
+  acquia_cms:
+    search_index: content
+    search_label: 'Person Type'
+_core:
+  default_config_hash: TGSpK0XlULHSUohRHLFLPRHQ1zrTWh1PibqR6ntj-4k
+id: node.field_person_type
+field_name: field_person_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

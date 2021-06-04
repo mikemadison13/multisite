@@ -1,0 +1,23 @@
+uuid: fa4f8bba-6db1-4a68-9a59-07bd5beaaea8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_telephone
+    - node.type.person
+  module:
+    - telephone
+_core:
+  default_config_hash: qIZvNgk8Y-FVRLG-ha4xUj-8O-16fX5vi6BBLYTcE5I
+id: node.person.field_person_telephone
+field_name: field_person_telephone
+entity_type: node
+bundle: person
+label: Telephone
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

@@ -1,0 +1,8 @@
+enable: true
+description: true
+message: true
+mailkeys: ''
+address: no-reply@acquia.com
+whitelist: ''
+_core:
+  default_config_hash: MEk_CJeGl-t5iLCmW2f8ftdtEksYaNt8D76HskInlDk

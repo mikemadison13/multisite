@@ -1,0 +1,34 @@
+uuid: d3fabbd9-73b7-46ad-8160-4c5eb4edc719
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.places_category
+  module:
+    - cohesion
+    - collapsiblock
+    - facets
+  theme:
+    - stable
+third_party_settings:
+  collapsiblock:
+    collapse_action: '2'
+_core:
+  default_config_hash: 3gY1G5_yGqIfL1hq2GSuNfyGCY08tY8BSh2ehoyiaJs
+id: stable_places_category
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:places_category'
+settings:
+  id: 'facet_block:places_category'
+  label: Category
+  provider: facets
+  label_display: visible
+  block_id: places_category
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    using_master_template: 0
+    negate: false

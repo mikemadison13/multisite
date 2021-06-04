@@ -1,0 +1,26 @@
+uuid: 3bda2995-dcd8-40c2-9bd0-1c07e3807da1
+langcode: en
+status: true
+dependencies:
+  module:
+    - acquia_cms
+    - node
+    - telephone
+third_party_settings:
+  acquia_cms:
+    search_index: content
+    search_label: 'Place Telephone'
+_core:
+  default_config_hash: ibFvV7OLyWk_n_esdmO4Y2Sq8kcUxlejdl69JwNdFww
+id: node.field_place_telephone
+field_name: field_place_telephone
+entity_type: node
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

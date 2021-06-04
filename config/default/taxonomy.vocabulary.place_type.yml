@@ -1,0 +1,10 @@
+uuid: a6878e6b-fdf2-43a5-9c87-196f7c854e95
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Wv2yyzikfa-5opebhTEUbe60XwmqTWCVNkk89FA5_14
+name: 'Place Type'
+vid: place_type
+description: ''
+weight: 0

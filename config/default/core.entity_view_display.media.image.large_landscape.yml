@@ -1,0 +1,37 @@
+uuid: 9516ce29-cbca-41ab-8f99-a83fc57f806c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.large_landscape
+    - field.field.media.image.field_categories
+    - field.field.media.image.field_tags
+    - field.field.media.image.image
+    - media.type.image
+  module:
+    - image
+_core:
+  default_config_hash: L4ISURTljt_Wn6_e-G08slfTUuuUDWtbMHyeUp2RKw4
+id: media.image.large_landscape
+targetEntityType: media
+bundle: image
+mode: large_landscape
+content:
+  image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_categories: true
+  field_tags: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

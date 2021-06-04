@@ -1,4 +1,4 @@
-uuid: e347d87d-193f-431d-94fc-b786384ce1c1
+uuid: 09149878-6e63-4ecc-9eb2-68755bb2550c
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     - media_library
     - user
 _core:
-  default_config_hash: dHOSWSHbMJNke0ZBGh1O5KrnwynSOCOpQycITW-pwfs
+  default_config_hash: ySoTKjDQm7qni7yKxzminKkIvO5oLjI_NgE2YtAX-qI
 id: media_library
 label: 'Media library'
 module: views
@@ -897,6 +897,7 @@ display:
         arguments: false
         header: false
         css_class: false
+        cache: false
       display_description: ''
       access:
         type: perm
@@ -1090,6 +1091,9 @@ display:
           empty: true
       css_class: ''
       rendering_language: '***LANGUAGE_language_interface***'
+      cache:
+        type: none
+        options: {  }
     cache_metadata:
       max-age: -1
       contexts:

@@ -1,0 +1,24 @@
+uuid: eb30a529-ab14-462c-b53a-7054be9448f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: _wAOD3YLbkB5ji3haaOSWMLPPr128wb3udnZAq8Zi18
+id: person
+label: 'Person path'
+type: 'canonical_entities:node'
+pattern: 'person/[node:field_person_type]/[node:title]'
+selection_criteria:
+  c97ba0fc-5cd3-46f1-be0e-c8e165db8962:
+    id: node_type
+    bundles:
+      person: person
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c97ba0fc-5cd3-46f1-be0e-c8e165db8962
+selection_logic: and
+weight: -5
+relationships: {  }

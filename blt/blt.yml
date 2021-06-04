@@ -1,4 +1,7 @@
-project: {  }
+project:
+  machine_name: multisite
+  profile:
+    name: acquia_cms
 git:
   default_branch: main
   remotes:
@@ -12,3 +15,7 @@ cloud:
 drush:
   aliases:
     remote: multisite.dev
+site-studio:
+  cohesion-import: false
+  sync-import: false
+  rebuild: false

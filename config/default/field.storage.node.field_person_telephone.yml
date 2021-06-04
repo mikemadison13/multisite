@@ -1,0 +1,26 @@
+uuid: 4ac26230-f758-4f0b-91de-580308ba3ad5
+langcode: en
+status: true
+dependencies:
+  module:
+    - acquia_cms
+    - node
+    - telephone
+third_party_settings:
+  acquia_cms:
+    search_index: content
+    search_label: 'Person Telephone'
+_core:
+  default_config_hash: xgCt3TBwm4uFT95uSmPrDsCc9dndgBl_rE--wKVjSvc
+id: node.field_person_telephone
+field_name: field_person_telephone
+entity_type: node
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 7802924d-d7cc-43c7-8859-da56b52c6559
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: WD7qi1TfyRwHNUbzj9XreaRoldp2YJ9ykLFoVKicOSs
+id: node.field_place_image
+field_name: field_place_image
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
