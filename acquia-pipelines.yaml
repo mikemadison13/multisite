@@ -4,7 +4,7 @@ services:
   - composer:
       version: 2
   - php:
-      version: 7.4
+      version: 8.0
 
 variables:
   global:
@@ -20,8 +20,6 @@ events:
               - composer validate --no-check-all --ansi
               - composer install --ansi
               - source ${BLT_DIR}/scripts/pipelines/setup_env
-              # - nvm install v6.9.1 --latest-npm
-              # - npm install --global yarn
         - validate:
             type: script
             script:

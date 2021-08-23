@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.0",
         "acquia/acquia_cms": "^1.2",
         "acquia/blt": "^13",
         "acquia/blt-drupal-vm": "dev-master",
@@ -27,7 +27,6 @@
         "drupal/devel": "^4.1",
         "drupal/environment_indicator": "^4.0",
         "drupal/media_acquiadam": "^1.47",
-        "drupal/mysql56": "^1.0@beta",
         "drupal/search_api_solr": "^4.1",
         "drupol/phposinfo": "^1.6",
         "lcatlett/blt-drush-alias": "^1",
