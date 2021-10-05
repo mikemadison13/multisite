@@ -12,7 +12,7 @@ dependencies:
     - cohesion_theme
 third_party_settings:
   collapsiblock:
-    collapse_action: '2'
+    collapse_action: 2
 _core:
   default_config_hash: m5e-V5tKn-CL5LTrmhSiEKsPD9dnRoJUWD2gs-u9_4U
 id: search_article_type

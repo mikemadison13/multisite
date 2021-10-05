@@ -9,7 +9,7 @@ dependencies:
     - cohesion_theme
 third_party_settings:
   collapsiblock:
-    collapse_action: '0'
+    collapse_action: 0
 _core:
   default_config_hash: TotEWK3_yXEY-4ebzFchIZjQ_ofvG1w5i_g3dS1KkeU
 id: tabs_2

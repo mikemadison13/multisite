@@ -12,7 +12,7 @@ dependencies:
     - stable
 third_party_settings:
   collapsiblock:
-    collapse_action: '2'
+    collapse_action: 2
 _core:
   default_config_hash: ifs0-ECouEAwkrTlMcprBzfIOo5VZBAHi0OLWtSBgnA
 id: stable_search_content_type
