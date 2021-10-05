@@ -90,7 +90,14 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {}
+        "patches": {
+            "acquia/acquia_cms": {
+                "json issues": "https://github.com/acquia/acquia_cms/pull/948.patch"
+            },
+            "drupal/default_content": {
+                "existing entities": "https://git.drupalcode.org/project/default_content/-/merge_requests/5.patch"
+            }
+        }
     },
     "repositories": {
         "drupal": {

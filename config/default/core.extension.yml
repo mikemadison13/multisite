@@ -8,6 +8,7 @@ module:
   acquia_cms_person: 0
   acquia_cms_place: 0
   acquia_cms_search: 0
+  acquia_cms_site_studio: 0
   acquia_cms_toolbar: 0
   acquia_cms_tour: 0
   acquia_cms_video: 0
@@ -36,6 +37,7 @@ module:
   config: 0
   config_filter: 0
   config_ignore: 0
+  config_rewrite: 0
   config_split: 0
   config_translation: 0
   content_moderation: 0
