@@ -7,14 +7,15 @@ git:
   remotes:
     - 'eemmadison@svn-15816.prod.hosting.acquia.com:eemmadison.git'
 multisites:
-  - multisite
+  - default
+  - first
   - second
   - third
 cloud:
   appId: b025f101-d6bf-413f-8483-33072a85146d
 drush:
   aliases:
-    remote: multisite.dev
+    remote: default.dev
 site-studio:
   cohesion-import: false
   sync-import: false
