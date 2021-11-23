@@ -1,0 +1,17 @@
+project:
+  local:
+    hostname: local.first.com
+    protocol: http
+  machine_name: first
+  human_name: first
+drush:
+  aliases:
+    local: first.local
+    remote: first.dev
+drupal:
+  db:
+    database: drupal_first
+    username: drupal
+    password: drupal
+    host: localhost
+    port: 3306

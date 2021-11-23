@@ -1,7 +1,8 @@
 local:
   root: '${env.cwd}/docroot'
+  uri: 'http://local.first.com'
 dev:
-  uri: eemmadisondev.prod.acquia-sites.com
+  uri: eemmadisondev.prod.acquia-sites.com/first
   host: eemmadisondev.ssh.prod.acquia-sites.com
   options: {  }
   paths: { dump-dir: /mnt/tmp }
@@ -14,7 +15,7 @@ mike:
   ac-site: eemmadison
   ac-env: next
   ac-realm: prod
-  uri: eemmadisonnext.prod.acquia-sites.com
+  uri: eemmadisonnext.prod.acquia-sites.com/first
   host: eemmadisonnext.ssh.prod.acquia-sites.com
   user: eemmadison.next
 
@@ -23,6 +24,6 @@ pavithra:
   ac-site: eepraman
   ac-env: next
   ac-realm: prod
-  uri: eepramannext.prod.acquia-sites.com
+  uri: eepramannext.prod.acquia-sites.com/first
   host: eepramannext.ssh.prod.acquia-sites.com
   user: eepraman.next

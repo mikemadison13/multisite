@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "acquia/acquia_cms": "^1.2",
+        "acquia/acquia_cms": "^1.3.4",
         "acquia/blt": "^13",
         "acquia/blt-drupal-vm": "dev-master",
         "acquia/blt-phpcs": "^1.0",
@@ -20,7 +20,6 @@
         "cweagans/composer-patches": "^1.6",
         "drupal/acquia_contenthub": "^2.24",
         "drupal/acquia_lift": "^4.3",
-        "drupal/admin_toolbar": "^2.0",
         "drupal/config_split": "^1.7",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
@@ -28,7 +27,7 @@
         "drupal/environment_indicator": "^4.0",
         "drupal/media_acquiadam": "^1.47",
         "drupal/search_api_solr": "^4.1",
-        "drupol/phposinfo": "^1.6",
+        "drupal/site_audit": "3.x-dev",
         "lcatlett/blt-drush-alias": "^1",
         "mikemadison13/blt-lando": "dev-main"
     },
@@ -91,11 +90,8 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "acquia/acquia_cms": {
-                "json issues": "https://github.com/acquia/acquia_cms/pull/948.patch"
-            },
-            "drupal/default_content": {
-                "existing entities": "https://git.drupalcode.org/project/default_content/-/merge_requests/5.patch"
+            "acquia/blt-site-studio": {
+                "patching for PR 22": "https://github.com/davidtrainer/blt-site-studio/pull/22.patch"
             }
         }
     },

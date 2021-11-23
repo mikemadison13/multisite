@@ -9,3 +9,22 @@ dev:
   root: /var/www/html/eemmadison.dev/docroot
   user: eemmadison.dev
   ssh: { options: '-p 22' }
+
+mike:
+  root: /var/www/html/eemmadison.next/docroot
+  ac-site: eemmadison
+  ac-env: next
+  ac-realm: prod
+  uri: eemmadisonnext.prod.acquia-sites.com/second
+  host: eemmadisonnext.ssh.prod.acquia-sites.com
+  user: eemmadison.next
+
+pavithra:
+  root: /var/www/html/docroot
+  ac-site: eepraman
+  ac-env: next
+  ac-realm: prod
+  uri: eepramannext.prod.acquia-sites.com/second
+  host: eepramannext.ssh.prod.acquia-sites.com
+  user: eepraman.next
+
