@@ -6,4 +6,4 @@ project:
 drush:
   aliases:
     local: self
-    remote: null
+    remote: default.dev
