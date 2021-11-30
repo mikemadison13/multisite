@@ -2,11 +2,13 @@ name: multisite
 recipe: drupal9
 config:
   webroot: docroot
-  xdebug: false
+  xdebug: true
   php: '8.0'
 services:
   appserver:
-    xdebug: false
+    xdebug: true
+    config:
+      php: .lando/php.ini
     build_as_root:
       - apt-get update
       - apt-get install libxss1
@@ -25,6 +27,7 @@ services:
           source: "${LANDO_SSH_AUTH_SOCK:-/run/host-services/ssh-auth.sock}"
           target: /run/host-services/ssh-auth.sock
       environment:
+        PHP_IDE_CONFIG: "serverName=appserver"
         DRUSH_OPTIONS_URI: "https://multisite.lndo.site"
         SSH_AUTH_SOCK: /run/host-services/ssh-auth.sock
       cap_add:
