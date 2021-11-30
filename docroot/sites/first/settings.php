@@ -763,7 +763,7 @@ $settings['entity_update_backup'] = TRUE;
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 if (file_exists('/var/www/site-php')) {
-  require '/var/www/site-php/eemmadison/eemmadison-settings.inc';
+  require '/var/www/site-php/eemmadison/drupal_first-settings.inc';
 }
 
 /**
