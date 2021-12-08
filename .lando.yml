@@ -2,11 +2,31 @@ name: multisite
 recipe: drupal9
 config:
   webroot: docroot
-  xdebug: true
   php: '8.0'
 services:
+  first:
+    type: mysql:5.7
+    portforward: true
+    creds:
+      user: drupal9
+      password: drupal9
+      database: first
+    second:
+      type: mysql:5.7
+      portforward: true
+      creds:
+        user: drupal9
+        password: drupal9
+        database: second
+    third:
+      type: mysql:5.7
+      portforward: true
+      creds:
+        user: drupal9
+        password: drupal9
+        database: third
   appserver:
-    xdebug: true
+    xdebug: false
     config:
       php: .lando/php.ini
     build_as_root:
@@ -52,5 +72,13 @@ tooling:
     cmd: "/bin/chgrp www-data /run/host-services/ssh-auth.sock && /bin/chmod g+w /run/host-services/ssh-auth.sock"
     user: root
 events:
+  pre-start:
+    - appserver: "rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && /etc/init.d/apache2 reload"
   post-start:
     - appserver: test -e ~/.ssh/config || printf 'Host *\n  AddKeysToAgent yes\n' > ~/.ssh/config
+proxy:
+  appserver:
+    - zero.lndo.site
+    - first.lndo.site
+    - second.lndo.site
+    - third.lndo.site
