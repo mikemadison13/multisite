@@ -17,6 +17,6 @@ drush:
   aliases:
     remote: default.dev
 site-studio:
-  cohesion-import: false
+  cohesion-import: true
   sync-import: false
-  rebuild: false
+  rebuild: true
