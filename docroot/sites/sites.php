@@ -56,12 +56,19 @@
  * @see https://www.drupal.org/documentation/install/multi-site
  */
 
-$sites['local.multisite.com'] = 'default';
-$sites['eemmadisondev.prod.acquia-sites.com.multisite'] = 'default';
+$sites['zero.lndo.site'] = 'default';
+$sites['eemmadisondev.prod.acquia-sites.com'] = 'default';
+$sites['eemmadisonnext.prod.acquia-sites.com'] = 'default';
 
-$sites['local.second.com'] = 'second';
+$sites['first.lndo.site'] = 'second';
+$sites['eemmadisondev.prod.acquia-sites.com.first'] = 'first';
+$sites['eemmadisonnext.prod.acquia-sites.com.first'] = 'first';
+
+$sites['second.lndo.site'] = 'second';
 $sites['eemmadisondev.prod.acquia-sites.com.second'] = 'second';
+$sites['eemmadisonnext.prod.acquia-sites.com.second'] = 'second';
 
-$sites['local.third.com'] = 'third';
+$sites['third.lndo.site'] = 'third';
 $sites['eemmadisondev.prod.acquia-sites.com.third'] = 'third';
+$sites['eemmadisonnext.prod.acquia-sites.com.third'] = 'third';
 
