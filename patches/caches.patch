@@ -1,0 +1,12 @@
+diff --git a/modules/acquia_cms_site_studio/acquia_cms_site_studio.module b/modules/acquia_cms_site_studio/acquia_cms_site_studio.module
+index bdc01811..3f2fdb73 100644
+--- a/modules/acquia_cms_site_studio/acquia_cms_site_studio.module
++++ b/modules/acquia_cms_site_studio/acquia_cms_site_studio.module
+@@ -28,6 +28,7 @@ function acquia_cms_site_studio_form_install_configure_form_alter(&$form, FormSt
+  * Imports all Cohesion elements.
+  */
+ function install_acms_site_studio_initialize(): array {
++  drupal_flush_all_caches();
+   // Build and run the batch job for the initial import of Cohesion elements and
+   // assets.
+   // @todo When Cohesion provides a service to generate this batch job, use
