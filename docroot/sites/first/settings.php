@@ -794,3 +794,11 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
  */
 
 $config['config_split.config_split.first']['status'] = TRUE;
+
+// Temporary workaround to override the default MySQL wait_timeout setting.
+$default_settings['default']['default'] = [
+  'init_commands' => [
+    'wait_timeout' => "SET SESSION wait_timeout=3600",
+  ],
+];
+$databases = array_merge_recursive($databases, $default_settings);
