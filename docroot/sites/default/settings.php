@@ -776,10 +776,6 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  * Keep this code block at the end of this file to take full effect.
  */
 
-if (file_exists('/var/www/site-php')) {
-  require '/var/www/site-php/eemmadison/eemmadison-settings.inc';
-}
-
 #
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
@@ -794,10 +790,38 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
  * @link https://docs.acquia.com/blt/
  */
 
-// Temporary workaround to override the default MySQL wait_timeout setting.
-$default_settings['default']['default'] = [
-  'init_commands' => [
-    'wait_timeout' => "SET SESSION wait_timeout=3600",
-  ],
-];
-$databases = array_merge_recursive($databases, $default_settings);
+use Acquia\DrupalEnvironmentDetector\AcquiaDrupalEnvironmentDetector;
+
+/**
+ * Acquia Cloud automatically generates a settings file that contains the
+ * database credentials for a given Drupal application, along with some other
+ * required plumbing. The code below uses a plugin to load the correct file
+ * based on the current product, site, and environment.
+ */
+// phpcs:ignore
+$site_name = AcquiaDrupalEnvironmentDetector::getSiteName($site_path);
+if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
+  $ah_group = AcquiaDrupalEnvironmentDetector::getAhGroup();
+  if (!AcquiaDrupalEnvironmentDetector::isAcsfEnv()) {
+    global $conf, $databases;
+    $conf['acquia_hosting_settings_autoconnect'] = FALSE;
+    if ($site_name == 'default') {
+      require "/var/www/site-php/$ah_group/$ah_group-settings.inc";
+    } else {
+      // Acquia Cloud does not support periods in db names.
+      $safe_site_name = str_replace('.', '_', $site_name);
+      require "/var/www/site-php/$ah_group/$safe_site_name-settings.inc";
+    }
+    // Temporary workaround to override the default MySQL wait_timeout setting.
+    $default_settings['default']['default'] = [
+      'init_commands' => [
+        'wait_timeout' => "SET SESSION wait_timeout=3600",
+      ],
+    ];
+    $databases = array_merge_recursive($databases, $default_settings);
+    // Only call this function on the cloud, not on a local environment.
+    if (function_exists('acquia_hosting_db_choose_active')) {
+      acquia_hosting_db_choose_active();
+    }
+  }
+}
