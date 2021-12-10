@@ -775,6 +775,11 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  *
  * Keep this code block at the end of this file to take full effect.
  */
+
+if (file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/eemmadison/eemmadison-settings.inc';
+}
+
 #
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
@@ -788,3 +793,11 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
  *
  * @link https://docs.acquia.com/blt/
  */
+
+// Temporary workaround to override the default MySQL wait_timeout setting.
+$default_settings['default']['default'] = [
+  'init_commands' => [
+    'wait_timeout' => "SET SESSION wait_timeout=3600",
+  ],
+];
+$databases = array_merge_recursive($databases, $default_settings);
