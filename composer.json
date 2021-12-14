@@ -93,9 +93,6 @@
             "acquia/blt-site-studio": {
                 "patching for PR 22": "https://github.com/davidtrainer/blt-site-studio/pull/22.patch"
             },
-            "mikemadison13/blt-lando": {
-                "xdebug": "https://github.com/mikemadison13/blt-lando/pull/27.patch"
-            },
             "acquia/acquia_cms": {
                 "flush caches during install": "patches/caches.patch"
             }

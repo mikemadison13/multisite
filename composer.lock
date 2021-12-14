@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d75871b0ce48903943a3e3300fee5b5f",
+    "content-hash": "684e1898f85a15b6ee1cb7e29883ae58",
     "packages": [
         {
             "name": "acquia/acquia_cms",
@@ -5876,21 +5876,21 @@
         },
         {
             "name": "drupal/facets_pretty_paths",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/facets_pretty_paths.git",
-                "reference": "8.x-1.1"
+                "reference": "8.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/facets_pretty_paths-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "ca7e362185e10d2b60b47f041adf018d660a14c6"
+                "url": "https://ftp.drupal.org/files/projects/facets_pretty_paths-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "8f45e3ab9798293cae8d6f65580f1cb088eaefd3"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
-                "drupal/facets": "^1",
+                "drupal/facets": "^1 || ^2",
                 "drupal/pathauto": "^1"
             },
             "require-dev": {
@@ -5908,8 +5908,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1613565141",
+                    "version": "8.x-1.2",
+                    "datestamp": "1639410183",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7873,17 +7873,17 @@
         },
         {
             "name": "drupal/redirect",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/redirect.git",
-                "reference": "8.x-1.6"
+                "reference": "8.x-1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.6.zip",
-                "reference": "8.x-1.6",
-                "shasum": "f848e001deac8425ae57d4b9397087c491d37294"
+                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "013b2541a5ef0cf423a3caa1ae89cc5866504877"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -7891,8 +7891,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.6",
-                    "datestamp": "1589312204",
+                    "version": "8.x-1.7",
+                    "datestamp": "1639380488",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8520,20 +8520,20 @@
         },
         {
             "name": "drupal/shield",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/shield.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/shield-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "0c3950fa9a2614958d5f7488da9ff357f794723e"
+                "url": "https://ftp.drupal.org/files/projects/shield-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "dba5e4a43346b2dfd4db911e41dd14aa5d5e4c35"
             },
             "require": {
-                "drupal/core": "^8.6 || ^9"
+                "drupal/core": "^8.7.7 || ^9"
             },
             "require-dev": {
                 "drupal/key": "^1.0"
@@ -8541,8 +8541,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1585608547",
+                    "version": "8.x-1.5",
+                    "datestamp": "1639410381",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9000,15 +9000,15 @@
                 "drupal/bootstrap": "~3.0",
                 "drupal/captcha": "~1.0",
                 "drupal/chosen": "~3.0",
-                "drupal/clientside_validation": "~3.0",
+                "drupal/clientside_validation": "*",
                 "drupal/clientside_validation_jquery": "*",
-                "drupal/devel": "~3.0",
+                "drupal/devel": "*",
                 "drupal/entity": "~1.0",
-                "drupal/entity_print": "~2.0",
+                "drupal/entity_print": "*",
                 "drupal/gnode": "*",
-                "drupal/group": "1.0",
+                "drupal/group": "*",
                 "drupal/jquery_ui": "~1.0",
-                "drupal/jquery_ui_checkboxradio": "~1.0",
+                "drupal/jquery_ui_checkboxradio": "*",
                 "drupal/jquery_ui_datepicker": "~1.0",
                 "drupal/lingotek": "~3.0",
                 "drupal/mailsystem": "~4.0",
@@ -9017,7 +9017,7 @@
                 "drupal/smtp": "~1.0",
                 "drupal/styleguide": "~1.0",
                 "drupal/telephone_validation": "~2.0",
-                "drupal/token": "~1.0",
+                "drupal/token": "*",
                 "drupal/variationcache": "~1.0",
                 "drupal/webform_access": "*",
                 "drupal/webform_attachment": "*",
@@ -11411,12 +11411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikemadison13/blt-lando.git",
-                "reference": "c3f8ad04efb9ad6b26b6dfb3b52d8b36d41099b0"
+                "reference": "8dcda8acdb9b9b129585a7ae06fbd53048b0c68d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikemadison13/blt-lando/zipball/c3f8ad04efb9ad6b26b6dfb3b52d8b36d41099b0",
-                "reference": "c3f8ad04efb9ad6b26b6dfb3b52d8b36d41099b0",
+                "url": "https://api.github.com/repos/mikemadison13/blt-lando/zipball/8dcda8acdb9b9b129585a7ae06fbd53048b0c68d",
+                "reference": "8dcda8acdb9b9b129585a7ae06fbd53048b0c68d",
                 "shasum": ""
             },
             "default-branch": true,
@@ -11442,7 +11442,7 @@
                 "issues": "https://github.com/mikemadison13/blt-lando/issues",
                 "source": "https://github.com/mikemadison13/blt-lando/tree/main"
             },
-            "time": "2021-11-02T15:39:22+00:00"
+            "time": "2021-12-14T15:18:19+00:00"
         },
         {
             "name": "mkalkbrenner/php-htmldiff-advanced",
@@ -15214,16 +15214,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.6.1",
+            "version": "3.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e"
+                "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f268ca40d54617c6e06757f83f699775c9b3ff2e",
-                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5e4e71592f69da17871dba6e80dd51bce74a351a",
+                "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a",
                 "shasum": ""
             },
             "require": {
@@ -15266,7 +15266,7 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2021-10-11T04:00:11+00:00"
+            "time": "2021-12-12T21:44:58+00:00"
         },
         {
             "name": "stack/builder",
