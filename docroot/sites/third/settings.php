@@ -791,38 +791,4 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 
 $config['config_split.config_split.third']['status'] = TRUE;
 
-
-use Acquia\DrupalEnvironmentDetector\AcquiaDrupalEnvironmentDetector;
-
-/**
- * Acquia Cloud automatically generates a settings file that contains the
- * database credentials for a given Drupal application, along with some other
- * required plumbing. The code below uses a plugin to load the correct file
- * based on the current product, site, and environment.
- */
-// phpcs:ignore
-$site_name = AcquiaDrupalEnvironmentDetector::getSiteName($site_path);
-if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
-  $ah_group = AcquiaDrupalEnvironmentDetector::getAhGroup();
-  if (!AcquiaDrupalEnvironmentDetector::isAcsfEnv()) {
-    global $conf;
-    $conf['acquia_hosting_settings_autoconnect'] = FALSE;
-    if ($site_name == 'default') {
-      require "/var/www/site-php/$ah_group/$ah_group-settings.inc";
-    } else {
-      // Acquia Cloud does not support periods in db names.
-      require '/var/www/site-php/eemmadison/drupal_third-settings.inc';
-    }
-    // Temporary workaround to override the default MySQL wait_timeout setting.
-    $default_settings['default']['default'] = [
-      'init_commands' => [
-        'wait_timeout' => "SET SESSION wait_timeout=3600",
-      ],
-    ];
-    $databases = array_merge_recursive($databases, $default_settings);
-    // Only call this function on the cloud, not on a local environment.
-    if (function_exists('acquia_hosting_db_choose_active')) {
-      acquia_hosting_db_choose_active();
-    }
-  }
-}
+require '/var/www/site-php/eemmadison/drupal_third-settings.inc';

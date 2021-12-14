@@ -95,8 +95,10 @@
             },
             "acquia/acquia_cms": {
                 "flush caches during install": "patches/caches.patch"
+            },
+            "acquia/blt": {
+                "correcting site context": "https://github.com/acquia/blt/pull/4440.patch"
             }
-
         }
     },
     "repositories": {
