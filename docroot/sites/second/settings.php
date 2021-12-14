@@ -810,8 +810,7 @@ if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
       require "/var/www/site-php/$ah_group/$ah_group-settings.inc";
     } else {
       // Acquia Cloud does not support periods in db names.
-      $safe_site_name = str_replace('.', '_', $site_name);
-      require "/var/www/site-php/$ah_group/$safe_site_name-settings.inc";
+      require '/var/www/site-php/eemmadison/drupal_second-settings.inc';
     }
     // Temporary workaround to override the default MySQL wait_timeout setting.
     $default_settings['default']['default'] = [
