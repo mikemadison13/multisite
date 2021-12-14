@@ -803,7 +803,7 @@ $site_name = AcquiaDrupalEnvironmentDetector::getSiteName($site_path);
 if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
   $ah_group = AcquiaDrupalEnvironmentDetector::getAhGroup();
   if (!AcquiaDrupalEnvironmentDetector::isAcsfEnv()) {
-    global $conf, $databases;
+    global $conf;
     $conf['acquia_hosting_settings_autoconnect'] = FALSE;
     if ($site_name == 'default') {
       require "/var/www/site-php/$ah_group/$ah_group-settings.inc";
