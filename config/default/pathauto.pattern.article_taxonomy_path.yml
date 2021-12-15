@@ -1,4 +1,4 @@
-uuid: b178479c-c382-4693-ab1e-e24ffb00ee50
+uuid: b72b314e-5d3a-4f96-8f91-409f4c79de4f
 langcode: en
 status: true
 dependencies:
@@ -14,12 +14,12 @@ pattern: '/[term:name]'
 selection_criteria:
   fd7393c8-d9af-4456-8a46-3db25b9fd745:
     id: 'entity_bundle:taxonomy_term'
-    bundles:
-      article_type: article_type
     negate: false
+    uuid: fd7393c8-d9af-4456-8a46-3db25b9fd745
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: fd7393c8-d9af-4456-8a46-3db25b9fd745
+    bundles:
+      article_type: article_type
 selection_logic: and
 weight: -5
 relationships: {  }

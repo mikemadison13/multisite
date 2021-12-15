@@ -1,17 +1,17 @@
-uuid: 81faf007-f91e-45b8-b698-1f60d8df7875
+uuid: cafda2d3-59fa-48bc-b7f6-c7661609e1fc
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - node
     - taxonomy
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: Categories
 _core:
-  default_config_hash: 5Fso_O4yIusfmOCBlS8dW59yDov4nop97hteSWy2Kbg
+  default_config_hash: X6tX0LjrDq9BGLw7eQzI2Ha-tjdYQdjRzIMNmvRs1SI
 id: node.field_categories
 field_name: field_categories
 entity_type: node

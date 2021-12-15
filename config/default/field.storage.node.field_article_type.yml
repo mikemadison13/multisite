@@ -1,17 +1,20 @@
-uuid: aa1a8414-91e2-4c35-8749-28104abad6c0
+uuid: 74e36ce5-8da0-43b8-a8df-d868f3e4686a
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - node
     - taxonomy
+  enforced:
+    module:
+      - acquia_cms_article
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Article Type'
 _core:
-  default_config_hash: WdSIhqwrCmMnHGL0y9ANvz-gjRa-jVaRi4enifQpwyE
+  default_config_hash: RlsXfY7VPFInjtVchcGU2jrxYtXsa575B3shZxfbcxo
 id: node.field_article_type
 field_name: field_article_type
 entity_type: node

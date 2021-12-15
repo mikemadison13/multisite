@@ -1,12 +1,15 @@
-uuid: 8ad9a7d5-6903-4ecf-a572-98b04ebf501f
+uuid: 160b1315-5013-4865-8129-99051731ad94
 langcode: en
 status: true
 dependencies:
   module:
     - geofield
     - node
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: 5_4kr44jMehrxxlBnBgb51Q1mjHU2oQU0Ahb0jLrtos
+  default_config_hash: K6zczflmx98h5UwutEImTXg5SYFuMAZEfvNnboMOFHo
 id: node.field_geofield
 field_name: field_geofield
 entity_type: node

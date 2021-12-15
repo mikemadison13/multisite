@@ -1,4 +1,4 @@
-uuid: 76d2b0a8-b5e5-44b0-b2c2-40495e97c329
+uuid: 852c28fa-6e1c-42c2-9704-8ecc49245d88
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_article_image
     - media.type.image
     - node.type.article
+  enforced:
+    module:
+      - acquia_cms_article
 _core:
-  default_config_hash: QFLKPgwpk8znMebA00zZ1p0uHtlvRTnKCHFdYOSyEqE
+  default_config_hash: nd9vOxsfK3AibeOt-om9XIuSNeHSQ8qtMLAViPjmzdk
 id: node.article.field_article_image
 field_name: field_article_image
 entity_type: node

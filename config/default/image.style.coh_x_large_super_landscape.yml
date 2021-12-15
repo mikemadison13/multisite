@@ -1,11 +1,14 @@
-uuid: 699809b3-5767-49aa-90e1-2d8b91c568b3
+uuid: 8afeb2c2-5d10-45e1-824f-dc1bfc6e0a22
 langcode: en
 status: true
 dependencies:
   module:
     - focal_point
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: 1Nxl5fvl-PXW47myYx6zI2k5i03DCMesuMe0nnF7MYY
+  default_config_hash: 8fnfoVvV9vAABojS8ZftRrXhpp708-dRR59o6DH8VNs
 name: coh_x_large_super_landscape
 label: 'X Large super landscape (1360x640)'
 effects:

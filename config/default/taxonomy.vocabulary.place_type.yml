@@ -1,9 +1,12 @@
-uuid: a6878e6b-fdf2-43a5-9c87-196f7c854e95
+uuid: 787ce472-3cf0-44ab-961e-929231d7e589
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: Wv2yyzikfa-5opebhTEUbe60XwmqTWCVNkk89FA5_14
+  default_config_hash: ejOH5xk6B06EFd6QO5MzRm7FUsdilbGYOQ1Cz0CVcPQ
 name: 'Place Type'
 vid: place_type
 description: ''

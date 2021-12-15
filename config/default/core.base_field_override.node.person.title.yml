@@ -1,11 +1,14 @@
-uuid: 00c66527-047b-494e-8bfc-5385d4354110
+uuid: b3d76693-d9ba-4edf-b1a6-447d5f38a869
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.person
+  enforced:
+    module:
+      - acquia_cms_person
 _core:
-  default_config_hash: lLvAvG3lzhSnOW7FTlyi9SxwQiDYxQYE2d6uVNpmQVI
+  default_config_hash: SW5J4G0CvvrXfOoloqlA3DZpJSRhZXEPCTTzVzXA8ks
 id: node.person.title
 field_name: title
 entity_type: node

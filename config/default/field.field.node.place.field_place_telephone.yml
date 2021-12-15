@@ -1,4 +1,4 @@
-uuid: fa4ab54e-de64-4572-bf84-0110ee1b8d12
+uuid: 937a5fd0-2479-4a39-a362-bd11af95f651
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,11 @@ dependencies:
     - node.type.place
   module:
     - telephone
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: iCX3tzpvttqwlBLF46RNIR_5YbFRghAFKctbXI4Vilw
+  default_config_hash: lCKS-o1x3XooNYMhqYriGG8n_CA8gM1gR7mG-v93bJw
 id: node.place.field_place_telephone
 field_name: field_place_telephone
 entity_type: node

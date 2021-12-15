@@ -5,6 +5,7 @@ dependencies: {  }
 id: prod
 label: Prod
 description: ''
+weight: 1
 folder: ../config/envs/prod
 module: {  }
 theme: {  }
@@ -12,4 +13,3 @@ blacklist: {  }
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
-weight: 1

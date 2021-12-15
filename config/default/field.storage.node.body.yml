@@ -1,16 +1,12 @@
-uuid: c8d04afe-fb67-4071-8e7a-ec0255609dfd
+uuid: 127ee2ed-a3e2-4c6a-aa53-75da56aed5e9
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
     - acquia_cms_common
     - node
     - text
 third_party_settings:
-  acquia_cms:
-    search_index: content
-    search_label: Body
   acquia_cms_common:
     search_index: content
     search_label: Body

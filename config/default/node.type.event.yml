@@ -1,13 +1,16 @@
-uuid: 687b140f-6bb7-4230-a381-461a40457d92
+uuid: 66a6be03-72f3-4ca6-9475-987411fc4c32
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - menu_ui
     - scheduler
+  enforced:
+    module:
+      - acquia_cms_event
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     workflow_id: editorial
     workbench_email_templates:
       back_to_draft: back_to_draft
@@ -20,11 +23,11 @@ third_party_settings:
         open_graph: open_graph
         schema_event: schema_event
         twitter_cards: twitter_cards
-    search_index: content
     subtype:
       field: field_event_type
       facet: events_event_type
     sitemap_variant: default
+    search_index: content
   menu_ui:
     available_menus:
       - main
@@ -43,7 +46,7 @@ third_party_settings:
     unpublish_required: false
     unpublish_revision: false
 _core:
-  default_config_hash: l5nmeeu6SJ4y5MNBrV58fTuRXD-PPURGV5TT2QVuS0w
+  default_config_hash: 6MwyT5HqiT8FjP0sHcr2eKiR1j9rIe3fynfr8q7rY8Q
 name: Event
 type: event
 description: 'A structured content type used for creating various types of events.'

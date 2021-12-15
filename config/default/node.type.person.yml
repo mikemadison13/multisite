@@ -1,13 +1,16 @@
-uuid: 95096dcc-9499-4c54-aeb1-6709128907ea
+uuid: 2df87dd1-4acf-4267-bbec-926c2437a5c8
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - menu_ui
     - scheduler
+  enforced:
+    module:
+      - acquia_cms_person
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     workflow_id: editorial
     workbench_email_templates:
       back_to_draft: back_to_draft
@@ -20,11 +23,11 @@ third_party_settings:
         open_graph: open_graph
         schema_person: schema_person
         twitter_cards: twitter_cards
-    search_index: content
     subtype:
       field: field_person_type
       facet: people_person_type
     sitemap_variant: default
+    search_index: content
   menu_ui:
     available_menus:
       - main
@@ -43,7 +46,7 @@ third_party_settings:
     unpublish_required: false
     unpublish_revision: false
 _core:
-  default_config_hash: 4KkWCb4-31qX9SX_SJJXLmQmjqn3A7yvv0hwlOR-FOA
+  default_config_hash: j7LL4-blaCsDKmFHPSQ6Lg2gG-ZVI4VChd8182Fc4EQ
 name: Person
 type: person
 description: 'A structured content type used for creating various types of people.'

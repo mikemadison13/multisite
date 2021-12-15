@@ -1,4 +1,4 @@
-uuid: 5f39965c-123b-4d08-a60f-a4375a589626
+uuid: 287d4a90-e074-4d83-9b9f-aa4deea19cbf
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_categories
     - node.type.article
     - taxonomy.vocabulary.categories
+  enforced:
+    module:
+      - acquia_cms_article
 _core:
-  default_config_hash: 7pfMkFznizA_5rSBWoD0NYIGa_YD3NbRlw-av1lATR0
+  default_config_hash: Z6dsQccKC5EgP6pPqV4JShIVNxeVH0rPx3rH6n020CY
 id: node.article.field_categories
 field_name: field_categories
 entity_type: node

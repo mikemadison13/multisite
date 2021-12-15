@@ -1,12 +1,15 @@
-uuid: 82401950-8e4d-486f-bb47-068b231b68a3
+uuid: e0159c57-f306-4efd-9218-a29e2f852ba5
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - node
+  enforced:
+    module:
+      - acquia_cms_person
 _core:
-  default_config_hash: RVfu1EeGy7PNwohdrZAU0sBqbDUlwO6YyuYbB3W_SpQ
+  default_config_hash: FfVvIkjPaPEw6rkXFOHZYLZOUHhIuvZtY8gMvzjBIIk
 id: node.field_person_image
 field_name: field_person_image
 entity_type: node

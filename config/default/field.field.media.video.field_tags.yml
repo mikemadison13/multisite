@@ -1,4 +1,4 @@
-uuid: 80b40320-666c-4ffd-9e85-64718311eb2c
+uuid: a5484171-91ab-4446-863c-7f54bf78ec67
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.media.field_tags
     - media.type.video
     - taxonomy.vocabulary.tags
+  enforced:
+    module:
+      - acquia_cms_video
 _core:
-  default_config_hash: l79OfIpKOaVSwDYH-fQpAqHhkYynLHN0wduof8r9x08
+  default_config_hash: hBLAJAP9-_w1r_gfbwHQgXDt44FRBfmxTkXax8gdp6E
 id: media.video.field_tags
 field_name: field_tags
 entity_type: media

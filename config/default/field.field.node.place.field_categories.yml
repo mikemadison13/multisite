@@ -1,4 +1,4 @@
-uuid: 86574db7-50a5-4564-a790-8eed6b7a9b98
+uuid: 77814e11-2bd3-42b7-83cb-951094898b60
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_categories
     - node.type.place
     - taxonomy.vocabulary.categories
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: pRcoLuTTiAYcBXohoguEcIQzewCk6NjECKfoFJmabFM
+  default_config_hash: Wu2vSI5TwN17_AgxQqihv12V1c964ZsfUZx1qW1OJKE
 id: node.place.field_categories
 field_name: field_categories
 entity_type: node

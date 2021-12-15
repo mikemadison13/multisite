@@ -1,9 +1,23 @@
-uuid: 0bbbc265-7dfc-4d0a-9cc1-86e674dad9c1
+uuid: f8f93423-bec3-42b6-9151-8041d96a622f
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.cohesion
+    - filter.format.filtered_html
+    - filter.format.full_html
+  module:
+    - cohesion
+    - cohesion_custom_styles
+    - cohesion_elements
+    - cohesion_style_guide
+    - cohesion_style_helpers
+    - cohesion_sync
+    - filter
+    - system
+    - toolbar
 _core:
-  default_config_hash: XRB_1fn39W8QK7yrHli9UCYwAMAXU15k6RvW7sXid5c
+  default_config_hash: tzMxR4z7pS7EfY_X7IqODgENTx4FVbUSGrAhid3oFeU
 id: site_builder
 label: 'Site Builder'
 weight: -8
@@ -22,4 +36,5 @@ permissions:
   - 'administer style_guide'
   - 'use text format cohesion'
   - 'use text format filtered_html'
+  - 'use text format full_html'
   - 'view the administration theme'

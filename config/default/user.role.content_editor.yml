@@ -1,9 +1,28 @@
-uuid: 0583e655-2e8f-4620-931b-0dc2b73bd49a
+uuid: 0bc5d439-f9de-4289-bc67-933f005bbe37
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.cohesion
+    - filter.format.filtered_html
+    - filter.format.full_html
+    - workflows.workflow.editorial
+  module:
+    - acquia_cms_tour
+    - cohesion
+    - cohesion_elements
+    - content_moderation
+    - entity_clone
+    - filter
+    - media
+    - moderation_dashboard
+    - moderation_sidebar
+    - node
+    - scheduler
+    - system
+    - toolbar
 _core:
-  default_config_hash: tDfBO_KQadDmUrtf8JZi3ITFt2buxiWL37bPdhQMT18
+  default_config_hash: 1s0o0ns9aF5GGQqCvAWLa8MrjKdQ4Iiw4hM-Gttn52I
 id: content_editor
 label: 'Content Editor'
 weight: -5
@@ -17,13 +36,8 @@ permissions:
   - 'access content elements group'
   - 'access content overview'
   - 'access cpt_cat_dynamic_components cohesion_component_category group'
-  - 'access cpt_cat_general_components cohesion_component_category group'
-  - 'access cpt_cat_hero_components cohesion_component_category group'
-  - 'access cpt_cat_interactive_components cohesion_component_category group'
   - 'access cpt_cat_layout_components cohesion_component_category group'
   - 'access cpt_cat_map_components cohesion_component_category group'
-  - 'access cpt_cat_media_components cohesion_component_category group'
-  - 'access cpt_cat_template_components cohesion_component_category group'
   - 'access custom elements group'
   - 'access drupal core elements group'
   - 'access elements'
@@ -33,8 +47,6 @@ permissions:
   - 'access form layout fields group'
   - 'access helpers'
   - 'access hlp_cat_dynamic_helpers cohesion_helper_category group'
-  - 'access hlp_cat_general_helpers cohesion_helper_category group'
-  - 'access hlp_cat_interactive_helpers cohesion_helper_category group'
   - 'access hlp_cat_layout_helpers cohesion_helper_category group'
   - 'access hlp_cat_media_helpers cohesion_helper_category group'
   - 'access interactive elements group'
@@ -45,22 +57,6 @@ permissions:
   - 'access toolbar'
   - 'access view elements group'
   - 'clone node entity'
-  - 'delete any article content'
-  - 'delete any document media'
-  - 'delete any event content'
-  - 'delete any image media'
-  - 'delete any page content'
-  - 'delete any person content'
-  - 'delete any place content'
-  - 'delete any video media'
-  - 'edit any article content'
-  - 'edit any document media'
-  - 'edit any event content'
-  - 'edit any image media'
-  - 'edit any page content'
-  - 'edit any person content'
-  - 'edit any place content'
-  - 'edit any video media'
   - 'schedule publishing of nodes'
   - 'use editorial transition archive'
   - 'use editorial transition create_new_draft'
@@ -70,6 +66,7 @@ permissions:
   - 'use moderation sidebar'
   - 'use text format cohesion'
   - 'use text format filtered_html'
+  - 'use text format full_html'
   - 'view any unpublished content'
   - 'view latest version'
   - 'view scheduled content'

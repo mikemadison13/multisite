@@ -1,4 +1,4 @@
-uuid: 7831d237-20ab-4a45-b20c-163c826361fc
+uuid: 236a066c-34bc-4dc5-95f8-06d9dbb2515a
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_categories
     - node.type.event
     - taxonomy.vocabulary.categories
+  enforced:
+    module:
+      - acquia_cms_event
 _core:
-  default_config_hash: fE2L2LcJas-eNky83BAEdmj1mJpvA48p8wBNFWjenco
+  default_config_hash: IVITIwHidX95yJzZK4G2AeLDvRH35vCDsfKLLwuuync
 id: node.event.field_categories
 field_name: field_categories
 entity_type: node

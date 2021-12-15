@@ -1,4 +1,4 @@
-uuid: b1a7e79c-d900-43b3-8fe7-5924d548a373
+uuid: b43a801f-cec2-4aaf-a4e7-9bd86eae5838
 langcode: en
 status: true
 dependencies:
@@ -17,8 +17,11 @@ dependencies:
     - address
     - text
     - user
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: oOjnzrSQw9T6n8QvjzWRn5wjoN4DUoSRXJ9oYW15AZc
+  default_config_hash: nouaIYzep1nvqNW3Tm-Sgu6Okd2bVMgLVdyM3yoOOgI
 id: node.place.horizontal_card
 targetEntityType: node
 bundle: place
@@ -26,26 +29,26 @@ mode: horizontal_card
 content:
   body:
     type: text_default
-    weight: 0
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   field_place_address:
     type: address_default
-    weight: 1
-    region: content
     label: above
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
   field_place_telephone:
     type: string
-    weight: 2
-    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
   content_moderation_control: true
   field_categories: true

@@ -1,4 +1,4 @@
-uuid: 9f15a2c8-f1f5-4ca7-8183-52169a7e8d83
+uuid: 6d58b9a6-89c6-4925-867f-8749bb105ea2
 langcode: en
 status: true
 dependencies:
@@ -18,8 +18,8 @@ plugin: social_media_links_block
 settings:
   id: social_media_links_block
   label: 'Social Media Links'
-  provider: social_media_links
   label_display: '0'
+  provider: social_media_links
   platforms:
     behance:
       value: ''
@@ -127,5 +127,5 @@ settings:
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

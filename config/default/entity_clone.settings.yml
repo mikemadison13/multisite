@@ -1,4 +1,26 @@
+_core:
+  default_config_hash: _ZFt3x6RqX5qolUwxRN8IxguXE0zxqMpUYUqSMuSFrA
 form_settings:
+  taxonomy_term:
+    default_value: false
+    disable: false
+    hidden: false
+  file:
+    default_value: false
+    disable: false
+    hidden: false
+  node:
+    default_value: false
+    disable: false
+    hidden: false
+  user:
+    default_value: false
+    disable: false
+    hidden: false
+  menu_link_content:
+    default_value: false
+    disable: false
+    hidden: false
   cohesion_layout:
     default_value: true
     hidden: true
@@ -15,19 +37,7 @@ form_settings:
     default_value: false
     disable: false
     hidden: false
-  file:
-    default_value: false
-    disable: false
-    hidden: false
   media:
-    default_value: false
-    disable: false
-    hidden: false
-  menu_link_content:
-    default_value: false
-    disable: false
-    hidden: false
-  node:
     default_value: false
     disable: false
     hidden: false
@@ -43,13 +53,3 @@ form_settings:
     default_value: false
     disable: false
     hidden: false
-  taxonomy_term:
-    default_value: false
-    disable: false
-    hidden: false
-  user:
-    default_value: false
-    disable: false
-    hidden: false
-_core:
-  default_config_hash: _ZFt3x6RqX5qolUwxRN8IxguXE0zxqMpUYUqSMuSFrA

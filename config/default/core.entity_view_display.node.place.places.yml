@@ -1,4 +1,4 @@
-uuid: 18c5caed-e9d9-43c6-846a-abed12a9e75e
+uuid: e92e240e-1910-4070-ab77-46c844df8165
 langcode: en
 status: true
 dependencies:
@@ -16,8 +16,11 @@ dependencies:
   module:
     - address
     - user
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: mFhLinjm-EFkCSNnEyYrFIozez9_Dq8_ZULPK4GZGDI
+  default_config_hash: ythyzQt3BVpcXneucybp2Ude7_YeTouz0WufjjdeTyU
 id: node.place.places
 targetEntityType: node
 bundle: place
@@ -25,19 +28,19 @@ mode: places
 content:
   field_place_address:
     type: address_default
-    weight: 0
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   field_place_telephone:
     type: string
-    weight: 1
-    region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   body: true
   content_moderation_control: true

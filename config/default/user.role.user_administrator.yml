@@ -1,7 +1,15 @@
-uuid: 1cebe3b0-26f9-403e-a959-58762f6820a0
+uuid: 90b66349-2667-42d3-bb5a-1dc093c76d58
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - captcha
+    - honeypot
+    - password_policy
+    - recaptcha
+    - seckit
+    - system
+    - toolbar
 _core:
   default_config_hash: 7XCroQYx4N0bodXE6m81U08WCuUT9XwRJ1Xg-MYxuag
 id: user_administrator
@@ -14,7 +22,6 @@ permissions:
   - 'administer honeypot'
   - 'administer recaptcha'
   - 'administer seckit'
-  - 'administer shield'
   - 'administer site configuration'
   - 'administer users'
   - 'manage password reset'

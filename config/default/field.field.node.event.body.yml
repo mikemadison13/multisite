@@ -1,4 +1,4 @@
-uuid: c041cb05-20c7-4ddd-ae55-6ec1e70be7b6
+uuid: b171f447-d078-4370-a656-b2838487cad3
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,11 @@ dependencies:
     - node.type.event
   module:
     - text
+  enforced:
+    module:
+      - acquia_cms_event
 _core:
-  default_config_hash: iiRLG77HDaGHWuMIX9YsnjN36muEAgYrjRHIhMj1Ct8
+  default_config_hash: jBalEIQimnpesjPO29Kg5dd_Mk8ZE8_ihzrCzSQdMZY
 id: node.event.body
 field_name: body
 entity_type: node

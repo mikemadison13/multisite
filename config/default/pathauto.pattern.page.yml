@@ -1,4 +1,4 @@
-uuid: e9a5f73b-0856-4043-8ab4-46884907e590
+uuid: f0831809-ebc9-4bd0-ad8c-077832685ba4
 langcode: en
 status: true
 dependencies:
@@ -13,12 +13,12 @@ pattern: '[node:title]'
 selection_criteria:
   f857cec1-a605-4339-ade9-00dc7145597c:
     id: node_type
-    bundles:
-      page: page
     negate: false
+    uuid: f857cec1-a605-4339-ade9-00dc7145597c
     context_mapping:
       node: node
-    uuid: f857cec1-a605-4339-ade9-00dc7145597c
+    bundles:
+      page: page
 selection_logic: and
 weight: -5
 relationships: {  }

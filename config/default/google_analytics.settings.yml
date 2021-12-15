@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: HD-kJquDfx3JureBUmIIt_ADNReD_jLvKg4fwKISoJs
 account: ''
 premium: false
 domain_mode: 0
@@ -26,7 +28,7 @@ track:
   messages: {  }
   site_search: false
   adsense: false
-  displayfeatures: false
+  displayfeatures: true
 privacy:
   anonymizeip: true
 custom:
@@ -39,5 +41,3 @@ codesnippet:
 translation_set: false
 cache: false
 debug: false
-_core:
-  default_config_hash: goermvpa21m8H97TedFfQQmZmQz62WjX_SCiT4JhsXg

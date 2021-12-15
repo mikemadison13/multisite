@@ -1,4 +1,4 @@
-uuid: 0bae8401-ee60-4415-8598-2014eca75c8c
+uuid: 5edf3961-c810-4ca2-bfed-4a271e030a99
 langcode: en
 status: true
 dependencies:
@@ -12,23 +12,26 @@ dependencies:
     - node.type.page
   module:
     - user
+  enforced:
+    module:
+      - acquia_cms_page
 _core:
-  default_config_hash: mbrp3zuckvgvW5DmKKFgpLtbznb21u7uCkx9twOtoC8
+  default_config_hash: wrT9cQYcMO5CbMfvaJdi19ryYSfDHJKM3cTITE1j140
 id: node.page.search_index
 targetEntityType: node
 bundle: page
 mode: search_index
 content:
   content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
     weight: 0
     region: content
+  links:
     settings: {  }
     third_party_settings: {  }
-  links:
     weight: 1
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   body: true
   field_categories: true

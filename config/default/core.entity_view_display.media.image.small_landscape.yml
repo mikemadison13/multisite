@@ -1,4 +1,4 @@
-uuid: 96112a6d-bdc9-49a0-8749-0a4137ebb333
+uuid: d734843b-fda9-4346-9790-ac778afa6485
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,11 @@ dependencies:
     - media.type.image
   module:
     - image
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: vsJqhWAvZRUAHzgWIdj-LuCIvm4Yf3P5tmjzEVt43dw
+  default_config_hash: Adujms1-AYpx0HWWSVUyMqJNL2v91MdXhO1Rx56UukI
 id: media.image.small_landscape
 targetEntityType: media
 bundle: image
@@ -19,13 +22,13 @@ mode: small_landscape
 content:
   image:
     type: image
-    weight: 0
-    region: content
     label: hidden
     settings:
-      image_style: ''
       image_link: ''
+      image_style: ''
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
   field_categories: true

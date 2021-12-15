@@ -1,4 +1,4 @@
-uuid: 9321a7a8-91d5-49ef-8208-f734beb9033b
+uuid: bb1a3c43-4ddf-4ffb-b485-fc06a27a659c
 langcode: und
 status: true
 dependencies:
@@ -6,13 +6,19 @@ dependencies:
     - file
     - image
     - media
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: 0zTx0zdgLRdKujV0VyF65aZ2xysPnHOa41tLHe9Rj6g
+  default_config_hash: OVs4IEQ7IleGrXb83bU6e8aQoNnIrXct3szyxJMSlRw
 id: media.image
 field_name: image
 entity_type: media
 type: image
 settings:
+  target_type: file
+  display_field: false
+  display_default: false
   uri_scheme: public
   default_image:
     uuid: null
@@ -20,9 +26,6 @@ settings:
     title: ''
     width: null
     height: null
-  target_type: file
-  display_field: false
-  display_default: false
 module: image
 locked: false
 cardinality: 1

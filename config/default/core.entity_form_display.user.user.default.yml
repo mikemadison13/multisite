@@ -1,4 +1,4 @@
-uuid: aeb9c428-b22a-4d7a-990b-22c0dc251cc5
+uuid: 1ca0b8a3-2e71-4bb7-a1a9-c867e0fba03f
 langcode: en
 status: true
 dependencies:
@@ -16,32 +16,32 @@ mode: default
 content:
   account:
     weight: -10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   field_last_password_reset:
     type: datetime_default
     weight: 4
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   field_password_expiration:
     type: boolean_checkbox
     weight: 3
+    region: content
     settings:
       display_label: true
     third_party_settings: {  }
-    region: content
   google_analytics:
     weight: 3
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   language:
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   path:
     type: path
     weight: 30
@@ -50,8 +50,8 @@ content:
     third_party_settings: {  }
   timezone:
     weight: 6
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   langcode: true

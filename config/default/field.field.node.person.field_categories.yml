@@ -1,4 +1,4 @@
-uuid: 92f2a941-c76c-4de2-a53d-649f4b1f61c4
+uuid: 376a631f-ccc3-46aa-9179-39f8636c0a13
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_categories
     - node.type.person
     - taxonomy.vocabulary.categories
+  enforced:
+    module:
+      - acquia_cms_person
 _core:
-  default_config_hash: sXfPv-7svaa2SEUFnfHvtOnhjD5iBg8SeNDVh_mb8RM
+  default_config_hash: _LmGMeP9sdElbY8-eZXuglPN6tz5ZHO-UBANa0wsrZ0
 id: node.person.field_categories
 field_name: field_categories
 entity_type: node

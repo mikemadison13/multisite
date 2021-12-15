@@ -1,4 +1,4 @@
-uuid: e2de4e68-9b8b-4f82-b6cc-72d629c079f7
+uuid: 0179da10-a720-450b-9cf7-ac72f338e1f6
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:search_place_type'
 settings:
   id: 'facet_block:search_place_type'
   label: 'Place Type'
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: search_place_type
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

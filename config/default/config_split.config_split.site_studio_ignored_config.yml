@@ -5,6 +5,7 @@ dependencies: {  }
 id: site_studio_ignored_config
 label: 'Site Studio Ignored Config'
 description: "Avoid exporting Acquia Site Studio configuration since that will be handled by the cohesion import/export commands.\r\nSee: http://geertvd.github.io/post/exclude-config-from-cmi-in-d8/"
+weight: -10
 folder: ''
 module: {  }
 theme: {  }
@@ -13,4 +14,3 @@ blacklist:
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
-weight: -10

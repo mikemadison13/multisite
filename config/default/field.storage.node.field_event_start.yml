@@ -1,17 +1,20 @@
-uuid: e0363144-0da1-4a9b-9c15-a066a857c3e1
+uuid: af29bc9f-9d29-4d25-80ba-11a3b2b2bd20
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - datetime
     - node
+  enforced:
+    module:
+      - acquia_cms_event
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Event Start Date'
 _core:
-  default_config_hash: zxj6WUem08GeCxuqRlU7F_03joqIRdgFlCYUfTkDKCg
+  default_config_hash: NOvLmqATjhC2docwlV9E1M-sHsxgapN_ToSHffw98fQ
 id: node.field_event_start
 field_name: field_event_start
 entity_type: node

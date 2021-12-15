@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: 9rAU4Pku7eMBQxauQqAgjzlcicFZ2As6zEa6zvTlCB8
 favicon:
   path: profiles/contrib/acquia_cms/acquia_cms.png
   url: ''
@@ -11,5 +13,3 @@ logo:
   path: profiles/contrib/acquia_cms/acquia_cms.png
   url: ''
   use_default: false
-_core:
-  default_config_hash: 9rAU4Pku7eMBQxauQqAgjzlcicFZ2As6zEa6zvTlCB8

@@ -1,4 +1,4 @@
-uuid: 1622b840-9ca5-40be-b7e3-2d149a745ed3
+uuid: a5c5ebde-31a5-425f-8d4f-c52cf0dbc584
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,11 @@ dependencies:
     - node.type.event
   module:
     - datetime
+  enforced:
+    module:
+      - acquia_cms_event
 _core:
-  default_config_hash: NGiTpGONMTyulu5-JjHfPpcITRBBBLMx4iPtzEml3P8
+  default_config_hash: GwdQ7wn-sSdgJGqLX84hF_dwV8UDPAuI3T2WXUfxRtU
 id: node.event.field_door_time
 field_name: field_door_time
 entity_type: node

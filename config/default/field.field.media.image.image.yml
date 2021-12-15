@@ -1,4 +1,4 @@
-uuid: c3eec34e-4fd7-457e-b0b8-c3e11debd432
+uuid: 98a30c89-6d66-4974-8daf-7ef702dde0f5
 langcode: und
 status: true
 dependencies:
@@ -7,8 +7,11 @@ dependencies:
     - media.type.image
   module:
     - image
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: L3iMCCB_T-X_NxcPWN7Z492DnZcd1w-2xZnf7QiZNd4
+  default_config_hash: ECtNK74jpST9OWYEQisJ7OXyweZeT1fDO4RBMy4aVgU
 id: media.image.image
 field_name: image
 entity_type: media
@@ -20,6 +23,8 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  handler: 'default:file'
+  handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
@@ -35,6 +40,4 @@ settings:
     title: ''
     width: null
     height: null
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: image

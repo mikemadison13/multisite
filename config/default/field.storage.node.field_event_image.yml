@@ -1,12 +1,15 @@
-uuid: 1cd29216-a244-49a3-afcc-6b9089892028
+uuid: 79cd95a4-a5be-4668-82ea-330f260517a4
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - node
+  enforced:
+    module:
+      - acquia_cms_event
 _core:
-  default_config_hash: q3SkrX9eU5lUao7hOQabbL_fRKNbycwU0WEzPav-eV0
+  default_config_hash: x5zVYpjGv3QZdhYuUd49NdIpMWWHmDHZ2Obl4DDes8Y
 id: node.field_event_image
 field_name: field_event_image
 entity_type: node

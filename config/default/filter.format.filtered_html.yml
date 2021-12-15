@@ -1,15 +1,14 @@
-uuid: 1f99de71-1e8a-40fc-a7aa-a8acf21adb29
+uuid: ded8b582-6e8a-4a3e-ab4f-09eb51236a96
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.media.embedded
   module:
-    - cohesion
     - editor
     - media
 _core:
-  default_config_hash: lsg9NY4lo5VNllGV5f6w90PqocCq8KotfjRFbxZBtg4
+  default_config_hash: m8JvGw25b0UiYqGzoaebWc5vgdR2tQcGLcnMktjS778
 name: 'Filtered HTML'
 format: filtered_html
 weight: -9
@@ -45,12 +44,6 @@ filters:
       default_view_mode: embedded
       allowed_view_modes: {  }
       allowed_media_types: {  }
-  black_list_html_tags:
-    id: black_list_html_tags
-    provider: cohesion
-    status: false
-    weight: -41
-    settings: {  }
   editor_file_reference:
     id: editor_file_reference
     provider: editor
@@ -86,4 +79,10 @@ filters:
     provider: filter
     status: false
     weight: -40
+    settings: {  }
+  black_list_html_tags:
+    id: black_list_html_tags
+    provider: cohesion
+    status: false
+    weight: -41
     settings: {  }

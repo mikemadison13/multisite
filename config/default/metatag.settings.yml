@@ -1,15 +1,5 @@
 entity_type_groups:
   node:
-    place:
-      basic: basic
-      open_graph: open_graph
-      schema_place: schema_place
-      twitter_cards: twitter_cards
-    person:
-      basic: basic
-      open_graph: open_graph
-      schema_person: schema_person
-      twitter_cards: twitter_cards
     article:
       basic: basic
       open_graph: open_graph
@@ -24,4 +14,14 @@ entity_type_groups:
       basic: basic
       open_graph: open_graph
       schema_article: schema_article
+      twitter_cards: twitter_cards
+    person:
+      basic: basic
+      open_graph: open_graph
+      schema_person: schema_person
+      twitter_cards: twitter_cards
+    place:
+      basic: basic
+      open_graph: open_graph
+      schema_place: schema_place
       twitter_cards: twitter_cards

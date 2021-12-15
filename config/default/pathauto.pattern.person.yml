@@ -1,4 +1,4 @@
-uuid: eb30a529-ab14-462c-b53a-7054be9448f8
+uuid: 209e3765-1f6c-4cec-bc88-464be25a19d1
 langcode: en
 status: true
 dependencies:
@@ -13,12 +13,12 @@ pattern: 'person/[node:field_person_type]/[node:title]'
 selection_criteria:
   c97ba0fc-5cd3-46f1-be0e-c8e165db8962:
     id: node_type
-    bundles:
-      person: person
     negate: false
+    uuid: c97ba0fc-5cd3-46f1-be0e-c8e165db8962
     context_mapping:
       node: node
-    uuid: c97ba0fc-5cd3-46f1-be0e-c8e165db8962
+    bundles:
+      person: person
 selection_logic: and
 weight: -5
 relationships: {  }

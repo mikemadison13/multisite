@@ -1,4 +1,4 @@
-uuid: 84b774d5-2fc0-4f7b-8fdd-dea71e2f6661
+uuid: 18fe006c-0f70-4bc3-b5f2-07e9ee867da2
 langcode: en
 status: true
 dependencies:
@@ -22,10 +22,10 @@ plugin: clear_facet_filters
 settings:
   id: clear_facet_filters
   label: 'Clear Facet Filters'
-  provider: acquia_cms_search
   label_display: '0'
+  provider: acquia_cms_search
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

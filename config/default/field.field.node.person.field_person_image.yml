@@ -1,4 +1,4 @@
-uuid: c4da1d39-33ce-4416-89a3-dca41db5edd7
+uuid: 1ecd1470-86cf-46dd-9cca-20a2ef846980
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_person_image
     - media.type.image
     - node.type.person
+  enforced:
+    module:
+      - acquia_cms_person
 _core:
-  default_config_hash: Qrax4We3CvvEnEKL3rd2XUCzh4qEbxwJMmkrI3CLzRs
+  default_config_hash: lqnuBzsD-eGXuhZGLGYn__C-DAiNYrF45qSZjO3ClvE
 id: node.person.field_person_image
 field_name: field_person_image
 entity_type: node

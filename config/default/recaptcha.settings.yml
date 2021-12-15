@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: eKR4FfUD7Cp3bXamsCz6GAxh0PCLIZNMa65y2kChIh0
 site_key: ''
 secret_key: ''
 verify_hostname: false
@@ -8,5 +10,3 @@ widget:
   size: ''
   tabindex: 0
   noscript: false
-_core:
-  default_config_hash: eKR4FfUD7Cp3bXamsCz6GAxh0PCLIZNMa65y2kChIh0

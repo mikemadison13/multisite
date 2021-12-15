@@ -1,4 +1,4 @@
-uuid: 4cdfc136-4578-4e3a-8c33-902336a9b4a0
+uuid: 8f7d1250-db59-46b2-9161-82e22cf85e51
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,11 @@ dependencies:
     - node.type.place
   module:
     - address
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: GWR9Aqvm5dvPX-UNBAIHkLhCZC14YEUoFwmqQkZ_PEo
+  default_config_hash: OMUAjRRrB3TObwVHeVfatXvo1Wa7l-SVPX78ig27Tdk
 id: node.place.field_place_address
 field_name: field_place_address
 entity_type: node

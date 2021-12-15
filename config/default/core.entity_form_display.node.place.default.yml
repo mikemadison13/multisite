@@ -1,4 +1,4 @@
-uuid: cb33f514-6cdb-49f4-8036-af90b1ab3fc7
+uuid: 5a2a99aa-657d-40de-b755-1d4ab85f30c3
 langcode: en
 status: true
 dependencies:
@@ -20,8 +20,13 @@ dependencies:
     - geofield
     - media_library
     - path
+    - scheduler
+    - scheduler_content_moderation_integration
     - telephone
     - text
+  enforced:
+    module:
+      - acquia_cms_place
 third_party_settings:
   field_group:
     group_taxonomy:
@@ -29,31 +34,31 @@ third_party_settings:
         - field_categories
         - field_tags
         - field_place_type
+      label: Taxonomy
+      region: content
       parent_name: ''
       weight: 6
       format_type: fieldset
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         description: ''
         required_fields: true
-      label: Taxonomy
     group_media:
       children:
         - field_place_image
+      label: Media
+      region: content
       parent_name: ''
       weight: 5
       format_type: fieldset
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         description: ''
         required_fields: true
-      label: Media
 _core:
-  default_config_hash: _Kykf3ZXIJPMysEq7Dw47mNzBTQM-_bC80FhHFCwMWg
+  default_config_hash: e3n8_wHlJP0W0ZaJt0TSq4b5lHW-TfzXz7XbJ2I--Y0
 id: node.place.default
 targetEntityType: node
 bundle: place
@@ -62,13 +67,13 @@ content:
   body:
     type: text_textarea_with_summary
     weight: 1
+    region: content
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 12
@@ -76,54 +81,54 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_categories:
+    type: options_select
     weight: 6
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   field_geofield:
+    type: geofield_latlon
     weight: 3
+    region: content
     settings:
       html5_geolocation: false
     third_party_settings: {  }
-    type: geofield_latlon
-    region: content
   field_place_address:
+    type: address_default
     weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: address_default
-    region: content
   field_place_image:
     type: media_library_widget
     weight: 5
+    region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
-    region: content
   field_place_telephone:
+    type: telephone_default
     weight: 4
+    region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
-    type: telephone_default
-    region: content
   field_place_type:
+    type: options_select
     weight: 7
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   field_tags:
+    type: entity_reference_autocomplete_tags
     weight: 6
+    region: content
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete_tags
-    region: content
   langcode:
     type: language_select
     weight: 8
@@ -134,8 +139,8 @@ content:
   moderation_state:
     type: moderation_state_default
     weight: 9
-    settings: {  }
     region: content
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path
@@ -157,9 +162,9 @@ content:
     third_party_settings: {  }
   scheduler_settings:
     weight: 20
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   title:
     type: string_textfield
     weight: 0
@@ -176,12 +181,12 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 10
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
-    region: content
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default

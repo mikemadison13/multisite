@@ -1,16 +1,19 @@
-uuid: 9b7c62ff-14f3-4bad-83e6-bb35f6d6e11c
+uuid: a45db702-15fe-4cd2-aeac-c32a3134e64d
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - node
+  enforced:
+    module:
+      - acquia_cms_person
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: Email
 _core:
-  default_config_hash: rrGL-WBX82Gzs9O8j5Qnmyw74hulAo3zcMevPiWLhfk
+  default_config_hash: SZdBjsXnRPLGs-Ts9AWCEXAgGHOLM8yNGwKTejnMMGw
 id: node.field_email
 field_name: field_email
 entity_type: node

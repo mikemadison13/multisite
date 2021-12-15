@@ -1,8 +1,8 @@
+_core:
+  default_config_hash: '-LwqFZL59nFqnjCp-kd_6brjnvp_S4d6rr3bzkWEx2E'
 enable: true
+address: no-reply@example.com
+whitelist: ''
 description: true
 message: true
 mailkeys: ''
-address: no-reply@acquia.com
-whitelist: ''
-_core:
-  default_config_hash: MEk_CJeGl-t5iLCmW2f8ftdtEksYaNt8D76HskInlDk

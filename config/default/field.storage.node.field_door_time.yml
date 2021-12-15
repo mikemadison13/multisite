@@ -1,17 +1,20 @@
-uuid: d6c0b62b-2307-43e0-b60b-4175cef1bd7c
+uuid: f501c772-9c6a-41c3-abf1-ec8d0554da3b
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - datetime
     - node
+  enforced:
+    module:
+      - acquia_cms_event
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Door Time'
 _core:
-  default_config_hash: 2iGe63zg25JYv3PkxG9Z0t_LhP_N1yHgMQyh5x_iOWQ
+  default_config_hash: _ePWg-T2qq7IcUAL7hCKSYK9pa-s04Y3amjIx6EASdw
 id: node.field_door_time
 field_name: field_door_time
 entity_type: node

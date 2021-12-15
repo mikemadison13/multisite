@@ -1,12 +1,15 @@
-uuid: 5d697284-4f5f-4905-ab67-681bcd718139
+uuid: d623f9b2-4a4a-4e04-b4ee-c1def63cf858
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_email
     - node.type.person
+  enforced:
+    module:
+      - acquia_cms_person
 _core:
-  default_config_hash: hwQyHJ_xB9XDQe51UBhzXsBNuLOZcEWA2NKKORNB78A
+  default_config_hash: EkyK2KHZJMBN0GYNUAkM8NoNhijfCcgCf9bgS6Hv1do
 id: node.person.field_email
 field_name: field_email
 entity_type: node
