@@ -1,4 +1,4 @@
-uuid: 5ceaf52b-f20f-4721-ac5b-e081c1c8d6ac
+uuid: ca1759c3-2f8d-41fd-a2e8-6863ba0b1938
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:articles_article_type'
 settings:
   id: 'facet_block:articles_article_type'
   label: 'Article Type'
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: articles_article_type
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

@@ -1,9 +1,12 @@
 uuid: 50f584b1-25ce-4cc6-94c3-b3a1ee5bc57c
 langcode: und
 status: true
-dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: SjDJBx10jf0Mvaa3qXtX_cRMjd-v9btkNK3GryvDrpk
+  default_config_hash: DviFd3u5EMWBUFqR4DJLcAg_Qfi-3vkLoIiS_fShSJY
 id: image
 label: Image
 description: 'Locally hosted images.'

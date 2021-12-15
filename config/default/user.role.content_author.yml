@@ -1,9 +1,35 @@
-uuid: 7d62cf13-0cbe-4679-9198-6fa7c023417a
+uuid: 1f5c91c2-e255-4c6d-83d6-045257c6c495
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.cohesion
+    - filter.format.filtered_html
+    - filter.format.full_html
+    - media.type.document
+    - media.type.image
+    - media.type.video
+    - node.type.article
+    - node.type.event
+    - node.type.page
+    - node.type.person
+    - node.type.place
+    - workflows.workflow.editorial
+  module:
+    - acquia_cms_tour
+    - cohesion
+    - cohesion_elements
+    - content_moderation
+    - entity_clone
+    - filter
+    - media
+    - moderation_dashboard
+    - moderation_sidebar
+    - node
+    - system
+    - toolbar
 _core:
-  default_config_hash: Q5ZUXL41ULRRfFCpKy-X_c6wzevMkQjwztJXulxvlLU
+  default_config_hash: jg2k9PGGZQNt4fjbofFjN0MQh5n-LFWzBqT3cUKbeY4
 id: content_author
 label: 'Content Author'
 weight: -6
@@ -17,13 +43,8 @@ permissions:
   - 'access content elements group'
   - 'access content overview'
   - 'access cpt_cat_dynamic_components cohesion_component_category group'
-  - 'access cpt_cat_general_components cohesion_component_category group'
-  - 'access cpt_cat_hero_components cohesion_component_category group'
-  - 'access cpt_cat_interactive_components cohesion_component_category group'
   - 'access cpt_cat_layout_components cohesion_component_category group'
   - 'access cpt_cat_map_components cohesion_component_category group'
-  - 'access cpt_cat_media_components cohesion_component_category group'
-  - 'access cpt_cat_template_components cohesion_component_category group'
   - 'access custom elements group'
   - 'access drupal core elements group'
   - 'access elements'
@@ -33,8 +54,6 @@ permissions:
   - 'access form layout fields group'
   - 'access helpers'
   - 'access hlp_cat_dynamic_helpers cohesion_helper_category group'
-  - 'access hlp_cat_general_helpers cohesion_helper_category group'
-  - 'access hlp_cat_interactive_helpers cohesion_helper_category group'
   - 'access hlp_cat_layout_helpers cohesion_helper_category group'
   - 'access hlp_cat_media_helpers cohesion_helper_category group'
   - 'access interactive elements group'
@@ -76,6 +95,7 @@ permissions:
   - 'use moderation sidebar'
   - 'use text format cohesion'
   - 'use text format filtered_html'
+  - 'use text format full_html'
   - 'view latest version'
   - 'view own unpublished content'
   - 'view the administration theme'

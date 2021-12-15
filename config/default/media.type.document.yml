@@ -1,9 +1,12 @@
-uuid: 5f5ce173-1833-46ca-9f89-3763521077f6
+uuid: 104efdd1-756e-4765-954d-9e2792dc006b
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_document
 _core:
-  default_config_hash: pDnpx0W4NuoJwCeJySK3G49eGLkKnKyByNILsluWdZ0
+  default_config_hash: yaMWAgwo6RCpHyxJlv7y_Asb1g0AHe7GHbR98zRu2Ns
 id: document
 label: Document
 description: 'Locally hosted documents.'

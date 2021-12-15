@@ -1,4 +1,4 @@
-uuid: 55e5b955-a2fd-4167-a2ad-a1eacd28a618
+uuid: fc6f09eb-f8ae-46c8-b605-45472e97b684
 langcode: en
 status: true
 dependencies:
@@ -16,8 +16,11 @@ dependencies:
   module:
     - address
     - user
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: xKIz3Jz35pj6zJwfd6fzv9uW8CM_fAqMW3I8O3k1aPs
+  default_config_hash: xrEAxdAvgU4F2NvADc0WrxX7UZC02e-V4eMfux_DrvI
 id: node.place.card
 targetEntityType: node
 bundle: place
@@ -25,19 +28,19 @@ mode: card
 content:
   field_place_address:
     type: address_default
-    weight: 0
-    region: content
     label: above
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   field_place_telephone:
     type: string
-    weight: 1
-    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   body: true
   content_moderation_control: true

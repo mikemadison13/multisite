@@ -1,17 +1,20 @@
-uuid: f5afb283-d038-48ef-836f-9bdd588e1c2f
+uuid: b71f69b6-5335-452a-a35d-e31c43519ff3
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - node
     - taxonomy
+  enforced:
+    module:
+      - acquia_cms_event
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Event Type'
 _core:
-  default_config_hash: 4dWv5QSOlSCTL1rtRMPSZ5kW9Eeaw64_mRFMIsQizd4
+  default_config_hash: TFd0kl-s_MaQDira4sWJtaXGIfDBOFkTdejWk-20OWE
 id: node.field_event_type
 field_name: field_event_type
 entity_type: node

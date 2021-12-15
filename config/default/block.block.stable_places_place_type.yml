@@ -1,4 +1,4 @@
-uuid: c102388f-4ebd-4fe2-b066-7b40cf183db9
+uuid: a139e1be-6b7a-4984-80e2-3f95cad7f422
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:places_place_type'
 settings:
   id: 'facet_block:places_place_type'
   label: 'Place Type'
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: places_place_type
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

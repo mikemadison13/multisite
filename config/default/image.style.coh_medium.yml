@@ -1,9 +1,12 @@
-uuid: 0863cdde-1d8a-4b6d-bc1b-0f44b353f544
+uuid: 5c5fe59f-e91e-45ae-958f-1a41669571b8
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: Mj8VzgG6s1fth1ulFu1zBD7QJmiOnyTytHIZyyAcT98
+  default_config_hash: FDzmBk3us3Q9qC4sGN9OjQlOJHlceUKiqzYNVe51Gd4
 name: coh_medium
 label: 'Medium (W768)'
 effects:

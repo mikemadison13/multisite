@@ -1,11 +1,14 @@
-uuid: 86b70648-a7ea-4762-acdf-4abf07f56e5a
+uuid: d58d7d63-d398-40cb-8d3b-08419e1a5bf4
 langcode: en
 status: true
 dependencies:
   module:
     - focal_point
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: 2Rkqwj0pRphlA8KLjCsTZVeumqKpYQvR46aWbZ-JfrA
+  default_config_hash: LRyYZx5pmI7kLgeg7BnlLcnlw1aFkq21YLYZJwFcwbU
 name: coh_xx_small_landscape
 label: 'XX Small landscape (160x120)'
 effects:

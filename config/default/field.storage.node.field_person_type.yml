@@ -1,17 +1,20 @@
-uuid: e5303578-740b-47bf-9804-23f8fcebc1d2
+uuid: d60d9271-f6fc-40c6-b943-d528ea197562
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - node
     - taxonomy
+  enforced:
+    module:
+      - acquia_cms_person
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Person Type'
 _core:
-  default_config_hash: TGSpK0XlULHSUohRHLFLPRHQ1zrTWh1PibqR6ntj-4k
+  default_config_hash: jId-XR9yQgobbDV72w0WRGIHrByavNoc5uNUIoMw-rg
 id: node.field_person_type
 field_name: field_person_type
 entity_type: node

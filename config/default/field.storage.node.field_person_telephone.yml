@@ -1,17 +1,20 @@
-uuid: 4ac26230-f758-4f0b-91de-580308ba3ad5
+uuid: ca8a14cc-9d9a-4cd6-be98-1930289083f9
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - node
     - telephone
+  enforced:
+    module:
+      - acquia_cms_person
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Person Telephone'
 _core:
-  default_config_hash: xgCt3TBwm4uFT95uSmPrDsCc9dndgBl_rE--wKVjSvc
+  default_config_hash: eyhe0wBV9voPYP3WpGhZxLxDOuvlVAAdS6ZjSS4B1_g
 id: node.field_person_telephone
 field_name: field_person_telephone
 entity_type: node

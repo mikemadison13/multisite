@@ -1,4 +1,4 @@
-uuid: 114869d0-4e8a-4edb-be40-8573a57f7fa0
+uuid: 9640838a-a399-4d61-bb4e-2574c95f0c67
 langcode: en
 status: true
 dependencies:
@@ -13,12 +13,12 @@ pattern: 'event/[node:field_event_type]/[node:field_event_start:date:custom:Y]/[
 selection_criteria:
   02726a68-6063-4416-8fb1-0e32a4f82593:
     id: node_type
-    bundles:
-      event: event
     negate: false
+    uuid: 02726a68-6063-4416-8fb1-0e32a4f82593
     context_mapping:
       node: node
-    uuid: 02726a68-6063-4416-8fb1-0e32a4f82593
+    bundles:
+      event: event
 selection_logic: and
 weight: -5
 relationships: {  }

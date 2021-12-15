@@ -1,4 +1,4 @@
-uuid: 2828043d-e0ae-4d19-bdfc-f9188baec388
+uuid: 67e41e8f-4c5c-406b-8a3a-da52a8f53c6f
 langcode: en
 status: true
 dependencies:
@@ -15,31 +15,34 @@ _core:
   default_config_hash: CNeNUkeV2Z90lgCMPxc2AHC46iSx2e0fkEfkAasCyMY
 id: search_person_type
 name: 'Person Type'
-url_alias: person_type
 weight: 0
 min_count: 1
-show_only_one_result: true
-field_identifier: field_person_type
+url_alias: person_type
 facet_source_id: 'search_api:views_page__search__search'
+field_identifier: field_person_type
+query_operator: or
+hard_limit: 0
+exclude: false
+use_hierarchy: false
+keep_hierarchy_parents_active: false
+expand_hierarchy: false
+enable_parent_when_child_gets_disabled: true
 widget:
   type: links
   config:
     show_numbers: true
     soft_limit: 0
-    soft_limit_settings:
-      show_less_label: 'Show less'
-      show_more_label: 'Show more'
     show_reset_link: false
     reset_text: 'Show all'
     hide_reset_when_no_selection: false
-query_operator: or
-use_hierarchy: false
-keep_hierarchy_parents_active: false
-expand_hierarchy: false
-enable_parent_when_child_gets_disabled: true
-hard_limit: 0
-exclude: false
+    soft_limit_settings:
+      show_less_label: 'Show less'
+      show_more_label: 'Show more'
+empty_behavior:
+  behavior: none
 only_visible_when_facet_source_is_visible: true
+show_only_one_result: true
+show_title: false
 processor_configs:
   active_widget_order:
     processor_id: active_widget_order
@@ -80,6 +83,3 @@ processor_configs:
       pre_query: 50
       build: 15
     settings: {  }
-empty_behavior:
-  behavior: none
-show_title: false

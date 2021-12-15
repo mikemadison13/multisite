@@ -5,6 +5,7 @@ dependencies: {  }
 id: first
 label: First
 description: ''
+weight: 0
 folder: ../config/sites/first
 module: {  }
 theme: {  }
@@ -13,4 +14,3 @@ graylist:
   - system.site
 graylist_dependents: true
 graylist_skip_equal: true
-weight: 0

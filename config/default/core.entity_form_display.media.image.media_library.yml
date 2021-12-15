@@ -1,4 +1,4 @@
-uuid: a08b7f1c-8ee5-42b7-8b3e-2237fd537acc
+uuid: 0cf85ea5-938d-4c05-aa05-966f763e94fc
 langcode: en
 status: true
 dependencies:
@@ -19,16 +19,16 @@ third_party_settings:
       children:
         - field_categories
         - field_tags
+      label: Taxonomy
+      region: content
       parent_name: ''
       weight: 4
       format_type: fieldset
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         description: ''
         required_fields: true
-      label: Taxonomy
 _core:
   default_config_hash: MCekw9LNum4Sfs6jc_wECli2Hy8h37KB5op6ys4fSq8
 id: media.image.media_library
@@ -37,33 +37,33 @@ bundle: image
 mode: media_library
 content:
   field_categories:
+    type: options_select
     weight: 5
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   field_tags:
+    type: entity_reference_autocomplete_tags
     weight: 6
+    region: content
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete_tags
-    region: content
   image:
     type: image_focal_point
     weight: 1
+    region: content
     settings:
+      progress_indicator: throbber
       preview_image_style: medium
       preview_link: true
       offsets: '50,50'
-      progress_indicator: throbber
     third_party_settings:
       imce:
         enabled: false
-    region: content
   langcode:
     type: language_select
     weight: 2
@@ -74,11 +74,11 @@ content:
   name:
     type: string_textfield
     weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    region: content
   translation:
     weight: 3
     region: content

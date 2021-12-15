@@ -1,12 +1,12 @@
-uuid: 7528aff8-5230-49b3-a2e8-f737015f873b
+uuid: dc1298c1-bb86-49d4-90d7-92bdb2d21a4e
 langcode: en
 status: true
 dependencies:
+  module:
+    - moderation_dashboard
   enforced:
     module:
       - moderation_dashboard
-  module:
-    - moderation_dashboard
 _core:
   default_config_hash: VfPvbl_yRuurg4Y5V0nK1u43hSwdwxOZE1RFP81BGSQ
 id: moderation_dashboard
@@ -29,5 +29,5 @@ access_conditions:
 parameters:
   user:
     machine_name: user
-    type: 'entity:user'
     label: User
+    type: 'entity:user'

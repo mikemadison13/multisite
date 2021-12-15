@@ -1,4 +1,4 @@
-uuid: 9809ea32-b169-433f-9aea-e84f4ddb3a1a
+uuid: 7ca6fe81-f1a3-4923-a64f-c55a3d312b72
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:places_category'
 settings:
   id: 'facet_block:places_category'
   label: Category
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: places_category
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

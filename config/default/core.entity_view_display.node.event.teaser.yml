@@ -1,4 +1,4 @@
-uuid: 6335c8d9-c9da-47b7-9b8b-911d5eec32d6
+uuid: 48bd813e-0f51-4ead-b8f4-ea16d3a0cc16
 langcode: en
 status: true
 dependencies:
@@ -18,8 +18,11 @@ dependencies:
   module:
     - smart_trim
     - user
+  enforced:
+    module:
+      - acquia_cms_event
 _core:
-  default_config_hash: hLz5rt-4i0mUO5xpnKsX17vQDsIOKIf-XK6Zkluy5uA
+  default_config_hash: GdGe2Ny-rsxdgZEcIwESUtwlKOC2dTcdd4BwDVaRy9k
 id: node.event.teaser
 targetEntityType: node
 bundle: event
@@ -27,33 +30,33 @@ mode: teaser
 content:
   body:
     type: smart_trim
-    weight: 2
-    region: content
     label: hidden
     settings:
       trim_length: 128
       trim_type: chars
       trim_suffix: ...
-      wrap_class: trimmed
-      more_text: More
-      more_class: more-link
-      summary_handler: trim
       wrap_output: false
+      wrap_class: trimmed
       more_link: false
+      more_class: more-link
+      more_text: More
+      summary_handler: trim
       trim_options:
         text: false
         trim_zero: false
     third_party_settings: {  }
+    weight: 2
+    region: content
   content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
     weight: 0
     region: content
+  links:
     settings: {  }
     third_party_settings: {  }
-  links:
     weight: 1
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   field_categories: true
   field_door_time: true

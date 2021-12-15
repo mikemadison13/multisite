@@ -1,7 +1,11 @@
-uuid: 21416934-2799-4c9c-9ede-3a0f7fbdffc4
+uuid: a4cf6fef-37f6-456d-a1ff-2092f4d15cb1
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - media
+    - search_api_autocomplete
+    - system
 _core:
   default_config_hash: KYARbYeGRZ-INq-rg4NeHiuEYecKAgslhGiPztbR-fY
 id: anonymous

@@ -1,12 +1,15 @@
-uuid: 939aa7da-912c-49ce-8bd8-db55662398c6
+uuid: 3d62b0ee-c263-4f49-9ee2-d8e093628011
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - node
+  enforced:
+    module:
+      - acquia_cms_article
 _core:
-  default_config_hash: 8tbGtBXb7BaRg79e2_Szkv1P5-qce1h4Sggoh_9XeHU
+  default_config_hash: lqOSthfTYufJwzgG1xZCMukJLx5qluoWY__Y-N3jock
 id: node.field_article_image
 field_name: field_article_image
 entity_type: node

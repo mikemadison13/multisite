@@ -1,13 +1,16 @@
-uuid: b7ec57b5-7336-423a-b1f1-c29531f0f604
+uuid: c9987b2d-ad5a-4d4b-86ac-dda1c5bdd77a
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - menu_ui
     - scheduler
+  enforced:
+    module:
+      - acquia_cms_page
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     workflow_id: editorial
     workbench_email_templates:
       back_to_draft: back_to_draft
@@ -40,7 +43,7 @@ third_party_settings:
     unpublish_required: false
     unpublish_revision: false
 _core:
-  default_config_hash: Oix_OEuyYsrVD1aVBlyAc-8tI04vfTv_MQZzhzjNjn0
+  default_config_hash: Z4O1NshvwyEuf26tFFZYC8VV8MNmrmLmfBbO566QEBM
 name: Page
 type: page
 description: 'An unstructured content type that provides unique landing pages - e.g., a homepage, or marketing event landing page.'

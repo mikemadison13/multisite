@@ -1,12 +1,15 @@
-uuid: 40658d66-2e59-460a-a9a8-a9b47b263de8
+uuid: 01b46d21-1921-4d48-abcc-220fda32a191
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_media_oembed_video
     - media.type.video
+  enforced:
+    module:
+      - acquia_cms_video
 _core:
-  default_config_hash: 7ZWA6XCZs6LFefWUNcfH8wQ0cA2SepIKWhF7wWt_D5A
+  default_config_hash: MIuFcpM9e1rvD3Zi9EAfTUqaphNzSgzTtUeYGYHLi9E
 id: media.video.field_media_oembed_video
 field_name: field_media_oembed_video
 entity_type: media

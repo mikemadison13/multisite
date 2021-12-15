@@ -1,9 +1,12 @@
-uuid: 2347ed39-b4f7-498f-ad4d-4c9c3abe8963
+uuid: 40da104a-5185-4a52-a121-ee8567dc84e4
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: Mb6yyDztlPOe4Zd75gQlIs00Xdg-Ws88VF4FZWcHYxQ
+  default_config_hash: fpp-iij68Lcm88SJ39MeHVpzf7PZRZv6KsB3ZQsPYy4
 name: coh_large
 label: 'Large (W1024)'
 effects:

@@ -1,9 +1,12 @@
-uuid: 9979bdcb-8df6-4b6f-8dbf-c80d77f2054d
+uuid: cff19eb0-8b24-4e89-851f-cc45c2246301
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_event
 _core:
-  default_config_hash: 5p75shjIgpH5EFFwvIvFtXnBGrv4MgjUnspLStfQTe0
+  default_config_hash: 5QDzZFDy2KBSsXlsKZAQAR-bn5ln8RWdh_FRkR8yZ9s
 name: 'Event Type'
 vid: event_type
 description: ''

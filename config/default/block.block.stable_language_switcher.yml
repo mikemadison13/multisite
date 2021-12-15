@@ -1,4 +1,4 @@
-uuid: 1f14298d-7e4c-4822-8652-099b26769130
+uuid: 761645df-d9b6-4b31-a621-158f5a37ac03
 langcode: en
 status: true
 dependencies:
@@ -18,10 +18,10 @@ plugin: 'language_block:language_interface'
 settings:
   id: 'language_block:language_interface'
   label: 'Language switcher'
-  provider: language
   label_display: visible
+  provider: language
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

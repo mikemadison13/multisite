@@ -1,4 +1,4 @@
-uuid: 7f2cde2a-7bae-4e5e-97b1-9ef10e577edf
+uuid: c65aecff-4f7d-4d04-9715-75c82802080a
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:search_event_type'
 settings:
   id: 'facet_block:search_event_type'
   label: 'Event Type'
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: search_event_type
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

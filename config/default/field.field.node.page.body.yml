@@ -1,4 +1,4 @@
-uuid: 2185f299-fdfa-4a46-adda-8a5808d8685f
+uuid: c0e9abaa-6280-4f50-8a11-a06efc40971e
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,11 @@ dependencies:
     - node.type.page
   module:
     - text
+  enforced:
+    module:
+      - acquia_cms_page
 _core:
-  default_config_hash: vNspYu5HnriQcYkqjxoKFZ8Q7LXuj0w3N70gYGvqeDA
+  default_config_hash: Tw-9QjMabXNJ-cg7sUQ1vQYURGGmIWqUnv83VNWZbFA
 id: node.page.body
 field_name: body
 entity_type: node

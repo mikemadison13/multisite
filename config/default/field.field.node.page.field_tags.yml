@@ -1,4 +1,4 @@
-uuid: 74a8dbc0-cd9c-4d2c-9270-39d4c935a02e
+uuid: 7c83c427-1ac3-4563-9d79-e7e18e57e968
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_tags
     - node.type.page
     - taxonomy.vocabulary.tags
+  enforced:
+    module:
+      - acquia_cms_page
 _core:
-  default_config_hash: 0zmpr68uF7tzTfmK80bjjv4dNUbudvp-5OU69u3-yQY
+  default_config_hash: s0qYvgrzeztrurs3LamhCtMgj8_WUYZmB0KAdYzj9Tk
 id: node.page.field_tags
 field_name: field_tags
 entity_type: node

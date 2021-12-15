@@ -1,4 +1,4 @@
-uuid: a9cad9bd-1cf3-4686-bf6f-6c14844eb686
+uuid: 9d5db41b-09b3-46b5-9345-c2534daae9bb
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_place_image
     - media.type.image
     - node.type.place
+  enforced:
+    module:
+      - acquia_cms_place
 _core:
-  default_config_hash: jIpLHu_QXBPMo06dJgfDZLGFQyoTZban_3nLp146C5k
+  default_config_hash: mnRcg5sIfeTlHFTWEV2WaSGK0JMGFGG4egzscIzivPU
 id: node.place.field_place_image
 field_name: field_place_image
 entity_type: node

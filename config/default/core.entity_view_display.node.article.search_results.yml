@@ -1,4 +1,4 @@
-uuid: 312b7967-0658-447e-acde-a0f9bb51283c
+uuid: b6351570-73ac-4f7a-92a3-ab11e300ef85
 langcode: en
 status: true
 dependencies:
@@ -15,8 +15,11 @@ dependencies:
   module:
     - smart_trim
     - user
+  enforced:
+    module:
+      - acquia_cms_article
 _core:
-  default_config_hash: 8ePOoNZ280rtqZ77KSdrSG4AsLwkV_DfpBiJI0lPl28
+  default_config_hash: hl0dwvsvVP0ARDG1y3D5KNwmPdzwBPG0ZTVwZrl4OBs
 id: node.article.search_results
 targetEntityType: node
 bundle: article
@@ -24,33 +27,33 @@ mode: search_results
 content:
   body:
     type: smart_trim
-    weight: 2
-    region: content
     label: hidden
     settings:
       trim_length: 128
       trim_type: chars
       trim_suffix: ...
-      wrap_class: trimmed
-      more_text: More
-      more_class: more-link
-      summary_handler: trim
       wrap_output: false
+      wrap_class: trimmed
       more_link: false
+      more_class: more-link
+      more_text: More
+      summary_handler: trim
       trim_options:
         text: false
         trim_zero: false
     third_party_settings: {  }
+    weight: 2
+    region: content
   content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
     weight: 0
     region: content
+  links:
     settings: {  }
     third_party_settings: {  }
-  links:
     weight: 1
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   field_article_image: true
   field_article_media: true

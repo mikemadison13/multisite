@@ -1,4 +1,4 @@
-uuid: a7040a5f-77ba-42ea-a295-f411c3f96bb8
+uuid: 4bee8f5a-bf9b-4afc-9716-cb9cb530557c
 langcode: en
 status: true
 dependencies:
@@ -22,13 +22,13 @@ plugin: system_branding_block
 settings:
   id: system_branding_block
   label: 'Site branding'
-  provider: system
   label_display: '0'
+  provider: system
   use_site_logo: true
   use_site_name: true
   use_site_slogan: true
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

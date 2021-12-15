@@ -1,4 +1,4 @@
-uuid: 4f1210eb-9574-4859-8d5f-341a295a3bc1
+uuid: 0159af31-82d3-46ff-adc4-395e697db668
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.media.field_categories
     - media.type.image
     - taxonomy.vocabulary.categories
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: aea9FjiOcspgQL_l5uHuSPkUaLqTfvvpj-SVFY8jiMU
+  default_config_hash: a8mIeYNMC3-FY1241Ou_GAjGdqLx5QrDRFmE69SNyso
 id: media.image.field_categories
 field_name: field_categories
 entity_type: media

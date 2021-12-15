@@ -1,17 +1,20 @@
-uuid: 637e9927-02f5-4863-9632-955f8de66cdb
+uuid: 4e972f31-00e3-44e9-8f4e-822262690c89
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - address
     - node
+  enforced:
+    module:
+      - acquia_cms_place
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Place Address'
 _core:
-  default_config_hash: aXuWdKxxko-qs6J4uZ81y8m7mwpLYP-0eAQ0aw_aNGc
+  default_config_hash: pX0PeW_KEoEdZIXgdyWXzEialvSjL5BGeIemkiOUYdE
 id: node.field_place_address
 field_name: field_place_address
 entity_type: node

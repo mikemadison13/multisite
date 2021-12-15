@@ -1,17 +1,20 @@
-uuid: e61317e6-f3a4-48ed-a1bd-adb10238f256
+uuid: fdca0c7a-35cd-44cb-901f-751150bafff4
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - datetime
     - node
+  enforced:
+    module:
+      - acquia_cms_event
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Event End Date'
 _core:
-  default_config_hash: D9u_V0uAZ35aulJYCfU0NfAGfINgTsgmDJu8vXTTZ3A
+  default_config_hash: '-hAsKe79yxBir-tpT2h2K8ioxjuCEdMVjxNXJx-b33g'
 id: node.field_event_end
 field_name: field_event_end
 entity_type: node

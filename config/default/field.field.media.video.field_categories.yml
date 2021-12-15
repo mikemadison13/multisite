@@ -1,4 +1,4 @@
-uuid: 2c8f78a4-ae53-4098-8147-b339b7820eb8
+uuid: b6275a9e-6f50-4642-afc6-773b5a166056
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.media.field_categories
     - media.type.video
     - taxonomy.vocabulary.categories
+  enforced:
+    module:
+      - acquia_cms_video
 _core:
-  default_config_hash: eafKroeBpYUtJLejNL15cDMwM-CrNB4pNlUenKWbQxA
+  default_config_hash: lHG3SCNDPB6JVTcCoCjweqTqfQnuQuuUlBewR9oBU_g
 id: media.video.field_categories
 field_name: field_categories
 entity_type: media

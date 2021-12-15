@@ -1,4 +1,4 @@
-uuid: 12faee6a-56bf-40a3-b306-f53d6c63a634
+uuid: 864f3aa4-9d35-4c25-84b9-20161f1e7610
 langcode: en
 status: true
 dependencies:
@@ -13,12 +13,12 @@ pattern: 'place/[node:field_place_type]/[node:title]'
 selection_criteria:
   fd66c02c-c164-41be-b4a1-68a7ebc56056:
     id: node_type
-    bundles:
-      place: place
     negate: false
+    uuid: fd66c02c-c164-41be-b4a1-68a7ebc56056
     context_mapping:
       node: node
-    uuid: fd66c02c-c164-41be-b4a1-68a7ebc56056
+    bundles:
+      place: place
 selection_logic: and
 weight: -5
 relationships: {  }

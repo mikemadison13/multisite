@@ -1,4 +1,4 @@
-uuid: 7b4c5ec2-1b36-4144-ae6e-2d2b33f7f71e
+uuid: 5b2d8fbd-5891-4ab0-b082-9beefffda17d
 langcode: en
 status: true
 dependencies:
@@ -12,20 +12,23 @@ dependencies:
     - field.storage.node.field_event_end
     - field.storage.node.field_event_start
     - field.storage.node.field_event_type
-    - field.storage.node.field_job_title
     - field.storage.node.field_person_telephone
     - field.storage.node.field_person_type
     - field.storage.node.field_place_address
     - field.storage.node.field_place_telephone
     - field.storage.node.field_place_type
+    - field.storage.node.field_job_title
     - search_api.server.database
     - core.entity_view_mode.node.search_index
   module:
     - node
     - taxonomy
     - search_api
+  enforced:
+    module:
+      - acquia_cms_search
 _core:
-  default_config_hash: fX7hEB3V64kRcd57VP8EVkZaizgf7Mhn2uQk10ZANgo
+  default_config_hash: ExfVmspVtVpuJ6R3Kb_YzHcs47K5mzHLKT7krY5Sy7Y
 id: content
 name: Content
 description: 'An index of all content in your site.'
@@ -295,6 +298,9 @@ processor_settings:
     weights:
       preprocess_query: -10
   html_filter:
+    weights:
+      preprocess_index: -10
+      preprocess_query: -9
     all_fields: false
     fields: {  }
     title: true
@@ -305,10 +311,10 @@ processor_settings:
       h2: 3
       h3: 2
       strong: 2
-    weights:
-      preprocess_index: -10
-      preprocess_query: -9
   ignorecase:
+    weights:
+      preprocess_index: -9
+      preprocess_query: -8
     all_fields: true
     fields:
       - body
@@ -327,12 +333,12 @@ processor_settings:
       - rendered_item
       - title
       - type
-    weights:
-      preprocess_index: -9
-      preprocess_query: -8
   language_with_fallback: {  }
   rendered_item: {  }
   stopwords:
+    weights:
+      preprocess_index: -5
+      preprocess_query: -4
     all_fields: false
     fields:
       - rendered_item
@@ -372,31 +378,28 @@ processor_settings:
       - was
       - will
       - with
-    weights:
-      preprocess_index: -5
-      preprocess_query: -4
   tokenizer:
+    weights:
+      preprocess_index: -6
+      preprocess_query: -5
     all_fields: false
     fields:
       - rendered_item
     spaces: ''
+    ignored: ._-
     overlap_cjk: 1
     minimum_word_size: '3'
-    weights:
-      preprocess_index: -6
-      preprocess_query: -5
-    ignored: ._-
   transliteration:
-    all_fields: false
-    fields:
-      - rendered_item
     weights:
       preprocess_index: -4
       preprocess_query: -3
+    all_fields: false
+    fields:
+      - rendered_item
 tracker_settings:
   default:
     indexing_order: fifo
 options:
-  index_directly: true
   cron_limit: 50
+  index_directly: true
 server: database

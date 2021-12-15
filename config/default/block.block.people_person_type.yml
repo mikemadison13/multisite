@@ -1,4 +1,4 @@
-uuid: 3f18a600-3263-44b2-8620-f98628da429d
+uuid: 7ac94ce6-f931-490d-a42b-cef4ad03990e
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:people_person_type'
 settings:
   id: 'facet_block:people_person_type'
   label: 'Person Type'
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: people_person_type
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

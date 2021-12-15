@@ -1,4 +1,4 @@
-admin: acquia_claro
-default: cohesion_theme
 _core:
   default_config_hash: l1WEOQQGt0k3ION2ODC8Qr_637zs7kYL2tK7FtZC2qw
+admin: acquia_claro
+default: cohesion_theme

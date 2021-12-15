@@ -1,4 +1,4 @@
-uuid: d57ccf28-2eef-4879-8df3-7c760a27ddbf
+uuid: 953f5310-a9f9-4ea0-891b-c36b191d872c
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:search_category'
 settings:
   id: 'facet_block:search_category'
   label: Category
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: search_category
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

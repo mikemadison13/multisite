@@ -6,12 +6,14 @@ dependencies:
     - field.field.media.image.field_categories
     - field.field.media.image.field_tags
     - field.field.media.image.image
-    - image.style.coh_small_square
     - media.type.image
   module:
     - image
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: zCoKd9rkJugw_zjzXkj5ae7L4xDitpRAovSCVQHNWVU
+  default_config_hash: wZgqNLml1Y0AzCdelPJPgLVso_GbRLldQyoJxpJfgUw
 id: media.image.default
 targetEntityType: media
 bundle: image
@@ -19,13 +21,13 @@ mode: default
 content:
   thumbnail:
     type: image
-    weight: 2
-    region: content
     label: visually_hidden
     settings:
-      image_style: coh_small_square
       image_link: ''
+      image_style: coh_small_square
     third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
   created: true
   field_categories: true

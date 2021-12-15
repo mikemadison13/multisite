@@ -1,4 +1,4 @@
-uuid: b17c3836-7a51-4fad-a6fe-893300d3b037
+uuid: c6a2c0bc-9ff0-419b-a73d-89f8b9397b0c
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:events_category'
 settings:
   id: 'facet_block:events_category'
   label: Category
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: events_category
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

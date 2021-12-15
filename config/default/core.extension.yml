@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   acquia_cms_article: 0
   acquia_cms_common: 0
@@ -12,13 +14,12 @@ module:
   acquia_cms_toolbar: 0
   acquia_cms_tour: 0
   acquia_cms_video: 0
-  acquia_contenthub: 0
-  acquia_lift: 0
   acquia_purge: 0
   acquia_telemetry: 0
   address: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
+  autologout: 0
   block: 0
   breakpoint: 0
   captcha: 0
@@ -33,7 +34,6 @@ module:
   cohesion_templates: 0
   cohesion_website_settings: 0
   collapsiblock: 0
-  color: 0
   config: 0
   config_filter: 0
   config_ignore: 0
@@ -47,19 +47,17 @@ module:
   datetime: 0
   datetime_range: 0
   default_content: 0
-  depcalc: 0
   diff: 0
   editor: 0
   entity_clone: 0
   entity_reference_revisions: 0
-  environment_indicator: 0
   facets: 0
   facets_pretty_paths: 0
-  fallback_formatter: 0
   field: 0
   field_group: 0
   field_ui: 0
   file: 0
+  file_mdm: 0
   filter: 0
   focal_point: 0
   geocoder: 0
@@ -73,15 +71,13 @@ module:
   history: 0
   honeypot: 0
   image: 0
+  imagemagick: 0
   imce: 0
-  jsonapi: 0
-  jsonapi_extras: 0
   language: 0
   layout_discovery: 0
   link: 0
   locale: 0
   media: 0
-  media_acquiadam: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
@@ -95,7 +91,6 @@ module:
   page_cache: 0
   page_manager: 0
   panels: 0
-  password_policy: 0
   password_policy_character_types: 0
   password_policy_length: 0
   password_policy_username: 0
@@ -127,6 +122,8 @@ module:
   simple_sitemap: 0
   smart_trim: 0
   social_media_links: 0
+  sophron: 0
+  syslog: 0
   system: 0
   taxonomy: 0
   telephone: 0
@@ -141,13 +138,12 @@ module:
   workflows: 0
   pathauto: 1
   content_translation: 10
+  password_policy: 10
   views: 10
   acquia_cms: 1000
 theme:
   stable: 0
+  cohesion_theme: 0
   claro: 0
   acquia_claro: 0
-  cohesion_theme: 0
 profile: acquia_cms
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

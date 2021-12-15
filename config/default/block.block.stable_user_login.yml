@@ -1,4 +1,4 @@
-uuid: 94ca4c49-fd6a-4ed8-ac3b-8da6f9ceec01
+uuid: 7f8d371a-b5cc-4a43-a69a-7bd193bf0b0c
 langcode: en
 status: true
 dependencies:
@@ -18,10 +18,10 @@ plugin: user_login_block
 settings:
   id: user_login_block
   label: 'User login'
-  provider: user
   label_display: '0'
+  provider: user
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

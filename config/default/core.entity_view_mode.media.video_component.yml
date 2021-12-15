@@ -4,8 +4,11 @@ status: true
 dependencies:
   module:
     - media
+  enforced:
+    module:
+      - acquia_cms_video
 _core:
-  default_config_hash: C5aEOj3uHlAjkilRv-sVgI2HsR1C14vOzvrPrJqWWpA
+  default_config_hash: 9MROPen98jMGUcvIkkEBeUypZi8E7jRBy3hu-vT099E
 id: media.video_component
 label: 'Video component'
 targetEntityType: media

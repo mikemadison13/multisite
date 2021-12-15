@@ -1,4 +1,4 @@
-uuid: 6de1ae45-4434-43ea-91a1-c40ca38ea7d0
+uuid: 3cd22eb1-789a-4256-bdbb-1e8b95c043d3
 langcode: en
 status: true
 dependencies:
@@ -12,32 +12,35 @@ dependencies:
   module:
     - cohesion_elements
     - user
+  enforced:
+    module:
+      - acquia_cms_page
 _core:
-  default_config_hash: q5MZ4RdvpxFTmn7QL0kyrCeCgtdjodulflWAF5m9DTI
+  default_config_hash: 8v_LvjrHcFnoR-Mf4kCNCKkD9luXSqQIFjsyxOko0Ss
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
 content:
   content_moderation_control:
-    weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   field_layout_canvas:
     type: cohesion_entity_reference_revisions_entity_view
-    weight: 2
-    region: content
     label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-  links:
-    weight: 1
+    weight: 2
     region: content
+  links:
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   body: true
   field_categories: true

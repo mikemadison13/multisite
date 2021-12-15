@@ -1,13 +1,16 @@
-uuid: 556f2de7-2a25-4077-847b-cf8a7fffa1ff
+uuid: 1d02c6a9-cf62-4aed-82c1-0d17e26d396e
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - menu_ui
     - scheduler
+  enforced:
+    module:
+      - acquia_cms_article
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     workflow_id: editorial
     workbench_email_templates:
       back_to_draft: back_to_draft
@@ -20,11 +23,11 @@ third_party_settings:
         open_graph: open_graph
         schema_article: schema_article
         twitter_cards: twitter_cards
-    search_index: content
     subtype:
       field: field_article_type
       facet: articles_article_type
     sitemap_variant: default
+    search_index: content
   menu_ui:
     available_menus:
       - main
@@ -43,7 +46,7 @@ third_party_settings:
     unpublish_required: false
     unpublish_revision: false
 _core:
-  default_config_hash: vtRizzJoIfQOWicY9icVeNn7A7suCZ32NttK78KZyAs
+  default_config_hash: 87y-hj08S6WA8Wy1abfokIfavjHDqfJ3_FsEygQQugI
 name: Article
 type: article
 description: 'A structured content type used for creating various types of articles.'

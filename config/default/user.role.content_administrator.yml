@@ -1,9 +1,29 @@
-uuid: 9d76035f-58d1-41d0-a46f-bc5d471efca7
+uuid: 137817ad-1be1-4794-a17e-0460b635f896
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.cohesion
+    - filter.format.filtered_html
+    - filter.format.full_html
+    - workflows.workflow.editorial
+  module:
+    - acquia_cms_tour
+    - cohesion
+    - cohesion_elements
+    - content_moderation
+    - entity_clone
+    - filter
+    - media
+    - moderation_dashboard
+    - moderation_sidebar
+    - node
+    - scheduler
+    - system
+    - taxonomy
+    - toolbar
 _core:
-  default_config_hash: eR3WrE14oHetkVkrVcNlS5v4EaFF6tYeFrFGi5AC8hQ
+  default_config_hash: HODp9FiARb1CPjhiq2Vx1Xtaia_AH27NggjA-Ov6_nA
 id: content_administrator
 label: 'Content Administrator'
 weight: -7
@@ -18,13 +38,8 @@ permissions:
   - 'access content elements group'
   - 'access content overview'
   - 'access cpt_cat_dynamic_components cohesion_component_category group'
-  - 'access cpt_cat_general_components cohesion_component_category group'
-  - 'access cpt_cat_hero_components cohesion_component_category group'
-  - 'access cpt_cat_interactive_components cohesion_component_category group'
   - 'access cpt_cat_layout_components cohesion_component_category group'
   - 'access cpt_cat_map_components cohesion_component_category group'
-  - 'access cpt_cat_media_components cohesion_component_category group'
-  - 'access cpt_cat_template_components cohesion_component_category group'
   - 'access custom elements group'
   - 'access drupal core elements group'
   - 'access elements'
@@ -34,8 +49,6 @@ permissions:
   - 'access form layout fields group'
   - 'access helpers'
   - 'access hlp_cat_dynamic_helpers cohesion_helper_category group'
-  - 'access hlp_cat_general_helpers cohesion_helper_category group'
-  - 'access hlp_cat_interactive_helpers cohesion_helper_category group'
   - 'access hlp_cat_layout_helpers cohesion_helper_category group'
   - 'access hlp_cat_media_helpers cohesion_helper_category group'
   - 'access interactive elements group'
@@ -62,6 +75,7 @@ permissions:
   - 'use moderation sidebar'
   - 'use text format cohesion'
   - 'use text format filtered_html'
+  - 'use text format full_html'
   - 'view any moderation dashboard'
   - 'view any unpublished content'
   - 'view latest version'

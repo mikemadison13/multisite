@@ -1,4 +1,4 @@
-uuid: 2a5914ff-65ec-4a33-8b9e-bbccfa026102
+uuid: 32c74f9d-c140-4d1c-ba8c-f2db9abd0455
 langcode: en
 status: true
 dependencies:
@@ -16,40 +16,45 @@ dependencies:
     - field_group
     - media_library
     - path
+    - scheduler
+    - scheduler_content_moderation_integration
     - text
+  enforced:
+    module:
+      - acquia_cms_page
 third_party_settings:
   field_group:
     group_taxonomy:
       children:
         - field_categories
         - field_tags
+      label: Taxonomy
+      region: content
       parent_name: ''
       weight: 4
       format_type: fieldset
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         description: ''
         required_fields: true
-      label: Taxonomy
 _core:
-  default_config_hash: Nhlusp41ff8i4DF6la3VjDFraQRHpGGFQ0cEohfQLVo
+  default_config_hash: yG8Urfaoap_fmoazcYL8dKmlxviYoE7IkLvt9ZVb8JY
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
 content:
   body:
+    type: text_textarea_with_summary
     weight: 1
+    region: content
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-    type: text_textarea_with_summary
-    region: content
   created:
     type: datetime_timestamp
     weight: 7
@@ -65,26 +70,26 @@ content:
   field_layout_canvas:
     type: cohesion_layout_builder_widget
     weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   field_page_image:
     type: media_library_widget
     weight: 3
+    region: content
     settings:
       media_types: {  }
-    region: content
     third_party_settings: {  }
   field_tags:
+    type: entity_reference_autocomplete_tags
     weight: 4
+    region: content
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete_tags
-    region: content
   langcode:
     type: language_select
     weight: 2
@@ -95,8 +100,8 @@ content:
   moderation_state:
     type: moderation_state_default
     weight: 5
-    settings: {  }
     region: content
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path
@@ -118,9 +123,9 @@ content:
     third_party_settings: {  }
   scheduler_settings:
     weight: 20
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   title:
     type: string_textfield
     weight: 0
@@ -131,18 +136,18 @@ content:
     third_party_settings: {  }
   translation:
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 6
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
-    region: content
     third_party_settings: {  }
   unpublish_on:
     type: datetime_timestamp_no_default

@@ -1,4 +1,4 @@
-uuid: fa4f8bba-6db1-4a68-9a59-07bd5beaaea8
+uuid: c8a2611c-54ab-47d1-95a6-2fa0ebe2541f
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,11 @@ dependencies:
     - node.type.person
   module:
     - telephone
+  enforced:
+    module:
+      - acquia_cms_person
 _core:
-  default_config_hash: qIZvNgk8Y-FVRLG-ha4xUj-8O-16fX5vi6BBLYTcE5I
+  default_config_hash: AFUW8NLPfJlYr4-6j1P7VvYLn1QRRhkpy5D6-Fl6cVU
 id: node.person.field_person_telephone
 field_name: field_person_telephone
 entity_type: node

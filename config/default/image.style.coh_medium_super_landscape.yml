@@ -1,11 +1,14 @@
-uuid: 20e90ee3-577c-4d92-ae03-447d8ebf3db7
+uuid: 3fae1705-d105-49ed-8cf0-d61c8aedaad8
 langcode: en
 status: true
 dependencies:
   module:
     - focal_point
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: EOnlsJ295-WS9EJQcqVutauSrMNSEzGA9F1GZtVgz8I
+  default_config_hash: igWCjxr3VdezCQ7IVvuNU7fypR4jQ4K7pOgfIqesTeY
 name: coh_medium_super_landscape
 label: 'Medium super landscape (768x360)'
 effects:

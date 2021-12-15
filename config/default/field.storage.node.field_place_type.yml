@@ -1,17 +1,20 @@
-uuid: 4fcbdbeb-46fb-4c00-9eec-52969115312b
+uuid: 21052e36-f02b-46e0-b5c1-266676652cbc
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - node
     - taxonomy
+  enforced:
+    module:
+      - acquia_cms_place
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     search_index: content
     search_label: 'Place Type'
 _core:
-  default_config_hash: sc6tEo-PMGHehJZv_u2dTl8SDdO2DNAx9l4A_QeV28c
+  default_config_hash: Cdfb_qH1tnqFJNv1gG7J7bliEmBT7Ql823bizT9pS10
 id: node.field_place_type
 field_name: field_place_type
 entity_type: node

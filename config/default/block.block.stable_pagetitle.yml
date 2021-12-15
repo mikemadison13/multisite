@@ -1,4 +1,4 @@
-uuid: d6d14db5-3775-4f42-95d7-4e2dd738636c
+uuid: a26e6e16-4541-4260-be1a-cc8b3d928ffe
 langcode: en
 status: true
 dependencies:
@@ -17,10 +17,10 @@ plugin: page_title_block
 settings:
   id: page_title_block
   label: 'Page title'
-  provider: core
   label_display: '0'
+  provider: core
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

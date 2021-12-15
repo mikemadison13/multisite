@@ -1,4 +1,4 @@
-uuid: 0aa8f148-575b-450a-8fbd-d4471e40627f
+uuid: d79b1a60-937c-4e82-a22f-c5b995751a0c
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.node.field_event_place
     - node.type.event
     - node.type.place
+  enforced:
+    module:
+      - acquia_cms_event
 _core:
-  default_config_hash: ZJNuuGwu9THau_XDyxvHbLOZbFHRuieL2XaOx8euMns
+  default_config_hash: PZcUmnUM0Jskuy2JdHCiubYZp4GbGnKwS3UaL7aj7x0
 id: node.event.field_event_place
 field_name: field_event_place
 entity_type: node

@@ -1,12 +1,15 @@
-uuid: c71086af-6d98-4b02-93a8-00eb1070281f
+uuid: 77fe9035-2db9-4c67-99a1-c9f3f40de3f8
 langcode: en
 status: true
 dependencies:
   module:
     - cohesion_elements
     - node
+  enforced:
+    module:
+      - acquia_cms_page
 _core:
-  default_config_hash: GZ8Vp9eqi_NPm4fBEgNMzgY5vgzy2zZw5rpaUGT81bk
+  default_config_hash: YQSB6vyycJwBPDw9SOo40TTmlzwHmp28fyT3ixyB9So
 id: node.field_layout_canvas
 field_name: field_layout_canvas
 entity_type: node

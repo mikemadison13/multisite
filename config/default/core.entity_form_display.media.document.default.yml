@@ -1,4 +1,4 @@
-uuid: 3cb8cbec-5cc5-4833-8917-a0b9b9adf7fb
+uuid: e674f6c6-bff3-41e1-a13d-e3790fda4059
 langcode: en
 status: true
 dependencies:
@@ -10,52 +10,55 @@ dependencies:
   module:
     - field_group
     - file
+  enforced:
+    module:
+      - acquia_cms_document
 third_party_settings:
   field_group:
     group_taxonomy:
       children:
         - field_categories
         - field_tags
+      label: Taxonomy
+      region: content
       parent_name: ''
       weight: 2
       format_type: fieldset
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         description: ''
         required_fields: true
-      label: Taxonomy
 _core:
-  default_config_hash: slFCCPVc-eteMCMa_tJqS86Z3w_C56yN_FD5Tv38ipI
+  default_config_hash: '-fke6iL4zeqTRpMxXywu2hUiezSzvV7O7ZlHsJ-4IPo'
 id: media.document.default
 targetEntityType: media
 bundle: document
 mode: default
 content:
   field_categories:
+    type: options_select
     weight: 3
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   field_media_file:
+    type: file_generic
     weight: 1
+    region: content
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
-    type: file_generic
-    region: content
   field_tags:
+    type: entity_reference_autocomplete_tags
     weight: 4
+    region: content
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete_tags
-    region: content
   langcode:
     type: language_select
     weight: 5

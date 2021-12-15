@@ -1,4 +1,4 @@
-uuid: 1f1a641f-1374-40eb-bb82-7179ae180900
+uuid: 2d418bea-307b-4e58-991b-18d756663e4f
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,11 @@ dependencies:
     - field.storage.media.field_tags
     - media.type.image
     - taxonomy.vocabulary.tags
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: KWv7MXUlgloGh_rMX-L4rCbUyuAQ6JNSdQUpnq58Lh8
+  default_config_hash: NJDwtpr85vzY2P1KAyme549UCaCZBjBdGamFeeFw9FA
 id: media.image.field_tags
 field_name: field_tags
 entity_type: media

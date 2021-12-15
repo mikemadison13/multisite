@@ -1,13 +1,16 @@
-uuid: cba974b9-73da-4bfd-9ffd-73482b8759ff
+uuid: 69b77926-047c-4d4a-af60-8dcea1a9ba0d
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms
+    - acquia_cms_common
     - menu_ui
     - scheduler
+  enforced:
+    module:
+      - acquia_cms_place
 third_party_settings:
-  acquia_cms:
+  acquia_cms_common:
     workflow_id: editorial
     workbench_email_templates:
       back_to_draft: back_to_draft
@@ -20,11 +23,11 @@ third_party_settings:
         open_graph: open_graph
         schema_place: schema_place
         twitter_cards: twitter_cards
-    search_index: content
     subtype:
       field: field_place_type
       facet: places_place_type
     sitemap_variant: default
+    search_index: content
   menu_ui:
     available_menus:
       - main
@@ -43,7 +46,7 @@ third_party_settings:
     unpublish_required: false
     unpublish_revision: false
 _core:
-  default_config_hash: aVSLbM2XKLMjsIT4Uc1iGUpl9aiv5oF329uIKJxncXw
+  default_config_hash: aotRYwId2nhIOhtl_9qmzUiGh45wmL9CwqxtIedWles
 name: Place
 type: place
 description: 'A structured content type used for creating various types of places.'

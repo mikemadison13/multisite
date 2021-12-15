@@ -1,4 +1,4 @@
-uuid: e31b5e1a-97fa-438c-bf22-ca8690b93367
+uuid: 22202401-516c-44ef-9b3f-1ec415839d72
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,11 @@ dependencies:
     - media.type.image
   module:
     - image
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: 5e4oiZOrENqm5cAdeqmIRV-Z99kt1qDDfFTaPGfQXng
+  default_config_hash: '-2Jq2ME4ws_C-oW9K-c16dx3u0tZv-xAVprm406ilUk'
 id: media.image.small
 targetEntityType: media
 bundle: image
@@ -19,13 +22,13 @@ mode: small
 content:
   image:
     type: image
-    weight: 0
-    region: content
     label: hidden
     settings:
-      image_style: ''
       image_link: ''
+      image_style: ''
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
   field_categories: true

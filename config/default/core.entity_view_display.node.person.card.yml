@@ -1,4 +1,4 @@
-uuid: f1f2a7c6-2815-45ba-832c-772a906e4711
+uuid: 63444147-1d09-45ac-9717-499fd65cbd5d
 langcode: en
 status: true
 dependencies:
@@ -17,8 +17,11 @@ dependencies:
   module:
     - text
     - user
+  enforced:
+    module:
+      - acquia_cms_person
 _core:
-  default_config_hash: H5R2SDpmH_E7HfXlQl_iWvGsHJ9JY0N1cuV51-mqrN4
+  default_config_hash: 7UzUpJNLSGJPZ6W_FVSxrSld4XH7qI61EUI_cJ4Rnzs
 id: node.person.card
 targetEntityType: node
 bundle: person
@@ -26,28 +29,28 @@ mode: card
 content:
   body:
     type: text_summary_or_trimmed
-    weight: 1
-    region: content
     label: hidden
     settings:
       trim_length: 128
     third_party_settings: {  }
+    weight: 1
+    region: content
   field_person_image:
     type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
     weight: 0
     region: content
-    label: hidden
-    settings:
-      link: false
-    third_party_settings: {  }
   field_person_type:
     type: entity_reference_label
-    weight: 2
-    region: content
     label: hidden
     settings:
       link: false
     third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
   content_moderation_control: true
   field_categories: true

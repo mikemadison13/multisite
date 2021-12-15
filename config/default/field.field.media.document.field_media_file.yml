@@ -1,4 +1,4 @@
-uuid: 01896fed-3ac9-4e68-aca3-8ba655ad4b47
+uuid: 36376adc-e08e-460b-80bd-cea02a8d699c
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,11 @@ dependencies:
     - media.type.document
   module:
     - file
+  enforced:
+    module:
+      - acquia_cms_document
 _core:
-  default_config_hash: Qm_SxapqvYOQOBRxzYVZadGppXaUYYBeVxEE5a2It5U
+  default_config_hash: qVY-mlkGA-kRIjOiXNhf21kttHXexjZP65XcsPJFGjY
 id: media.document.field_media_file
 field_name: field_media_file
 entity_type: media
@@ -20,10 +23,10 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  handler: 'default:file'
+  handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'csv txt rtf pdf doc docx xls xlsx ppt pptx pps odt ods odp'
   max_filesize: ''
   description_field: false
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: file

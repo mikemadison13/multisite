@@ -1,9 +1,12 @@
-uuid: 302fab2b-5660-40f0-8e86-cdff600d5bf7
+uuid: 86669954-2c7f-4473-a04a-315cf8a664d9
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_image
 _core:
-  default_config_hash: mJopXndQZObSUZpsyuzVLW91vGgsuyOrtmoOdRpG-EA
+  default_config_hash: Kg-p_HxRHn32u938eTpuEJagC_WC_z6efkP3e5vpHog
 name: coh_small
 label: 'Small (W568)'
 effects:

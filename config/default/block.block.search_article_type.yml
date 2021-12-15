@@ -1,4 +1,4 @@
-uuid: 4b0adb76-0e60-40b9-af13-03b75f65c2f7
+uuid: c49044fe-7a40-4a4d-9036-70382a6957a4
 langcode: en
 status: true
 dependencies:
@@ -24,11 +24,11 @@ plugin: 'facet_block:search_article_type'
 settings:
   id: 'facet_block:search_article_type'
   label: 'Article Type'
-  provider: facets
   label_display: visible
+  provider: facets
   block_id: search_article_type
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0
