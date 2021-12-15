@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f79283315c82da974eaba30cc5eaaf65",
+    "content-hash": "11609b81af03fcc1e096eb6fe09d6ac6",
     "packages": [
         {
             "name": "acquia/acquia_cms",
@@ -395,6 +395,47 @@
                 "source": "https://github.com/acquia/blt/tree/13.2.1"
             },
             "time": "2021-11-30T22:54:02+00:00"
+        },
+        {
+            "name": "acquia/blt-multisite",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acquia/blt-multisite.git",
+                "reference": "9a0c0ad5d66b4eb33b3658963bd7c165aab10153"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/blt-multisite/zipball/9a0c0ad5d66b4eb33b3658963bd7c165aab10153",
+                "reference": "9a0c0ad5d66b4eb33b3658963bd7c165aab10153",
+                "shasum": ""
+            },
+            "require-dev": {
+                "acquia/blt": "^13.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Acquia\\BltMultisite\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Acquia Engineering",
+                    "homepage": "https://www.acquia.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A recipe for generating multisites with Acquia BLT",
+            "support": {
+                "issues": "https://github.com/acquia/blt-multisite/issues",
+                "source": "https://github.com/acquia/blt-multisite/tree/v1.0.0"
+            },
+            "time": "2021-11-19T22:23:41+00:00"
         },
         {
             "name": "acquia/blt-phpcs",

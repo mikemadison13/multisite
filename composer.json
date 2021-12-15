@@ -13,6 +13,7 @@
         "php": ">=8.0",
         "acquia/acquia_cms": "^1.4",
         "acquia/blt": "^13",
+        "acquia/blt-multisite": "^1.0",
         "acquia/blt-phpcs": "^1.0",
         "acquia/blt-site-studio": "dev-develop",
         "composer/installers": "^1.9",
@@ -94,6 +95,9 @@
             },
             "acquia/blt": {
                 "correcting site context": "https://github.com/acquia/blt/pull/4440.patch"
+            },
+            "acquia/acquia_cms": {
+                "flush caches during install": "patches/caches.patch"
             }
         }
     },
