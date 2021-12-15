@@ -762,34 +762,6 @@ $settings['entity_update_backup'] = TRUE;
  */
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
-/**
- * Load local development override configuration, if available.
- *
- * Create a settings.local.php file to override variables on secondary (staging,
- * development, etc.) installations of this site.
- *
- * Typical uses of settings.local.php include:
- * - Disabling caching.
- * - Disabling JavaScript/CSS compression.
- * - Rerouting outgoing emails.
- *
- * Keep this code block at the end of this file to take full effect.
- */
-
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
-require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
-/**
- * IMPORTANT.
- *
- * Do not include additional settings here. Instead, add them to settings
- * included by `blt.settings.php`. See BLT's documentation for more detail.
- *
- * @link https://docs.acquia.com/blt/
- */
-
 use Acquia\DrupalEnvironmentDetector\AcquiaDrupalEnvironmentDetector;
 
 /**
@@ -825,3 +797,32 @@ if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
     }
   }
 }
+
+/**
+ * Load local development override configuration, if available.
+ *
+ * Create a settings.local.php file to override variables on secondary (staging,
+ * development, etc.) installations of this site.
+ *
+ * Typical uses of settings.local.php include:
+ * - Disabling caching.
+ * - Disabling JavaScript/CSS compression.
+ * - Rerouting outgoing emails.
+ *
+ * Keep this code block at the end of this file to take full effect.
+ */
+
+#
+# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+#   include $app_root . '/' . $site_path . '/settings.local.php';
+# }
+require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
+
+/**
+ * IMPORTANT.
+ *
+ * Do not include additional settings here. Instead, add them to settings
+ * included by `blt.settings.php`. See BLT's documentation for more detail.
+ *
+ * @link https://docs.acquia.com/blt/
+ */
