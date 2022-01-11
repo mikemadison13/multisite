@@ -1,2 +1,8 @@
 project:
   machine_name: uxdemo
+git:
+  default_branch: master
+  remotes:
+    - "eemmadison@svn-15816.prod.hosting.acquia.com:eemmadison.git"
+deploy:
+  tag_source: true
