@@ -22,10 +22,10 @@ mode: embedded
 content:
   image:
     type: image
-    label: visually_hidden
+    label: hidden
     settings:
       image_link: ''
-      image_style: banner
+      image_style: ''
     third_party_settings: {  }
     weight: 0
     region: content

@@ -25,7 +25,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: coh_small
     third_party_settings: {  }
     weight: 0
     region: content
