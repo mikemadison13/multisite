@@ -29,10 +29,20 @@
         "drupal/search_api_solr": "^4.1",
         "drupal/site_audit": "3.x-dev",
         "lcatlett/blt-drush-alias": "^1",
+        "mikemadison13/blt-gitlab-pipelines": "dev-main",
         "mikemadison13/blt-lando": "dev-main"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "cweagans/composer-patches": true,
+            "composer/installers": true,
+            "ergebnis/composer-normalize": true,
+            "acquia/blt": true,
+            "drupal/core-composer-scaffold": true,
+            "acquia/blt-phpcs": true
+        }
     },
     "extra": {
         "drupal-scaffold": {
@@ -90,12 +100,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "acquia/blt-site-studio": {
-                "patching for PR 22": "https://github.com/davidtrainer/blt-site-studio/pull/22.patch"
-            },
-            "acquia/blt": {
-                "correcting site context": "https://github.com/acquia/blt/pull/4440.patch"
-            },
             "acquia/acquia_cms": {
                 "flush caches during install": "patches/caches.patch"
             }
