@@ -780,7 +780,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
+
 /**
  * IMPORTANT.
  *
@@ -810,3 +810,5 @@ if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
     $databases = array_merge_recursive($databases, $default_settings);
   }
 }
+
+require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
