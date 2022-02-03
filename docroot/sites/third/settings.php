@@ -800,29 +800,14 @@ use Acquia\DrupalEnvironmentDetector\AcquiaDrupalEnvironmentDetector;
  * based on the current product, site, and environment.
  */
 // phpcs:ignore
-$site_name = AcquiaDrupalEnvironmentDetector::getSiteName($site_path);
 if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
-  $ah_group = AcquiaDrupalEnvironmentDetector::getAhGroup();
-  if (!AcquiaDrupalEnvironmentDetector::isAcsfEnv()) {
-    global $conf;
-    $conf['acquia_hosting_settings_autoconnect'] = FALSE;
-    if ($site_name == 'default') {
-      require "/var/www/site-php/$ah_group/$ah_group-settings.inc";
-    } else {
-      // Acquia Cloud does not support periods in db names.
-      $safe_site_name = str_replace('.', '_', $site_name);
-      require "/var/www/site-php/$ah_group/$safe_site_name-settings.inc";
-    }
-    // Temporary workaround to override the default MySQL wait_timeout setting.
+  if (file_exists('/var/www/site-php')) {
+    require '/var/www/site-php/eemmadison/third-settings.inc';
     $default_settings['default']['default'] = [
       'init_commands' => [
         'wait_timeout' => "SET SESSION wait_timeout=3600",
       ],
     ];
     $databases = array_merge_recursive($databases, $default_settings);
-    // Only call this function on the cloud, not on a local environment.
-    if (function_exists('acquia_hosting_db_choose_active')) {
-      acquia_hosting_db_choose_active();
-    }
   }
 }
