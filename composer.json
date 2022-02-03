@@ -100,9 +100,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "acquia/acquia_cms": {
-                "flush caches during install": "patches/caches.patch"
-            },
             "acquia/blt-site-studio": {
                 "reduce verbosity": "https://github.com/davidtrainer/blt-site-studio/pull/28.patch"
             }
