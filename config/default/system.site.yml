@@ -1,9 +1,9 @@
 _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
 langcode: en
-uuid: be68a80a-fb2b-463b-92ee-8285f21e457a
-name: 'Drush Site-Install'
-mail: admin@example.com
+uuid: 9dd8ac40-11d0-484d-9240-205c743af1d3
+name: 'Zero Site'
+mail: no-reply@acquia.com
 slogan: ''
 page:
   403: ''

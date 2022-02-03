@@ -22,10 +22,10 @@ mode: medium_landscape
 content:
   image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: coh_medium_landscape
     third_party_settings: {  }
     weight: 0
     region: content
