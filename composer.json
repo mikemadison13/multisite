@@ -121,5 +121,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "drupal/upgrade_status": "^3.13",
+        "mglaman/drupal-check": "^1.3",
+        "palantirnet/drupal-rector": "^0.12.0",
+        "symfony/phpunit-bridge": "^6.0"
+    }
 }
