@@ -1,0 +1,28 @@
+uuid: 0c21180e-0fbf-4fa2-ac3e-cdb4e385bd8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.page
+  module:
+    - text
+  enforced:
+    module:
+      - acquia_cms_page
+_core:
+  default_config_hash: Tw-9QjMabXNJ-cg7sUQ1vQYURGGmIWqUnv83VNWZbFA
+id: node.page.body
+field_name: body
+entity_type: node
+bundle: page
+label: 'Search Description'
+description: 'A short description or teaser which will be displayed in search results.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

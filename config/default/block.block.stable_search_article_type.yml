@@ -1,0 +1,34 @@
+uuid: 60d3fbc2-d566-42aa-bd02-fb3ffe9e3b83
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.search_article_type
+  module:
+    - cohesion
+    - collapsiblock
+    - facets
+  theme:
+    - stable
+third_party_settings:
+  collapsiblock:
+    collapse_action: 2
+_core:
+  default_config_hash: m5e-V5tKn-CL5LTrmhSiEKsPD9dnRoJUWD2gs-u9_4U
+id: stable_search_article_type
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:search_article_type'
+settings:
+  id: 'facet_block:search_article_type'
+  label: 'Article Type'
+  label_display: visible
+  provider: facets
+  block_id: search_article_type
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    negate: false
+    using_master_template: 0

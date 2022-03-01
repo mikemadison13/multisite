@@ -1,0 +1,18 @@
+uuid: 1cf26fed-1fd5-4e94-b5b8-871302ccb4bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.place
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: hUxXtp6JAoI_sxQvuhkzTEZkmZ9nLZT2ZVuUax5K9ZU
+id: node.place
+target_entity_type_id: node
+target_bundle: place
+default_langcode: site_default
+language_alterable: true

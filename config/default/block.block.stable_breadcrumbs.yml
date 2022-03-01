@@ -1,0 +1,27 @@
+uuid: 9bab4bdc-b4b3-4047-bd25-91c6a2a39f0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: t2xF97XzJZGGAlxVCiKyLYpPzPbI6PCRnjr-S1XLSsM
+id: stable_breadcrumbs
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    negate: false
+    using_master_template: 0

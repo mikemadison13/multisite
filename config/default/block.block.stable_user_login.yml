@@ -1,0 +1,27 @@
+uuid: cc85f6d6-faad-4e38-8e13-783e2a4a0930
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion
+    - user
+  theme:
+    - stable
+_core:
+  default_config_hash: jaJZhGXsAQRMrzGVAkoJ-04J24fcQo6lNddaDLIZztU
+id: stable_user_login
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: '0'
+  provider: user
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    negate: false
+    using_master_template: 0

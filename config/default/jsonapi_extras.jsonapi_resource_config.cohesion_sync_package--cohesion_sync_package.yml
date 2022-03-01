@@ -1,0 +1,79 @@
+uuid: 1f800dc9-eb06-45be-81cf-1335281c1a31
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion_sync
+_core:
+  default_config_hash: 2n6ZA4Qm9kysF3qY9-hhD5tQIgJ4Jvyus__C30kppYw
+id: cohesion_sync_package--cohesion_sync_package
+disabled: true
+path: cohesion_sync_package/cohesion_sync_package
+resourceType: cohesion_sync_package--cohesion_sync_package
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  description:
+    disabled: false
+    fieldName: description
+    publicName: description
+    enhancer:
+      id: ''
+  excluded_entity_types:
+    disabled: false
+    fieldName: excluded_entity_types
+    publicName: excluded_entity_types
+    enhancer:
+      id: ''
+  settings:
+    disabled: false
+    fieldName: settings
+    publicName: settings
+    enhancer:
+      id: ''

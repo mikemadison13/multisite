@@ -1,0 +1,33 @@
+uuid: ec9ee465-5008-466e-9505-63cec7b59a96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place_image
+    - media.type.image
+    - node.type.place
+  enforced:
+    module:
+      - acquia_cms_place
+_core:
+  default_config_hash: mnRcg5sIfeTlHFTWEV2WaSGK0JMGFGG4egzscIzivPU
+id: node.place.field_place_image
+field_name: field_place_image
+entity_type: node
+bundle: place
+label: Image
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

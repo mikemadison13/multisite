@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: en
+uuid: 15b2cf1d-66cb-4fe9-a7bc-42cf72535773
+name: 'My BLT site'
+mail: no-reply@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

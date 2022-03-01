@@ -1,0 +1,34 @@
+uuid: f498cf55-d066-4786-90a1-e72970648f09
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.search_event_type
+  module:
+    - cohesion
+    - collapsiblock
+    - facets
+  theme:
+    - cohesion_theme
+third_party_settings:
+  collapsiblock:
+    collapse_action: 2
+_core:
+  default_config_hash: VHpYZWk8K822AHHu7xTJIJR5oUnVRRZf91VaOeyIEQQ
+id: search_event_type
+theme: cohesion_theme
+region: dx8_hidden
+weight: 0
+provider: null
+plugin: 'facet_block:search_event_type'
+settings:
+  id: 'facet_block:search_event_type'
+  label: 'Event Type'
+  label_display: visible
+  provider: facets
+  block_id: search_event_type
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    negate: false
+    using_master_template: 0

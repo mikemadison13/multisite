@@ -1,0 +1,27 @@
+uuid: d563a661-a38d-4cbd-8489-2c9735013ca0
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion
+    - user
+  theme:
+    - cohesion_theme
+_core:
+  default_config_hash: jaJZhGXsAQRMrzGVAkoJ-04J24fcQo6lNddaDLIZztU
+id: user_login
+theme: cohesion_theme
+region: dx8_hidden
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: '0'
+  provider: user
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    negate: false
+    using_master_template: 0
