@@ -1,0 +1,34 @@
+uuid: 3d69cfd8-b10a-4053-9e8a-6be114221d98
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.search_person_type
+  module:
+    - cohesion
+    - collapsiblock
+    - facets
+  theme:
+    - cohesion_theme
+third_party_settings:
+  collapsiblock:
+    collapse_action: 2
+_core:
+  default_config_hash: yi2XY3PNMADNPgPM-sojFMtfnnlXZ2qQNQOPiArXy44
+id: search_person_type
+theme: cohesion_theme
+region: dx8_hidden
+weight: 0
+provider: null
+plugin: 'facet_block:search_person_type'
+settings:
+  id: 'facet_block:search_person_type'
+  label: 'Person Type'
+  label_display: visible
+  provider: facets
+  block_id: search_person_type
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    negate: false
+    using_master_template: 0

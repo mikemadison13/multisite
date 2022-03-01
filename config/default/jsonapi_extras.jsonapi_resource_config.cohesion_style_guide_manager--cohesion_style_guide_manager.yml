@@ -1,0 +1,109 @@
+uuid: 3d63f325-21fc-48fd-ba67-81f2cc39fc71
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion_style_guide
+_core:
+  default_config_hash: l1PQHBe9xF7f3Pxr1f3D5SZDH6FFqC8hGEEJ2Kk5zmU
+id: cohesion_style_guide_manager--cohesion_style_guide_manager
+disabled: true
+path: cohesion_style_guide_manager/cohesion_style_guide_manager
+resourceType: cohesion_style_guide_manager--cohesion_style_guide_manager
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  json_values:
+    disabled: false
+    fieldName: json_values
+    publicName: json_values
+    enhancer:
+      id: ''
+  json_mapper:
+    disabled: false
+    fieldName: json_mapper
+    publicName: json_mapper
+    enhancer:
+      id: ''
+  last_entity_update:
+    disabled: false
+    fieldName: last_entity_update
+    publicName: last_entity_update
+    enhancer:
+      id: ''
+  locked:
+    disabled: false
+    fieldName: locked
+    publicName: locked
+    enhancer:
+      id: ''
+  modified:
+    disabled: false
+    fieldName: modified
+    publicName: modified
+    enhancer:
+      id: ''
+  selectable:
+    disabled: false
+    fieldName: selectable
+    publicName: selectable
+    enhancer:
+      id: ''
+  theme:
+    disabled: false
+    fieldName: theme
+    publicName: theme
+    enhancer:
+      id: ''
+  style_guide_uuid:
+    disabled: false
+    fieldName: style_guide_uuid
+    publicName: style_guide_uuid
+    enhancer:
+      id: ''

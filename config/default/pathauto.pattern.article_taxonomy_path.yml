@@ -1,0 +1,24 @@
+uuid: 606de54b-296e-4b6b-bf12-ef1727d8a07a
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: v5pSn29feI3gDkxJ1ABsRUcJ6UVjowGUY6ufrt6RL8c
+id: article_taxonomy_path
+label: 'Article taxonomy path'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:name]'
+selection_criteria:
+  fd7393c8-d9af-4456-8a46-3db25b9fd745:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: fd7393c8-d9af-4456-8a46-3db25b9fd745
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      article_type: article_type
+selection_logic: and
+weight: -5
+relationships: {  }

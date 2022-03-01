@@ -1,0 +1,34 @@
+uuid: a0c6d78d-a43e-41b9-aaa9-0f846658f1bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.articles_category
+  module:
+    - cohesion
+    - collapsiblock
+    - facets
+  theme:
+    - stable
+third_party_settings:
+  collapsiblock:
+    collapse_action: 2
+_core:
+  default_config_hash: NMEvPDCBfEDQK3lKx2zFoP04kps0k8OqtRvh_KK9x6I
+id: stable_articles_category
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:articles_category'
+settings:
+  id: 'facet_block:articles_category'
+  label: Category
+  label_display: visible
+  provider: facets
+  block_id: articles_category
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    negate: false
+    using_master_template: 0

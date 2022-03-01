@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "acquia/acquia_cms": "^1.4",
+        "acquia/acquia_cms": "dev-develop",
         "acquia/blt": "^13",
         "acquia/blt-multisite": "^1.0",
         "acquia/blt-phpcs": "^1.0",
@@ -30,7 +30,8 @@
         "drupal/site_audit": "3.x-dev",
         "lcatlett/blt-drush-alias": "^1",
         "mikemadison13/blt-gitlab-pipelines": "dev-main",
-        "mikemadison13/blt-lando": "dev-main"
+        "mikemadison13/blt-lando": "dev-main",
+        "drush/drush": "^11"
     },
     "config": {
         "sort-packages": true,

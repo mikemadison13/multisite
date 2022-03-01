@@ -1,0 +1,26 @@
+uuid: 8449882f-d484-4a85-a1aa-4027269f9b99
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion
+  theme:
+    - stable
+_core:
+  default_config_hash: beMZN25xRUiJS0L9ZB4kzrilZfUqNUOO4fASJQBZK_o
+id: stable_pagetitle
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  cohesion_master_template:
+    id: cohesion_master_template
+    negate: false
+    using_master_template: 0

@@ -1,0 +1,77 @@
+uuid: 20e5d4f3-d70d-42e8-9303-1cdd9b9cff84
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.event
+    - node.type.page
+    - node.type.person
+    - node.type.place
+    - user.role.content_administrator
+    - user.role.content_editor
+  module:
+    - acquia_cms_common
+third_party_settings:
+  acquia_cms_common:
+    workflow_id: editorial
+    workflow_transitions:
+      - review
+_core:
+  default_config_hash: zvvO6CYe5XkstBc3TkRikr6aaJ_JOfJr1dlolxsGDnk
+id: transition_to_review
+label: 'Transition to Review'
+subject: '[node:title] State Changed'
+recipient_types:
+  author:
+    id: author
+    provider: workbench_email
+    status: false
+    settings: {  }
+  email:
+    id: email
+    provider: workbench_email
+    status: false
+    settings:
+      fields: {  }
+  entity_reference_user:
+    id: entity_reference_user
+    provider: workbench_email
+    status: false
+    settings:
+      fields: {  }
+  fixed_email:
+    id: fixed_email
+    provider: workbench_email
+    status: false
+    settings:
+      recipients: ''
+  last_revision_author:
+    id: last_revision_author
+    provider: workbench_email
+    status: false
+    settings: {  }
+  role:
+    id: role
+    provider: workbench_email
+    status: true
+    settings:
+      roles:
+        content_administrator: content_administrator
+        content_editor: content_editor
+  roles_with_access:
+    id: roles_with_access
+    provider: workbench_email
+    status: false
+    settings:
+      roles: {  }
+bundles:
+  'node:article': 'node:article'
+  'node:event': 'node:event'
+  'node:page': 'node:page'
+  'node:person': 'node:person'
+  'node:place': 'node:place'
+body:
+  value: '[node:title] needs review.'
+  format: plain_text
+replyTo: null

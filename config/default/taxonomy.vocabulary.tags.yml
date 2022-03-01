@@ -1,0 +1,10 @@
+uuid: e76f5ecc-3f14-42a8-bfbb-19116646f49e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QralP2i0NvRz1a3yPaZGpKiO04rdBfwIW0Tvo7Cri7w
+name: Tags
+vid: tags
+description: 'Descriptive metadata, for categorizing content and making search engines happy.'
+weight: 0

@@ -1,0 +1,103 @@
+uuid: a9ad0899-2c30-44b8-b58d-79ca052e35ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - cohesion_website_settings
+_core:
+  default_config_hash: bdxoBLHoCUONOxo7GTwSIE6fW9mriD_Xsf26EHaNzvE
+id: cohesion_icon_library--cohesion_icon_library
+disabled: true
+path: cohesion_icon_library/cohesion_icon_library
+resourceType: cohesion_icon_library--cohesion_icon_library
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  json_values:
+    disabled: false
+    fieldName: json_values
+    publicName: json_values
+    enhancer:
+      id: ''
+  json_mapper:
+    disabled: false
+    fieldName: json_mapper
+    publicName: json_mapper
+    enhancer:
+      id: ''
+  last_entity_update:
+    disabled: false
+    fieldName: last_entity_update
+    publicName: last_entity_update
+    enhancer:
+      id: ''
+  locked:
+    disabled: false
+    fieldName: locked
+    publicName: locked
+    enhancer:
+      id: ''
+  modified:
+    disabled: false
+    fieldName: modified
+    publicName: modified
+    enhancer:
+      id: ''
+  selectable:
+    disabled: false
+    fieldName: selectable
+    publicName: selectable
+    enhancer:
+      id: ''
+  source:
+    disabled: false
+    fieldName: source
+    publicName: source
+    enhancer:
+      id: ''

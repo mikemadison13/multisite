@@ -1,0 +1,30 @@
+uuid: ab66613d-b639-4041-8eeb-5451d7b3a507
+langcode: en
+status: true
+dependencies:
+  module:
+    - acquia_cms_common
+    - node
+    - taxonomy
+  enforced:
+    module:
+      - acquia_cms_event
+third_party_settings:
+  acquia_cms_common:
+    search_index: content
+    search_label: 'Event Type'
+_core:
+  default_config_hash: TFd0kl-s_MaQDira4sWJtaXGIfDBOFkTdejWk-20OWE
+id: node.field_event_type
+field_name: field_event_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
