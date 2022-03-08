@@ -1,5 +1,5 @@
 diff --git a/modules/acquia_cms_site_studio/acquia_cms_site_studio.module b/modules/acquia_cms_site_studio/acquia_cms_site_studio.module
-index 3990b872..7562855f 100644
+index bdc01811..3f2fdb73 100644
 --- a/modules/acquia_cms_site_studio/acquia_cms_site_studio.module
 +++ b/modules/acquia_cms_site_studio/acquia_cms_site_studio.module
 @@ -28,6 +28,7 @@ function acquia_cms_site_studio_form_install_configure_form_alter(&$form, FormSt
