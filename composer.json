@@ -31,7 +31,7 @@
         "lcatlett/blt-drush-alias": "^1",
         "mikemadison13/blt-gitlab-pipelines": "dev-main",
         "mikemadison13/blt-lando": "dev-main",
-        "drush/drush": "^10"
+        "drush/drush": "^11"
     },
     "config": {
         "sort-packages": true,
