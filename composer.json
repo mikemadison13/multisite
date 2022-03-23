@@ -13,6 +13,7 @@
         "php": ">=8.0",
         "acquia/acquia_cms": "^1.4",
         "acquia/blt": "^13",
+        "acquia/blt-behat": "^1.2",
         "acquia/blt-multisite": "^1.0",
         "acquia/blt-phpcs": "^1.0",
         "acquia/blt-site-studio": "^2",
@@ -28,10 +29,10 @@
         "drupal/media_acquiadam": "^1.47",
         "drupal/search_api_solr": "^4.1",
         "drupal/site_audit": "3.x-dev",
+        "drush/drush": "^11",
         "lcatlett/blt-drush-alias": "^1",
         "mikemadison13/blt-gitlab-pipelines": "dev-main",
-        "mikemadison13/blt-lando": "dev-main",
-        "drush/drush": "^11"
+        "mikemadison13/blt-lando": "dev-main"
     },
     "config": {
         "sort-packages": true,
@@ -103,6 +104,9 @@
         "patches": {
             "drupal/google_analytics": {
                 "https://www.drupal.org/project/google_analytics/issues/3246597": "https://www.drupal.org/files/issues/2021-11-25/google_analytics-3246597-7.patch"
+            },
+            "acquia/blt-behat": {
+                "fixing blt incompatibility": "https://github.com/acquia/blt-behat/pull/16.patch"
             }
         }
     },
