@@ -29,7 +29,7 @@
         "drupal/media_acquiadam": "^1.47",
         "drupal/search_api_solr": "^4.1",
         "drupal/site_audit": "3.x-dev",
-        "drush/drush": "^11",
+        "drush/drush": "^11.0.7",
         "lcatlett/blt-drush-alias": "^1",
         "mikemadison13/blt-gitlab-pipelines": "dev-main",
         "mikemadison13/blt-lando": "dev-main"
@@ -104,9 +104,6 @@
         "patches": {
             "drupal/google_analytics": {
                 "https://www.drupal.org/project/google_analytics/issues/3246597": "https://www.drupal.org/files/issues/2021-11-25/google_analytics-3246597-7.patch"
-            },
-            "acquia/blt-behat": {
-                "fixing blt incompatibility": "https://github.com/acquia/blt-behat/pull/16.patch"
             }
         }
     },
