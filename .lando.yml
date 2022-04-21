@@ -3,6 +3,7 @@ recipe: drupal9
 config:
   webroot: docroot
   php: '8.0'
+  xdebug: false
 services:
   first:
     type: mysql:5.7
@@ -25,6 +26,12 @@ services:
         user: drupal9
         password: drupal9
         database: third
+  chromedriver:
+    type: compose
+    services:
+      image: isholgueras/chrome-headless:latest
+      # Lando always overrides the default entrypoint.
+      command: chromedriver --verbose --whitelisted-ips=
   appserver:
     xdebug: false
     config:
@@ -50,8 +57,6 @@ services:
         PHP_IDE_CONFIG: "serverName=appserver"
         DRUSH_OPTIONS_URI: "https://multisite.lndo.site"
         SSH_AUTH_SOCK: /run/host-services/ssh-auth.sock
-      cap_add:
-        - SYS_ADMIN
 tooling:
   blt:
     service: appserver

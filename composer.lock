@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "686616c665f3a8abb1082b6584ff8d4a",
+    "content-hash": "406c468f0d6044e3bff891cb0ba8bf82",
     "packages": [
         {
             "name": "acquia/acquia_cms",
@@ -282,12 +282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "16d18f9187c594bfed1d6b7d72ad39a9805cedf0"
+                "reference": "2811099879b2294637d4017d93ac6196b8c01df1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/16d18f9187c594bfed1d6b7d72ad39a9805cedf0",
-                "reference": "16d18f9187c594bfed1d6b7d72ad39a9805cedf0",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/2811099879b2294637d4017d93ac6196b8c01df1",
+                "reference": "2811099879b2294637d4017d93ac6196b8c01df1",
                 "shasum": ""
             },
             "require": {
@@ -400,7 +400,7 @@
                 "issues": "https://github.com/acquia/blt/issues",
                 "source": "https://github.com/acquia/blt/tree/main"
             },
-            "time": "2022-04-06T16:52:51+00:00"
+            "time": "2022-04-14T01:54:35+00:00"
         },
         {
             "name": "acquia/blt-behat",
@@ -760,16 +760,16 @@
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.8.1",
+            "version": "6.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "19de3c41b3ebf9a3d0df1503a68fafe8d29af558"
+                "reference": "a72a4402764df0c019a96735914877eaa5ebd6e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/19de3c41b3ebf9a3d0df1503a68fafe8d29af558",
-                "reference": "19de3c41b3ebf9a3d0df1503a68fafe8d29af558",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/a72a4402764df0c019a96735914877eaa5ebd6e0",
+                "reference": "a72a4402764df0c019a96735914877eaa5ebd6e0",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -787,9 +787,9 @@
             "description": "Site Studio minimal theme",
             "support": {
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.8.1"
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.8.2"
             },
-            "time": "2022-02-23T16:49:56+00:00"
+            "time": "2022-04-14T08:22:23+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -5668,16 +5668,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.3.9",
+            "version": "9.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "86b0c4496e20ae7f945e9a7f0404fafe191ab774"
+                "reference": "b8978dd6a4639bdc0930a6eb7791afffcd931a1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/86b0c4496e20ae7f945e9a7f0404fafe191ab774",
-                "reference": "86b0c4496e20ae7f945e9a7f0404fafe191ab774",
+                "url": "https://api.github.com/repos/drupal/core/zipball/b8978dd6a4639bdc0930a6eb7791afffcd931a1b",
+                "reference": "b8978dd6a4639bdc0930a6eb7791afffcd931a1b",
                 "shasum": ""
             },
             "require": {
@@ -5919,13 +5919,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.3.9"
+                "source": "https://github.com/drupal/core/tree/9.3.11"
             },
-            "time": "2022-03-21T21:21:58+00:00"
+            "time": "2022-04-14T00:39:08+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.3.9",
+            "version": "9.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -5969,22 +5969,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.9"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.11"
             },
             "time": "2022-02-24T17:40:56+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.3.9",
+            "version": "9.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "3ce3f2b6145de56178e006fb2ef94089d32cf411"
+                "reference": "9454fd8bce0172964d132feea87123a70948b6ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/3ce3f2b6145de56178e006fb2ef94089d32cf411",
-                "reference": "3ce3f2b6145de56178e006fb2ef94089d32cf411",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/9454fd8bce0172964d132feea87123a70948b6ee",
+                "reference": "9454fd8bce0172964d132feea87123a70948b6ee",
                 "shasum": ""
             },
             "require": {
@@ -5993,7 +5993,7 @@
                 "doctrine/annotations": "1.13.2",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.3.9",
+                "drupal/core": "9.3.11",
                 "egulias/email-validator": "3.1.2",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.5.1",
@@ -6055,9 +6055,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.3.9"
+                "source": "https://github.com/drupal/core-recommended/tree/9.3.11"
             },
-            "time": "2022-03-21T21:21:58+00:00"
+            "time": "2022-04-14T00:39:08+00:00"
         },
         {
             "name": "drupal/crop",
@@ -14421,16 +14421,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.4.3",
+            "version": "1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "34545bb30a6f8bd86cfa371dbd42140a657bbf0d"
+                "reference": "d8e9fd97ca11f2f24fc1aafbcfb1f78bce762267"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/34545bb30a6f8bd86cfa371dbd42140a657bbf0d",
-                "reference": "34545bb30a6f8bd86cfa371dbd42140a657bbf0d",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/d8e9fd97ca11f2f24fc1aafbcfb1f78bce762267",
+                "reference": "d8e9fd97ca11f2f24fc1aafbcfb1f78bce762267",
                 "shasum": ""
             },
             "require": {
@@ -14459,9 +14459,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.4.3"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.4.4"
             },
-            "time": "2022-04-08T11:30:34+00:00"
+            "time": "2022-04-14T12:24:06+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -21106,16 +21106,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.15",
+            "version": "1.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "b934beb8b591b609d7c8ca4abbb3d5e6035273ae"
+                "reference": "2c72ac675e5630e1f421adb1bf4e6546310d6b05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/b934beb8b591b609d7c8ca4abbb3d5e6035273ae",
-                "reference": "b934beb8b591b609d7c8ca4abbb3d5e6035273ae",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/2c72ac675e5630e1f421adb1bf4e6546310d6b05",
+                "reference": "2c72ac675e5630e1f421adb1bf4e6546310d6b05",
                 "shasum": ""
             },
             "require": {
@@ -21134,6 +21134,7 @@
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.0",
                 "phpunit/phpunit": "^6.5 || ^7.5 || ^8.0 || ^9",
+                "slevomat/coding-standard": "^7.1",
                 "squizlabs/php_codesniffer": "^3.3",
                 "symfony/phpunit-bridge": "^3.4.3 || ^4.4 || ^5.4 || ^6.0"
             },
@@ -21166,7 +21167,8 @@
                 },
                 "phpstan": {
                     "includes": [
-                        "extension.neon"
+                        "extension.neon",
+                        "rules.neon"
                     ]
                 }
             },
@@ -21191,7 +21193,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.15"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.16"
             },
             "funding": [
                 {
@@ -21207,7 +21209,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-06T21:05:13+00:00"
+            "time": "2022-04-13T20:19:23+00:00"
         },
         {
             "name": "nette/neon",
@@ -21351,16 +21353,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "bbf68cae24f6dc023c607ea0f87da55dd9d55c2b"
+                "reference": "d77a607667f29ae099c0686f99664bd451fd23df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/bbf68cae24f6dc023c607ea0f87da55dd9d55c2b",
-                "reference": "bbf68cae24f6dc023c607ea0f87da55dd9d55c2b",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d77a607667f29ae099c0686f99664bd451fd23df",
+                "reference": "d77a607667f29ae099c0686f99664bd451fd23df",
                 "shasum": ""
             },
             "require": {
@@ -21386,7 +21388,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.5.4"
+                "source": "https://github.com/phpstan/phpstan/tree/1.5.5"
             },
             "funding": [
                 {
@@ -21406,7 +21408,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-03T12:39:00+00:00"
+            "time": "2022-04-14T12:20:26+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",

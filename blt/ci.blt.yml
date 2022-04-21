@@ -14,3 +14,8 @@ site-studio:
   cohesion-import: false
   sync-import: false
   rebuild: false
+lando:
+  enable: false
+tests:
+  chrome:
+    port: 9222
