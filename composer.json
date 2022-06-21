@@ -12,7 +12,7 @@
     "require": {
         "php": ">=8.0",
         "acquia/acquia_cms": "^1.4",
-        "acquia/blt": "^13",
+        "acquia/blt": "13.4",
         "acquia/blt-behat": "^1.2",
         "acquia/blt-multisite": "^1.0",
         "acquia/blt-phpcs": "^1.0",
@@ -29,7 +29,7 @@
         "drupal/media_acquiadam": "^1.47",
         "drupal/search_api_solr": "^4.1",
         "drupal/site_audit": "3.x-dev",
-        "drush/drush": "^11.0.7",
+        "drush/drush": "^11",
         "lcatlett/blt-drush-alias": "^1",
         "mikemadison13/blt-gitlab-pipelines": "dev-main",
         "mikemadison13/blt-lando": "dev-main"
