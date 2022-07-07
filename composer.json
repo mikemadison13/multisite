@@ -102,9 +102,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "drupal/google_analytics": {
-                "https://www.drupal.org/project/google_analytics/issues/3246597": "https://www.drupal.org/files/issues/2021-11-25/google_analytics-3246597-7.patch"
-            },
             "mikemadison13/blt-lando": {
                 "m1 compatibility patch": "https://github.com/mikemadison13/blt-lando/pull/32.patch"
             },
