@@ -1,4 +1,4 @@
-uuid: 6e79fda1-e777-477c-b417-a7e41b82e34d
+uuid: 911b2255-017e-4c2e-9e8e-85e3ecdb3c82
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.card
     - node.type.person
   module:
-    - cohesion
     - node
     - user
 _core:
@@ -268,10 +267,7 @@ display:
             default_group_multiple: {  }
             group_items: {  }
       style:
-        type: cohesion_layout
-        options:
-          views_template: view_tpl_people_fallback
-          master_template: master_template_boxed
+        type: default
       row:
         type: 'entity:node'
         options:

@@ -1,4 +1,4 @@
-uuid: 57e3b439-3634-4064-8faa-576e3ce279a2
+uuid: 1cd8c83a-cc9c-4409-a8c0-11ff5846b797
 langcode: en
 status: true
 dependencies:
@@ -46,11 +46,7 @@ settings:
           items:
             - Blockquote
             - DrupalMediaLibrary
-  plugins:
-    language:
-      language_list: un
-    stylescombo:
-      styles: ''
+  plugins: {  }
 image_upload:
   status: false
   scheme: public

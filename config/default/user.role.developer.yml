@@ -1,4 +1,4 @@
-uuid: cbc8c186-da8a-4464-83b3-48d5801eb640
+uuid: 24a09d8c-6a6d-4fce-b87a-ee124b8f4b3b
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,6 @@ dependencies:
   module:
     - filter
     - system
-    - toolbar
 _core:
   default_config_hash: j2btxb3z4ieHNNjC4PY0d-b3GK9DVznNNDmBeTRjSag
 id: developer

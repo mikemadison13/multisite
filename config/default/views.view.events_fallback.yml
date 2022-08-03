@@ -1,4 +1,4 @@
-uuid: 7d0de6a5-dd25-461f-b2d4-d6bb67073992
+uuid: 6055f651-4ef3-4014-b6aa-ce39ff164d2b
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - node.type.event
   module:
-    - cohesion
     - datetime
     - node
     - user
@@ -256,10 +255,7 @@ display:
             default_group_multiple: {  }
             group_items: {  }
       style:
-        type: cohesion_layout
-        options:
-          views_template: view_tpl_events_fallback
-          master_template: master_template_boxed
+        type: default
       row:
         type: 'entity:node'
         options:

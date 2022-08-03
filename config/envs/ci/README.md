@@ -1,1 +1,0 @@
-This directory contains configuration to be imported into your Drupal site via config_split for the CI environment. See [configuration management](https://docs.acquia.com/blt/developer/configuration-management/) for more information.

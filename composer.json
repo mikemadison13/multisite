@@ -11,8 +11,8 @@
     ],
     "require": {
         "php": ">=8.0",
-        "acquia/acquia_cms": "^1.4",
-        "acquia/blt": "13.4",
+        "acquia/acquia_cms": "^2",
+        "acquia/blt": "^13",
         "acquia/blt-behat": "^1.2",
         "acquia/blt-multisite": "^1.0",
         "acquia/blt-phpcs": "^1.0",

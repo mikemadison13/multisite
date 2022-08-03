@@ -1,8 +1,0 @@
-_core:
-  default_config_hash: '-LwqFZL59nFqnjCp-kd_6brjnvp_S4d6rr3bzkWEx2E'
-enable: true
-description: true
-message: true
-mailkeys: ''
-address: no-reply@example.com
-whitelist: ''

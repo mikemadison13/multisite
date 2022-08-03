@@ -3,15 +3,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
     - node.type.event
-    - node.type.page
     - node.type.person
     - node.type.place
   module:
     - content_moderation
     - workbench_email
-  enforced: {  }
+  enforced:
+    config:
+      0: workbench_email.workbench_email_template.back_to_draft
+      1: workbench_email.workbench_email_template.to_archived
+      2: workbench_email.workbench_email_template.to_published
+      4: workbench_email.workbench_email_template.transition_to_review
 third_party_settings:
   workbench_email:
     workbench_email_templates:
@@ -89,9 +92,7 @@ type_settings:
       weight: 0
   entity_types:
     node:
-      - article
       - event
-      - page
       - person
       - place
   default_moderation_state: draft

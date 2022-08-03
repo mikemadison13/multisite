@@ -1,4 +1,4 @@
-uuid: 579923df-dcfa-4171-9bd0-0db212ea963e
+uuid: 2a02a02e-c270-4fda-a4a5-a75b024ec2ad
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.card
     - node.type.event
   module:
-    - cohesion
     - datetime
     - node
     - user
@@ -308,10 +307,7 @@ display:
         groups:
           1: AND
       style:
-        type: cohesion_layout
-        options:
-          views_template: view_tpl_event_cards_slider
-          master_template: master_template_boxed
+        type: default
       row:
         type: 'entity:node'
         options:
@@ -474,10 +470,7 @@ display:
         groups:
           1: AND
       style:
-        type: cohesion_layout
-        options:
-          views_template: view_tpl_event_cards_slider
-          master_template: master_template_boxed
+        type: default
       row:
         type: 'entity:node'
         options:

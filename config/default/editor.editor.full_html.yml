@@ -1,4 +1,4 @@
-uuid: 881c007c-b4c5-4601-8db7-4519a5b6e7d3
+uuid: 6fa0738a-8664-4a15-8b99-760912922c7b
 langcode: en
 status: true
 dependencies:
@@ -51,11 +51,7 @@ settings:
             - JustifyCenter
             - JustifyBlock
             - JustifyRight
-  plugins:
-    stylescombo:
-      styles: ''
-    language:
-      language_list: un
+  plugins: {  }
 image_upload:
   status: false
   scheme: public
