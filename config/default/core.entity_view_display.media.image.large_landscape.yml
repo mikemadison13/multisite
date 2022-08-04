@@ -1,4 +1,4 @@
-uuid: 886b3e81-2a7d-45f3-a29f-a2804266ffc4
+uuid: 7b494603-1efb-45e0-a99c-1d908a99d34a
 langcode: en
 status: true
 dependencies:
@@ -27,6 +27,8 @@ content:
     settings:
       image_link: ''
       image_style: coh_large_super_landscape
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content

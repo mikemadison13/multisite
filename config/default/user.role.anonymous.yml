@@ -1,18 +1,16 @@
-uuid: 24dbe872-64ef-430f-8740-bff0ed3407a5
+uuid: b46417f0-8e69-46a9-b488-d34876cfbf2b
 langcode: en
 status: true
 dependencies:
   module:
     - media
-    - search_api_autocomplete
     - system
 _core:
-  default_config_hash: KYARbYeGRZ-INq-rg4NeHiuEYecKAgslhGiPztbR-fY
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
 label: 'Anonymous user'
-weight: -2
+weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'use search_api_autocomplete for search'
   - 'view media'

@@ -9,8 +9,6 @@ module:
   acquia_cms_page: 0
   acquia_cms_person: 0
   acquia_cms_place: 0
-  acquia_cms_search: 0
-  acquia_cms_site_studio: 0
   acquia_cms_toolbar: 0
   acquia_cms_tour: 0
   acquia_cms_video: 0
@@ -23,15 +21,6 @@ module:
   breakpoint: 0
   captcha: 0
   ckeditor: 0
-  cohesion: 0
-  cohesion_base_styles: 0
-  cohesion_custom_styles: 0
-  cohesion_elements: 0
-  cohesion_style_guide: 0
-  cohesion_style_helpers: 0
-  cohesion_sync: 0
-  cohesion_templates: 0
-  cohesion_website_settings: 0
   collapsiblock: 0
   config: 0
   config_filter: 0
@@ -47,6 +36,7 @@ module:
   datetime_range: 0
   default_content: 0
   diff: 0
+  dynamic_page_cache: 0
   editor: 0
   entity_clone: 0
   entity_reference_revisions: 0
@@ -85,6 +75,7 @@ module:
   metatag_twitter_cards: 0
   moderation_dashboard: 0
   moderation_sidebar: 0
+  mysql: 0
   node: 0
   node_revision_delete: 0
   options: 0
@@ -112,15 +103,10 @@ module:
   schema_metatag: 0
   schema_person: 0
   schema_place: 0
-  search_api: 0
-  search_api_autocomplete: 0
-  search_api_db: 0
   seckit: 0
   serialization: 0
   simple_sitemap: 0
-  sitestudio_page_builder: 0
   smart_trim: 0
-  social_media_links: 0
   system: 0
   taxonomy: 0
   telephone: 0
@@ -136,10 +122,10 @@ module:
   content_translation: 10
   password_policy: 10
   views: 10
-  acquia_cms: 1000
+  minimal: 1000
 theme:
-  stable: 0
-  cohesion_theme: 0
+  stark: 0
+  olivero: 0
   claro: 0
   acquia_claro: 0
-profile: acquia_cms
+profile: minimal

@@ -21,13 +21,15 @@ mode: default
 content:
   thumbnail:
     type: image
-    weight: 2
-    region: content
     label: visually_hidden
     settings:
-      image_style: coh_small_square
       image_link: ''
+      image_style: coh_small_square
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
   created: true
   field_categories: true

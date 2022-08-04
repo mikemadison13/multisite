@@ -1,4 +1,4 @@
-uuid: f79cdfbf-4d7b-4fbd-b38f-c9ac03409eed
+uuid: 6e9fcd59-6b50-4d33-9113-b18278b06865
 langcode: en
 status: true
 dependencies:
@@ -190,6 +190,11 @@ content:
     third_party_settings: {  }
   scheduler_settings:
     weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }

@@ -1,4 +1,4 @@
-uuid: 4c0ee6b1-6c8e-4727-b52b-63601d58ee7e
+uuid: 4861dfe6-44dd-430f-9d97-e66fdb61a3a3
 langcode: en
 status: true
 dependencies:
@@ -27,6 +27,8 @@ content:
     settings:
       image_link: ''
       image_style: coh_medium_landscape
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content

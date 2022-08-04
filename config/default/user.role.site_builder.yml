@@ -1,4 +1,4 @@
-uuid: d0816138-c6ee-4a97-9a97-fd4308d62099
+uuid: 14f5dff5-4044-4d81-a437-6b956ea6f226
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,6 @@ dependencies:
   module:
     - filter
     - system
-    - toolbar
 _core:
   default_config_hash: tzMxR4z7pS7EfY_X7IqODgENTx4FVbUSGrAhid3oFeU
 id: site_builder

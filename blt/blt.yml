@@ -1,7 +1,7 @@
 project:
   machine_name: multisite
   profile:
-    name: acquia_cms
+    name: minimal
 git:
   default_branch: main
   remotes:
@@ -17,7 +17,7 @@ drush:
   aliases:
     remote: default.dev
 site-studio:
-  cohesion-import: true
+  cohesion-import: false
   sync-import: false
-  rebuild: true
-  package-import: true
+  rebuild: false
+  package-import: false

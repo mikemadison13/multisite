@@ -1,12 +1,11 @@
-uuid: 039721bf-01e3-431b-b4ca-b8afe8c9afd5
+uuid: b05708f5-ee15-45d7-a9bc-22aeabefb9de
 langcode: en
 status: true
 dependencies:
   module:
-    - honeypot
+    - password_policy
     - seckit
     - system
-    - toolbar
 _core:
   default_config_hash: 7XCroQYx4N0bodXE6m81U08WCuUT9XwRJ1Xg-MYxuag
 id: user_administrator

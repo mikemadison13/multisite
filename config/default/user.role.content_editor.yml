@@ -1,15 +1,16 @@
-uuid: 9b46d49f-72ac-4b4d-b0a1-e3af9f11634f
+uuid: 4ed60865-4b8a-45b7-aa33-c91fda65da54
 langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.cohesion
     - filter.format.filtered_html
     - filter.format.full_html
+    - media.type.image
+    - node.type.event
+    - node.type.person
+    - node.type.place
     - workflows.workflow.editorial
   module:
-    - acquia_cms_tour
-    - cohesion
     - content_moderation
     - entity_clone
     - filter
@@ -19,7 +20,6 @@ dependencies:
     - node
     - scheduler
     - system
-    - toolbar
 _core:
   default_config_hash: 1s0o0ns9aF5GGQqCvAWLa8MrjKdQ4Iiw4hM-Gttn52I
 id: content_editor
@@ -63,6 +63,14 @@ permissions:
   - 'access toolbar'
   - 'access view elements group'
   - 'clone node entity'
+  - 'delete any event content'
+  - 'delete any image media'
+  - 'delete any person content'
+  - 'delete any place content'
+  - 'edit any event content'
+  - 'edit any image media'
+  - 'edit any person content'
+  - 'edit any place content'
   - 'schedule publishing of nodes'
   - 'use editorial transition archive'
   - 'use editorial transition create_new_draft'

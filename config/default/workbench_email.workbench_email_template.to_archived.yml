@@ -1,13 +1,7 @@
-uuid: 413397bf-400d-4a44-a430-c5e834fc78c3
+uuid: 56d77a6b-4ba0-4e50-bdff-3ce87992bc65
 langcode: en
 status: true
 dependencies:
-  config:
-    - node.type.article
-    - node.type.event
-    - node.type.page
-    - node.type.person
-    - node.type.place
   module:
     - acquia_cms_common
 third_party_settings:
@@ -19,6 +13,7 @@ _core:
   default_config_hash: ApPzQz6TxHsEpIvQq-muapKfFetDX6-E09005aLVB_o
 id: to_archived
 label: 'To Archived'
+format: plain_text
 subject: '[node:title] State Changed'
 recipient_types:
   author:
@@ -61,12 +56,7 @@ recipient_types:
     status: false
     settings:
       roles: {  }
-bundles:
-  'node:article': 'node:article'
-  'node:event': 'node:event'
-  'node:page': 'node:page'
-  'node:person': 'node:person'
-  'node:place': 'node:place'
+bundles: {  }
 body:
   value: '[node:title] is archived now'
   format: plain_text
