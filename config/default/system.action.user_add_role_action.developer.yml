@@ -1,4 +1,4 @@
-uuid: cfd86675-8869-4ff9-9b2e-d738dce15381
+uuid: 71f2c5da-fe7a-432b-b93e-74e38c584206
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - user
 id: user_add_role_action.developer
-label: 'Add the Developer role to the selected user(s)'
+label: 'Add the Low Code Site Builder role to the selected user(s)'
 type: user
 plugin: user_add_role_action
 configuration:

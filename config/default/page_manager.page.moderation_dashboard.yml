@@ -1,4 +1,4 @@
-uuid: 4727dd6b-b8c8-4c1c-901e-3df1c7d14de4
+uuid: 8188d840-d7ff-4108-9de4-b2bea0b6cf97
 langcode: en
 status: true
 dependencies:
@@ -29,5 +29,5 @@ access_conditions:
 parameters:
   user:
     machine_name: user
-    label: User
     type: 'entity:user'
+    label: User

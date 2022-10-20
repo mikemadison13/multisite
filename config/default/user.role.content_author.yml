@@ -1,16 +1,23 @@
-uuid: cc41705d-f384-431b-b6e6-80141e2ecd3f
+uuid: 1447422d-98ab-49ae-be35-cc36b6f6d6c9
 langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.cohesion
     - filter.format.filtered_html
     - filter.format.full_html
+    - media.type.document
     - media.type.image
+    - media.type.video
+    - node.type.article
     - node.type.event
+    - node.type.page
     - node.type.person
     - node.type.place
     - workflows.workflow.editorial
   module:
+    - acquia_cms_tour
+    - cohesion
     - content_moderation
     - entity_clone
     - filter
@@ -18,16 +25,18 @@ dependencies:
     - moderation_dashboard
     - moderation_sidebar
     - node
+    - sitestudio_page_builder
     - system
-_core:
-  default_config_hash: G571kwQCn_TMSrl5CJr0vfCMsO6whchlm2W_96j4v_0
+    - toolbar
 id: content_author
 label: 'Content Author'
-weight: -6
+weight: 0
 is_admin: null
 permissions:
+  - 'access accordion_sections cohesion_helper_category group'
   - 'access acquia cms tour'
   - 'access animate on view'
+  - 'access card_sections cohesion_helper_category group'
   - 'access component builder elements group'
   - 'access component content'
   - 'access components'
@@ -71,23 +80,36 @@ permissions:
   - 'access media elements group'
   - 'access media overview'
   - 'access menu elements group'
+  - 'access tabbed_sections cohesion_helper_category group'
   - 'access toolbar'
   - 'access view elements group'
   - 'access visual page builder'
   - 'administer menu'
   - 'clone node entity'
+  - 'create article content'
+  - 'create document media'
   - 'create event content'
   - 'create image media'
+  - 'create page content'
   - 'create person content'
   - 'create place content'
+  - 'create video media'
+  - 'delete own article content'
+  - 'delete own document media'
   - 'delete own event content'
   - 'delete own image media'
+  - 'delete own page content'
   - 'delete own person content'
   - 'delete own place content'
+  - 'delete own video media'
+  - 'edit own article content'
+  - 'edit own document media'
   - 'edit own event content'
   - 'edit own image media'
+  - 'edit own page content'
   - 'edit own person content'
   - 'edit own place content'
+  - 'edit own video media'
   - 'use editorial transition create_new_draft'
   - 'use editorial transition review'
   - 'use moderation dashboard'

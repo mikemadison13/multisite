@@ -1,0 +1,30 @@
+uuid: 817a0fce-f743-4931-863e-15e963a35d1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - acquia_cms_common
+    - node
+    - taxonomy
+  enforced:
+    module:
+      - acquia_cms_article
+third_party_settings:
+  acquia_cms_common:
+    search_index: content
+    search_label: 'Article Type'
+_core:
+  default_config_hash: RlsXfY7VPFInjtVchcGU2jrxYtXsa575B3shZxfbcxo
+id: node.field_article_type
+field_name: field_article_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

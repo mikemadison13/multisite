@@ -1,4 +1,4 @@
-uuid: 56d77a6b-4ba0-4e50-bdff-3ce87992bc65
+uuid: ed47bbd1-05bc-4721-8f82-5a79c106f5f2
 langcode: en
 status: true
 dependencies:
@@ -13,8 +13,12 @@ _core:
   default_config_hash: ApPzQz6TxHsEpIvQq-muapKfFetDX6-E09005aLVB_o
 id: to_archived
 label: 'To Archived'
-format: plain_text
+format: null
 subject: '[node:title] State Changed'
+body:
+  value: '[node:title] is archived now'
+  format: plain_text
+bundles: {  }
 recipient_types:
   author:
     id: author
@@ -56,8 +60,4 @@ recipient_types:
     status: false
     settings:
       roles: {  }
-bundles: {  }
-body:
-  value: '[node:title] is archived now'
-  format: plain_text
 replyTo: null

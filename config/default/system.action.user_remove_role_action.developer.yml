@@ -1,4 +1,4 @@
-uuid: fe5d95de-69fc-4647-9104-ccd57a1f48a5
+uuid: 0a5c1601-51a4-4993-a74d-191c472cdf73
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - user
 id: user_remove_role_action.developer
-label: 'Remove the Developer role from the selected user(s)'
+label: 'Remove the Low Code Site Builder role from the selected user(s)'
 type: user
 plugin: user_remove_role_action
 configuration:

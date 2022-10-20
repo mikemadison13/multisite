@@ -10,8 +10,18 @@ entity_type_groups:
       open_graph: open_graph
       schema_person: schema_person
       twitter_cards: twitter_cards
+    article:
+      basic: basic
+      open_graph: open_graph
+      schema_article: schema_article
+      twitter_cards: twitter_cards
     event:
       basic: basic
       open_graph: open_graph
       schema_event: schema_event
+      twitter_cards: twitter_cards
+    page:
+      basic: basic
+      open_graph: open_graph
+      schema_article: schema_article
       twitter_cards: twitter_cards

@@ -1,0 +1,15 @@
+uuid: eb763d94-5f73-4885-b771-1a28a3f8e592
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+  enforced:
+    module:
+      - acquia_cms_video
+_core:
+  default_config_hash: 9MROPen98jMGUcvIkkEBeUypZi8E7jRBy3hu-vT099E
+id: media.video_component
+label: 'Video component'
+targetEntityType: media
+cache: true

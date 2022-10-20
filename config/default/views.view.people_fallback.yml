@@ -1,4 +1,4 @@
-uuid: 911b2255-017e-4c2e-9e8e-85e3ecdb3c82
+uuid: d757a75b-4fbb-4e71-a8f0-032b353c2d62
 langcode: en
 status: true
 dependencies:
@@ -6,10 +6,11 @@ dependencies:
     - core.entity_view_mode.node.card
     - node.type.person
   module:
+    - cohesion
     - node
     - user
 _core:
-  default_config_hash: lQ30lml8QsdU_p4RL_LfYv-A534Vv08MnwBqwnjoweA
+  default_config_hash: 62TN9AUA6-Gr4LEo6VsVHWh0DEKuBePYTxrd2iQ6IwI
 id: people_fallback
 label: 'People (Fallback)'
 module: views
@@ -267,7 +268,10 @@ display:
             default_group_multiple: {  }
             group_items: {  }
       style:
-        type: default
+        type: cohesion_layout
+        options:
+          views_template: view_tpl_people_fallback
+          master_template: master_template_boxed
       row:
         type: 'entity:node'
         options:
