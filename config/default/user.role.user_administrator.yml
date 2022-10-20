@@ -1,4 +1,4 @@
-uuid: b05708f5-ee15-45d7-a9bc-22aeabefb9de
+uuid: 4808a314-1530-47d9-9a06-f984e2e9a041
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,9 @@ dependencies:
     - password_policy
     - seckit
     - system
+    - toolbar
 _core:
-  default_config_hash: 7XCroQYx4N0bodXE6m81U08WCuUT9XwRJ1Xg-MYxuag
+  default_config_hash: gcbhbH5x-B9oXQm2exCdSJpisKO70f8TqkrNJoBtVlY
 id: user_administrator
 label: 'User Administrator'
 weight: -4
@@ -18,7 +19,6 @@ permissions:
   - 'administer honeypot'
   - 'administer recaptcha'
   - 'administer seckit'
-  - 'administer shield'
   - 'administer site configuration'
   - 'administer users'
   - 'manage password reset'

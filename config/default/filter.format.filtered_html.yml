@@ -1,4 +1,4 @@
-uuid: 046c08ae-4625-44ba-8974-9839699e5c90
+uuid: 7d4d6b9a-9023-44b0-966a-2059be9a0ad3
 langcode: en
 status: true
 dependencies:
@@ -79,4 +79,10 @@ filters:
     provider: filter
     status: false
     weight: -40
+    settings: {  }
+  black_list_html_tags:
+    id: black_list_html_tags
+    provider: cohesion
+    status: false
+    weight: -41
     settings: {  }

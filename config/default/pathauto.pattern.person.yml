@@ -1,18 +1,18 @@
-uuid: 4c868061-c4db-4bb2-91e1-75e13e8cd765
+uuid: 812aa222-81ae-4a85-88ae-544f13aa178b
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: _wAOD3YLbkB5ji3haaOSWMLPPr128wb3udnZAq8Zi18
+  default_config_hash: z-Qo2ca2FwRbM70qLtKXtxBEFXxm2DYUNk44WHk7inw
 id: person
 label: 'Person path'
 type: 'canonical_entities:node'
 pattern: 'person/[node:field_person_type]/[node:title]'
 selection_criteria:
   c97ba0fc-5cd3-46f1-be0e-c8e165db8962:
-    id: node_type
+    id: 'entity_bundle:node'
     negate: false
     uuid: c97ba0fc-5cd3-46f1-be0e-c8e165db8962
     context_mapping:

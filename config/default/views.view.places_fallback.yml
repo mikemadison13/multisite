@@ -1,4 +1,4 @@
-uuid: 74b62617-2920-4c9e-81f4-1e20e7752347
+uuid: 13960d58-5c3e-43e2-8eeb-9f1bfd5e5b8d
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - node.type.place
   module:
+    - cohesion
     - node
     - user
 _core:
@@ -240,7 +241,10 @@ display:
             default_group_multiple: {  }
             group_items: {  }
       style:
-        type: default
+        type: cohesion_layout
+        options:
+          views_template: view_tpl_places_fallback
+          master_template: master_template_boxed
       row:
         type: 'entity:node'
         options:

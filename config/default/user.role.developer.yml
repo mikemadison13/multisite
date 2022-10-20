@@ -1,16 +1,28 @@
-uuid: 24a09d8c-6a6d-4fce-b87a-ee124b8f4b3b
+uuid: 2c169a32-99db-4933-9af7-5dc84a9cc2f7
 langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.cohesion
     - filter.format.filtered_html
+    - filter.format.full_html
   module:
+    - cohesion
+    - cohesion_base_styles
+    - cohesion_custom_styles
+    - cohesion_elements
+    - cohesion_style_guide
+    - cohesion_style_helpers
+    - cohesion_sync
+    - cohesion_templates
+    - cohesion_website_settings
     - filter
     - system
+    - toolbar
 _core:
-  default_config_hash: j2btxb3z4ieHNNjC4PY0d-b3GK9DVznNNDmBeTRjSag
+  default_config_hash: RGiytH_gys7NukzdOm-WdLQ9Me58mePaX7M8FV8uqSo
 id: developer
-label: Developer
+label: 'Low Code Site Builder'
 weight: -9
 is_admin: null
 permissions:

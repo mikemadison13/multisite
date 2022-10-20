@@ -23,8 +23,8 @@ form_settings:
     hidden: false
   cohesion_layout:
     default_value: true
-    disable: false
     hidden: true
+    disable: false
   component_content:
     default_value: false
     disable: false

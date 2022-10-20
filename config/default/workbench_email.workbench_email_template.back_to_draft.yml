@@ -1,4 +1,4 @@
-uuid: b15f2c1e-7ac1-4c52-b350-bbe33912a407
+uuid: 84167187-efc5-4bf6-a2ab-3461cc5908b6
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
   default_config_hash: Kx5HbQ134GOra0WA1ifauZSHIB7FliU5j3c720ZRs9s
 id: back_to_draft
 label: 'Back to Draft'
-format: plain_text
+format: null
 subject: '[node:title] State Changed'
 recipient_types:
   author:

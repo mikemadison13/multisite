@@ -1,0 +1,30 @@
+uuid: 03558d5d-0e8e-4c28-8926-c441a93469ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_layout_canvas
+    - node.type.page
+  module:
+    - cohesion_elements
+  enforced:
+    module:
+      - acquia_cms_page
+      - acquia_cms_site_studio
+_core:
+  default_config_hash: H8o6jguBnkfzu0yWuheLUifLEkD_-BF_AANYlnd9ODg
+id: node.page.field_layout_canvas
+field_name: field_layout_canvas
+entity_type: node
+bundle: page
+label: 'Layout Canvas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:cohesion_layout'
+  handler_settings: {  }
+  access_elements: '0'
+field_type: cohesion_entity_reference_revisions

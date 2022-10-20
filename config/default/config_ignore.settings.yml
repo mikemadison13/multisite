@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: z9fpiPdcb_DibvWKiwbxYAfwJU76aExbMN6tWzeP6-Q
+  default_config_hash: OGO6If5ygdADQmnHdSDaxVa0WGqnJaUo_VnG7zMSX_8
 ignored_config_entities:
   - 'language.entity.*'
   - 'media.type.image:uuid'

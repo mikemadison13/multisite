@@ -1,18 +1,18 @@
-uuid: e6416752-368c-41d6-b676-a23c95582200
+uuid: 8045fb1d-fe8d-485d-a33f-b4dac9066553
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: qowxOkfqndgeVUKTdIPmURZX17Q0nQ5hhb4eR4y8p7Q
+  default_config_hash: uZ41SDeBh4J7zGIQl2BIPHNx4J-93x8GrwYAx01qy2k
 id: place_path
 label: 'Place path'
 type: 'canonical_entities:node'
 pattern: 'place/[node:field_place_type]/[node:title]'
 selection_criteria:
   fd66c02c-c164-41be-b4a1-68a7ebc56056:
-    id: node_type
+    id: 'entity_bundle:node'
     negate: false
     uuid: fd66c02c-c164-41be-b4a1-68a7ebc56056
     context_mapping:

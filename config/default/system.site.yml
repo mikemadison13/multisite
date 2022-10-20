@@ -1,14 +1,14 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: 13e1e834-9306-4bde-a2d5-a0f6c4cc0fff
-name: 'My BLT site'
-mail: no-reply@example.com
+uuid: ea5d6910-8791-455d-aab8-549b2c94ecf6
+name: 'Acquia CMS Enterprise Low-code'
+mail: admin@example.com
 slogan: ''
 page:
-  403: ''
-  404: ''
-  front: /user/login
+  front: /home-sitestudio
+  0: ''
+  1: ''
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

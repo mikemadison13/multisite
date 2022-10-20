@@ -1,0 +1,34 @@
+uuid: d271c426-e6bc-4b43-a05a-4930bdc9e849
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_tags
+    - media.type.document
+    - taxonomy.vocabulary.tags
+  enforced:
+    module:
+      - acquia_cms_document
+_core:
+  default_config_hash: crzuvNOcPi0A8ERMx7Db_j24vuP_jrfoC5mZwhRz2n4
+id: media.document.field_tags
+field_name: field_tags
+entity_type: media
+bundle: document
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

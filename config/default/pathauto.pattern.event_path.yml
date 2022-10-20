@@ -1,18 +1,18 @@
-uuid: 56149013-b723-46b2-93e9-c586b533486b
+uuid: 9cfe9794-583e-455d-8fb7-8834b9a75230
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: IFisaW0a9WCnuIjybqZuMJWQ8orQuNLT0EhiuPSv93w
+  default_config_hash: 1JkUx8WD5IH204S3zUFSi7b5F_8OQJwnikdh1cJWC0U
 id: event_path
 label: 'Event path'
 type: 'canonical_entities:node'
 pattern: 'event/[node:field_event_type]/[node:field_event_start:date:custom:Y]/[node:field_event_start:date:custom:m]/[node:title]'
 selection_criteria:
   02726a68-6063-4416-8fb1-0e32a4f82593:
-    id: node_type
+    id: 'entity_bundle:node'
     negate: false
     uuid: 02726a68-6063-4416-8fb1-0e32a4f82593
     context_mapping:

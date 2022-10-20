@@ -6,6 +6,7 @@ dependencies:
     - field.field.media.image.field_categories
     - field.field.media.image.field_tags
     - field.field.media.image.image
+    - image.style.coh_small_square
     - media.type.image
   module:
     - image

@@ -1,11 +1,15 @@
-uuid: 6dc02318-07f0-4c1a-b26e-b73ddc6cece5
+uuid: cac7d1eb-ad74-488d-9621-182685c87a0c
 langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.cohesion
     - filter.format.filtered_html
+    - filter.format.full_html
     - workflows.workflow.editorial
   module:
+    - acquia_cms_tour
+    - cohesion
     - content_moderation
     - entity_clone
     - filter
@@ -14,18 +18,20 @@ dependencies:
     - moderation_sidebar
     - node
     - scheduler
+    - sitestudio_page_builder
     - system
     - taxonomy
-_core:
-  default_config_hash: xPEFPWKYZJUQuE3muYAg3tyFVyFJd8uiExLUvsOhLwQ
+    - toolbar
 id: content_administrator
 label: 'Content Administrator'
-weight: -7
+weight: 0
 is_admin: null
 permissions:
+  - 'access accordion_sections cohesion_helper_category group'
   - 'access acquia cms tour'
   - 'access acquia cms tour dashboard'
   - 'access animate on view'
+  - 'access card_sections cohesion_helper_category group'
   - 'access component builder elements group'
   - 'access component content'
   - 'access components'
@@ -69,6 +75,7 @@ permissions:
   - 'access media elements group'
   - 'access media overview'
   - 'access menu elements group'
+  - 'access tabbed_sections cohesion_helper_category group'
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'access view elements group'
