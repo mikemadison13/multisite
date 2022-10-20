@@ -12,7 +12,7 @@ dependencies:
     - cohesion_theme
 third_party_settings:
   collapsiblock:
-    collapse_action: '2'
+    collapse_action: 2
 _core:
   default_config_hash: 3gY1G5_yGqIfL1hq2GSuNfyGCY08tY8BSh2ehoyiaJs
 id: places_category
@@ -30,5 +30,5 @@ settings:
 visibility:
   cohesion_master_template:
     id: cohesion_master_template
-    using_master_template: 0
     negate: false
+    using_master_template: 0

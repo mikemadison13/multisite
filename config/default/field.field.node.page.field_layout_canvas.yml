@@ -25,6 +25,6 @@ default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:cohesion_layout'
-  access_elements: '0'
   handler_settings: {  }
+  access_elements: '0'
 field_type: cohesion_entity_reference_revisions

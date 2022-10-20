@@ -7,8 +7,8 @@ dependencies:
       - acquia_cms_article
 _core:
   default_config_hash: TFdbzg-QQIhG8PMFgeqhekNJwda87XiXBmshfO-1Sho
-id: node_article_search_index
 label: 'Search index (Node, Article)'
+id: node_article_search_index
 json_values: '{"canvas":[],"mapper":null,"model":[]}'
 json_mapper: '{}'
 last_entity_update: entityupdate_0036

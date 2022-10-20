@@ -29,5 +29,5 @@ access_conditions:
 parameters:
   user:
     machine_name: user
-    type: 'entity:user'
     label: User
+    type: 'entity:user'
