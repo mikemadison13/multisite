@@ -1,0 +1,18 @@
+uuid: 29bdee12-26ca-4518-9b62-0023c35555f2
+langcode: en
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: ''
+weight: 1
+folder: ../config/envs/local
+module:
+  dblog: 0
+theme: {  }
+blacklist:
+  - dblog.settings
+  - views.view.watchdog
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

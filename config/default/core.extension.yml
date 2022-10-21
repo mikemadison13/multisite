@@ -38,13 +38,13 @@ module:
   config_filter: 0
   config_ignore: 0
   config_rewrite: 0
+  config_split: 0
   config_translation: 0
   content_moderation: 0
   contextual: 0
   crop: 0
   ctools: 0
   datetime: 0
-  dblog: 0
   default_content: 0
   diff: 0
   dynamic_page_cache: 0
