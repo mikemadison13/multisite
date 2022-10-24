@@ -1,4 +1,4 @@
-uuid: 65b0054b-4965-47db-9840-0e2c6de7632d
+uuid: 6c5e833a-a8c6-40d1-a5c1-52f75d683951
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
-    bundle_settings:
-      untranslatable_fields_hide: '1'
 _core:
-  default_config_hash: __Ginb-RktJCP7Mf3l4kRH_LU4w62XlIYuLhbBzbL_M
+  default_config_hash: BCybzFDou7Yq55SwRpkcNUWrOZlb0ofNBqhZCDlKdhs
 id: node.page
 target_entity_type_id: node
 target_bundle: page

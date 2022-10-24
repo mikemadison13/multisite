@@ -1,4 +1,4 @@
-uuid: 3e97cc66-0a0e-4e00-b6fd-e73b905c3294
+uuid: 39679c8a-fb67-4fbd-a3e7-1f3bb2adcec3
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
-    bundle_settings:
-      untranslatable_fields_hide: '0'
 _core:
-  default_config_hash: lGwuf1Aei2zu_IYIpC6QskVSbIkWO3Nb1NpIOqR6qrI
+  default_config_hash: p53Q2UIlOG3WlSHQObzOfiCUvAchLZ-3Ft19kvO5nmI
 id: media.image
 target_entity_type_id: media
 target_bundle: image

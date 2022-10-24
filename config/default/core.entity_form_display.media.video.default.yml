@@ -1,36 +1,15 @@
-uuid: 5f46cb88-4965-4876-8431-afd6b67a4890
+uuid: 8f3d4477-da10-4850-90e9-b08396d4204d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.video.field_categories
-    - field.field.media.video.field_media_oembed_video
-    - field.field.media.video.field_tags
+    - field.field.media.video.field_media_video_file
     - media.type.video
   module:
-    - field_group
-    - media
-  enforced:
-    module:
-      - acquia_cms_video
-third_party_settings:
-  field_group:
-    group_taxonomy:
-      children:
-        - field_categories
-        - field_tags
-      label: Taxonomy
-      region: content
-      parent_name: ''
-      weight: 3
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        id: ''
-        description: ''
-        required_fields: true
+    - file
+    - path
 _core:
-  default_config_hash: y5gA2KgxcHYnucgo-X0ipMZZzKP_AeCEnQv64HSj4Gc
+  default_config_hash: HjxDIuZutC7qeg5XMVn6O44D7uwmU1OsS3XgMx2Se6Q
 id: media.video.default
 targetEntityType: media
 bundle: video
@@ -38,33 +17,16 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 7
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_categories:
-    type: options_select
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_media_oembed_video:
-    type: oembed_textfield
-    weight: 1
+  field_media_video_file:
+    type: file_generic
+    weight: 0
     region: content
     settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
-    weight: 5
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      progress_indicator: throbber
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -73,22 +35,22 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
-  name:
-    type: string_textfield
-    weight: 0
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  translation:
-    weight: 8
+  path:
+    type: path
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 6
+    weight: 5
     region: content
     settings:
       match_operator: CONTAINS
@@ -97,5 +59,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  path: true
-  status: true
+  moderation_state: true
+  name: true

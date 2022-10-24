@@ -1,14 +1,14 @@
 _core:
-  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: ea5d6910-8791-455d-aab8-549b2c94ecf6
-name: 'Acquia CMS Enterprise Low-code'
+uuid: 72e7a243-71d7-4356-ae6c-2d5a91b0418b
+name: 'Drush Site-Install'
 mail: admin@example.com
 slogan: ''
 page:
-  front: /home-sitestudio
-  0: ''
-  1: ''
+  403: ''
+  404: ''
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

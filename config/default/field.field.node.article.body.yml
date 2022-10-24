@@ -1,4 +1,4 @@
-uuid: 6de14580-56c7-46d0-8773-2d83b3572558
+uuid: ee037440-4396-4d63-a944-4012279b4fd4
 langcode: en
 status: true
 dependencies:
@@ -7,18 +7,15 @@ dependencies:
     - node.type.article
   module:
     - text
-  enforced:
-    module:
-      - acquia_cms_article
 _core:
-  default_config_hash: 2Ej5UYaJNSj6E2GbACzOhc5mZzRHdJtgG9iGFEu0yVU
+  default_config_hash: IjZnOLWk1Pjq3WRg2pLSA1ERh7Po7izCq_p6UztZr2c
 id: node.article.body
 field_name: body
 entity_type: node
 bundle: article
 label: Body
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''

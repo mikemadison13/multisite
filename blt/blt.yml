@@ -1,7 +1,7 @@
 project:
   machine_name: multisite
   profile:
-    name: minimal
+    name: demo_umami
 git:
   default_branch: main
   remotes:
@@ -21,6 +21,3 @@ site-studio:
   sync-import: false
   rebuild: false
   package-import: false
-cm:
-  core:
-    install_from_config: true

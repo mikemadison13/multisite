@@ -1,38 +1,35 @@
-uuid: d5aeca8d-6bd3-4429-a7e1-27e9d08e1810
+uuid: 46b0b4fe-ec87-4905-9c0e-1e28b94a6677
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_categories
-    - field.field.node.page.field_layout_canvas
-    - field.field.node.page.field_page_image
-    - field.field.node.page.field_tags
+    - field.field.node.page.layout_builder__layout
     - node.type.page
   module:
-    - cohesion_elements
+    - layout_builder
+    - text
     - user
-  enforced:
-    module:
-      - acquia_cms_page
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
 _core:
-  default_config_hash: JX1Vkec-PfpxCVEWBxFbiCuI7zKK9LPy0GSSCFWYIWA
+  default_config_hash: nf-xZyg3er73bGDKl9i6dC3jMV523j9uEX9AYXYokXg
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
 content:
-  content_moderation_control:
+  body:
+    type: text_default
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content
-  field_layout_canvas:
-    type: cohesion_entity_reference_revisions_entity_view
-    label: hidden
-    settings:
-      view_mode: default
-      link: false
+  content_moderation_control:
+    settings: {  }
     third_party_settings: {  }
     weight: 2
     region: content
@@ -42,10 +39,5 @@ content:
     weight: 1
     region: content
 hidden:
-  body: true
-  field_categories: true
-  field_layout_canvas: true
-  field_page_image: true
-  field_tags: true
   langcode: true
-  search_api_excerpt: true
+  layout_builder__layout: true

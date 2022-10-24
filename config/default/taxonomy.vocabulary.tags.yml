@@ -1,10 +1,10 @@
-uuid: d7afbce3-0a42-4e61-ad0d-6e35a553a1d4
+uuid: 373ee190-e659-4e2b-997d-e0422491e2db
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: QralP2i0NvRz1a3yPaZGpKiO04rdBfwIW0Tvo7Cri7w
+  default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
 name: Tags
 vid: tags
-description: 'Descriptive metadata, for categorizing content and making search engines happy.'
+description: 'Use tags to group articles on similar topics into categories.'
 weight: 0

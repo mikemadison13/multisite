@@ -1,57 +1,56 @@
-uuid: ba12639c-ebaf-486f-abc9-35b548c3e9a5
+uuid: 28af6560-e061-4e43-a89e-4b8624476ba6
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.document.field_categories
-    - field.field.media.document.field_media_file
-    - field.field.media.document.field_tags
+    - field.field.media.document.field_media_document
     - media.type.document
   module:
-    - field_group
     - file
-  enforced:
-    module:
-      - acquia_cms_document
-third_party_settings:
-  field_group:
-    group_taxonomy:
-      children:
-        - field_categories
-        - field_tags
-      label: Taxonomy
-      region: content
-      parent_name: ''
-      weight: 2
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        id: ''
-        description: ''
-        required_fields: true
+    - path
 _core:
-  default_config_hash: '-fke6iL4zeqTRpMxXywu2hUiezSzvV7O7ZlHsJ-4IPo'
+  default_config_hash: SFLP8Fu1rzJvXIq40nS6U8ihXjJAjAMrFcKiOKCndGk
 id: media.document.default
 targetEntityType: media
 bundle: document
 mode: default
 content:
-  field_categories:
-    type: options_select
-    weight: 3
+  created:
+    type: datetime_timestamp
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_media_file:
+  field_media_document:
     type: file_generic
-    weight: 1
+    weight: 0
     region: content
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
     weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
     region: content
     settings:
       match_operator: CONTAINS
@@ -59,28 +58,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 5
-    region: content
-    settings:
-      include_locked: true
-    third_party_settings: {  }
-  name:
-    type: string_textfield
-    weight: 0
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  translation:
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
-  created: true
-  path: true
-  status: true
-  uid: true
+  moderation_state: true
+  name: true

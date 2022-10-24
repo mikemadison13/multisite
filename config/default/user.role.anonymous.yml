@@ -1,18 +1,24 @@
-uuid: 47888fd0-2e10-4de2-af6e-d3e9bf779d61
+uuid: e9ac4d0b-6bb7-4459-adf0-586be753c09c
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.restricted_html
   module:
+    - contact
+    - filter
     - media
-    - search_api_autocomplete
+    - search
     - system
 _core:
-  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+  default_config_hash: Gl1lr_RJQ9pMz_DZhY6pNX94k874Gqh15Gm8Du1EepQ
 id: anonymous
 label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'use search_api_autocomplete for search'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
   - 'view media'

@@ -1,18 +1,15 @@
-uuid: 9af39511-2caa-4d2f-bd55-25059b64b1af
-langcode: und
+uuid: 92b82910-1fe2-485b-9e42-dfe1c9c57f42
+langcode: en
 status: true
-dependencies:
-  enforced:
-    module:
-      - acquia_cms_image
+dependencies: {  }
 _core:
-  default_config_hash: DviFd3u5EMWBUFqR4DJLcAg_Qfi-3vkLoIiS_fShSJY
+  default_config_hash: u7OxrscEED35iDR3R0akmw7QNvBSMEPJXFtKP57qBh8
 id: image
 label: Image
-description: 'Locally hosted images.'
+description: 'Use local images for reusable media.'
 source: image
 queue_thumbnail_downloads: false
 new_revision: true
 source_configuration:
-  source_field: image
+  source_field: field_media_image
 field_map: {  }
