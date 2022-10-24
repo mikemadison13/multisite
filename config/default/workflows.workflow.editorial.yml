@@ -1,15 +1,30 @@
-uuid: b1890281-2b16-4b7c-9366-e3ccf5c6a2f7
+uuid: null
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.article
+    - node.type.event
     - node.type.page
-    - node.type.recipe
+    - node.type.person
+    - node.type.place
   module:
     - content_moderation
-_core:
-  default_config_hash: DY4MQdo3Dq4vrHrQlJy_cSq6qveq6nHSjWM8f-zpAPE
+    - workbench_email
+  enforced: {  }
+third_party_settings:
+  workbench_email:
+    workbench_email_templates:
+      create_new_draft:
+        back_to_draft: back_to_draft
+      archive:
+        to_archived: to_archived
+      publish:
+        to_published: to_published
+      archived_published:
+        to_published: to_published
+      review:
+        transition_to_review: transition_to_review
 id: editorial
 label: Editorial
 type: content_moderation
@@ -30,6 +45,11 @@ type_settings:
       weight: 0
       published: true
       default_revision: true
+    review:
+      label: 'In review'
+      weight: -1
+      published: false
+      default_revision: false
   transitions:
     archive:
       label: Archive
@@ -37,14 +57,8 @@ type_settings:
         - published
       to: archived
       weight: 2
-    archived_draft:
-      label: 'Restore to Draft'
-      from:
-        - archived
-      to: draft
-      weight: 3
     archived_published:
-      label: Restore
+      label: 'Restore from archive'
       from:
         - archived
       to: published
@@ -52,8 +66,10 @@ type_settings:
     create_new_draft:
       label: 'Create New Draft'
       from:
+        - archived
         - draft
         - published
+        - review
       to: draft
       weight: 0
     publish:
@@ -61,11 +77,21 @@ type_settings:
       from:
         - draft
         - published
+        - review
       to: published
       weight: 1
+    review:
+      label: 'Send to review'
+      from:
+        - draft
+        - review
+      to: review
+      weight: 0
   entity_types:
     node:
       - article
+      - event
       - page
-      - recipe
+      - person
+      - place
   default_moderation_state: draft

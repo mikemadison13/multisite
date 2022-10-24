@@ -1,0 +1,41 @@
+uuid: a903de1b-26b7-4e05-87fc-5017df99e782
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.index.content
+    - views.view.search
+  module:
+    - views
+    - search_api_autocomplete
+_core:
+  default_config_hash: wuL3wYRX9eFxni6TM9euktT_oPA47KkfXZLeGvzv6Zc
+id: search
+label: Search
+index_id: content
+suggester_settings:
+  live_results:
+    fields: {  }
+    view_modes: {  }
+    highlight:
+      enabled: false
+      field: ''
+    suggest_keys: false
+  server:
+    fields: {  }
+suggester_weights:
+  live_results: 0
+  server: 0
+suggester_limits: {  }
+search_settings:
+  'views:search':
+    displays:
+      default: true
+      selected: {  }
+options:
+  limit: 10
+  min_length: 1
+  show_count: false
+  autosubmit: true
+  submit_button_selector: ':submit'
+  delay: null

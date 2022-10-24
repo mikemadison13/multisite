@@ -1,37 +1,58 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  acquia_cms_article: 0
+  acquia_cms_common: 0
+  acquia_cms_event: 0
+  acquia_cms_image: 0
+  acquia_cms_page: 0
+  acquia_cms_person: 0
+  acquia_cms_place: 0
+  acquia_cms_search: 0
+  acquia_cms_toolbar: 0
+  acquia_cms_tour: 0
+  acquia_purge: 0
+  acquia_telemetry: 0
+  address: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
-  automated_cron: 0
-  big_pipe: 0
   block: 0
-  block_content: 0
   breakpoint: 0
   ckeditor: 0
+  collapsiblock: 0
   config: 0
   config_filter: 0
   config_ignore: 0
   config_rewrite: 0
   config_split: 0
   config_translation: 0
-  contact: 0
   content_moderation: 0
-  contextual: 0
+  crop: 0
+  ctools: 0
   datetime: 0
-  dblog: 0
-  demo_umami_content: 0
+  default_content: 0
+  diff: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_clone: 0
+  facets: 0
+  facets_pretty_paths: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
-  help: 0
-  history: 0
+  focal_point: 0
+  geocoder: 0
+  geocoder_address: 0
+  geocoder_field: 0
+  geocoder_geofield: 0
+  geofield: 0
   image: 0
+  imce: 0
+  jsonapi: 0
+  jsonapi_extras: 0
   language: 0
-  layout_builder: 0
   layout_discovery: 0
   link: 0
   locale: 0
@@ -39,29 +60,64 @@ module:
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
+  metatag_open_graph: 0
+  metatag_twitter_cards: 0
+  moderation_dashboard: 0
+  moderation_sidebar: 0
   mysql: 0
   node: 0
   options: 0
-  page_cache: 0
+  page_manager: 0
+  panels: 0
+  password_policy_character_types: 0
+  password_policy_length: 0
+  password_policy_username: 0
   path: 0
   path_alias: 0
-  rdf: 0
-  responsive_image: 0
-  search: 0
-  shortcut: 0
+  purge: 0
+  purge_processor_cron: 0
+  purge_processor_lateruntime: 0
+  purge_queuer_coretags: 0
+  purge_ui: 0
+  redirect: 0
+  reroute_email: 0
+  responsive_preview: 0
+  scheduler: 0
+  scheduler_content_moderation_integration: 0
+  schema_article: 0
+  schema_event: 0
+  schema_metatag: 0
+  schema_person: 0
+  schema_place: 0
+  search_api: 0
+  search_api_autocomplete: 0
+  search_api_db: 0
+  seckit: 0
+  serialization: 0
+  simple_sitemap: 0
+  smart_trim: 0
+  syslog: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
+  token: 0
   toolbar: 0
-  tour: 0
   update: 0
   user: 0
+  username_enumeration_prevention: 0
   views_ui: 0
+  workbench_email: 0
   workflows: 0
+  pathauto: 1
   content_translation: 10
+  password_policy: 10
   views: 10
-  demo_umami: 1000
+  minimal: 1000
 theme:
+  stark: 0
+  olivero: 0
   claro: 0
-  umami: 0
-profile: demo_umami
+  acquia_claro: 0
+profile: minimal

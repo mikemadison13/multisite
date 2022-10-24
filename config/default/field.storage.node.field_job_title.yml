@@ -1,0 +1,31 @@
+uuid: 1d67bd28-ff12-471c-91b6-146a011d6cb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - acquia_cms_common
+    - node
+  enforced:
+    module:
+      - acquia_cms_person
+third_party_settings:
+  acquia_cms_common:
+    search_index: content
+    search_label: 'Job Title'
+_core:
+  default_config_hash: nffaAUI7AWMYacCkpKl3J9Gz_KrWrcF4lbFgJv0oTj8
+id: node.field_job_title
+field_name: field_job_title
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,36 +1,54 @@
-uuid: 86bfef19-0b3f-47d7-bbfe-c8ec0a746f24
+uuid: 64bf506c-bdfd-4a7f-b35a-043f73469aa5
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.card
     - field.field.node.article.body
-    - field.field.node.article.field_media_image
+    - field.field.node.article.field_article_image
+    - field.field.node.article.field_article_media
+    - field.field.node.article.field_article_type
+    - field.field.node.article.field_categories
+    - field.field.node.article.field_display_author
     - field.field.node.article.field_tags
-    - field.field.node.article.layout_builder__layout
     - node.type.article
   module:
+    - text
     - user
+  enforced:
+    module:
+      - acquia_cms_article
 _core:
-  default_config_hash: i79LeNivGBk3gNPxGYymqgw2pc5o6nwHdVRm9bjBV2o
+  default_config_hash: 30S-6paNnfqPygkkbzVf0EIbpPpA1kuKyreJmmyujZI
 id: node.article.card
 targetEntityType: node
 bundle: article
 mode: card
 content:
-  field_media_image:
-    type: entity_reference_entity_view
+  body:
+    type: text_summary_or_trimmed
     label: hidden
     settings:
-      view_mode: responsive_3x2
-      link: false
+      trim_length: 128
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
     third_party_settings: {  }
     weight: 1
     region: content
 hidden:
-  body: true
-  content_moderation_control: true
+  field_article_image: true
+  field_article_media: true
+  field_article_type: true
+  field_categories: true
+  field_display_author: true
   field_tags: true
   langcode: true
-  layout_builder__layout: true
-  links: true
+  search_api_excerpt: true

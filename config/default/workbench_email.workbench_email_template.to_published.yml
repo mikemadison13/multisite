@@ -1,0 +1,64 @@
+uuid: 4c4364f5-5007-4887-85a1-3b26b1ccb24a
+langcode: en
+status: true
+dependencies:
+  module:
+    - acquia_cms_common
+third_party_settings:
+  acquia_cms_common:
+    workflow_id: editorial
+    workflow_transitions:
+      - publish
+      - archived_published
+_core:
+  default_config_hash: 8roT6bcqwz-9a4sSEW8OHR7yGpmhNILnukbCJ9Ytcd8
+id: to_published
+label: 'To Published'
+format: null
+subject: '[node:title] State Changed'
+body:
+  value: '[node:title] is published now'
+  format: plain_text
+bundles: {  }
+recipient_types:
+  author:
+    id: author
+    provider: workbench_email
+    status: true
+    settings: {  }
+  email:
+    id: email
+    provider: workbench_email
+    status: false
+    settings:
+      fields: {  }
+  entity_reference_user:
+    id: entity_reference_user
+    provider: workbench_email
+    status: false
+    settings:
+      fields: {  }
+  fixed_email:
+    id: fixed_email
+    provider: workbench_email
+    status: false
+    settings:
+      recipients: ''
+  last_revision_author:
+    id: last_revision_author
+    provider: workbench_email
+    status: false
+    settings: {  }
+  role:
+    id: role
+    provider: workbench_email
+    status: false
+    settings:
+      roles: {  }
+  roles_with_access:
+    id: roles_with_access
+    provider: workbench_email
+    status: false
+    settings:
+      roles: {  }
+replyTo: null

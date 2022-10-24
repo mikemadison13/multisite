@@ -1,4 +1,4 @@
-uuid: a7c1d452-7b67-417b-9d70-10533ac0cc36
+uuid: ac3456c7-49fd-4851-9a8b-97a633955de4
 langcode: en
 status: true
 dependencies:
@@ -6,16 +6,19 @@ dependencies:
     - field.storage.node.field_tags
     - node.type.article
     - taxonomy.vocabulary.tags
+  enforced:
+    module:
+      - acquia_cms_article
 _core:
-  default_config_hash: a2uzf4WANQJf14v1uA_sIsCf5ydFuiYjc69jn5IzUGk
+  default_config_hash: Jv0Yuj74e6ywtsnu2DPWitOeNwOvzVEU7OLIOcH1szg
 id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
 label: Tags
-description: 'Enter a comma-separated list. For example: Vegetarian, Chocolate brownies, Appetizers'
+description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -24,6 +27,8 @@ settings:
     target_bundles:
       tags: tags
     sort:
-      field: _none
+      field: name
+      direction: asc
     auto_create: true
+    auto_create_bundle: ''
 field_type: entity_reference

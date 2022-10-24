@@ -1,0 +1,13 @@
+uuid: 82a30b8d-1430-4688-bccf-3fdabc374f12
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_article
+_core:
+  default_config_hash: Wm5fggom1wm-plDdXyL_15Abpd8U3HQCqZANCt5oU0o
+name: 'Article Type'
+vid: article_type
+description: 'Descriptive metadata, for categorizing content and making search engines happy.'
+weight: 0

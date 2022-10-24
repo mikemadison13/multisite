@@ -1,0 +1,63 @@
+uuid: 05e92ba0-ff41-401c-9445-34ed241244fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - filter.format.full_html
+    - media.type.image
+    - node.type.article
+    - node.type.event
+    - node.type.page
+    - node.type.person
+    - node.type.place
+    - workflows.workflow.editorial
+  module:
+    - acquia_cms_tour
+    - content_moderation
+    - entity_clone
+    - filter
+    - media
+    - moderation_dashboard
+    - moderation_sidebar
+    - node
+    - system
+    - toolbar
+id: content_author
+label: 'Content Author'
+weight: 0
+is_admin: null
+permissions:
+  - 'access acquia cms tour'
+  - 'access content overview'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'administer menu'
+  - 'clone node entity'
+  - 'create article content'
+  - 'create event content'
+  - 'create image media'
+  - 'create page content'
+  - 'create person content'
+  - 'create place content'
+  - 'delete own article content'
+  - 'delete own event content'
+  - 'delete own image media'
+  - 'delete own page content'
+  - 'delete own person content'
+  - 'delete own place content'
+  - 'edit own article content'
+  - 'edit own event content'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own person content'
+  - 'edit own place content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation dashboard'
+  - 'use moderation sidebar'
+  - 'use text format filtered_html'
+  - 'use text format full_html'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view the administration theme'

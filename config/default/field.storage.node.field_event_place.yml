@@ -1,0 +1,24 @@
+uuid: 1a58cd06-6a1a-4b54-8db3-4e02adaf4110
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - acquia_cms_event
+_core:
+  default_config_hash: Q_zH5g99E71C7Bi42sub7ZvQ6vm99XFiTTDL1bnBPpA
+id: node.field_event_place
+field_name: field_event_place
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

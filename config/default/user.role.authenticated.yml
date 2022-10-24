@@ -1,26 +1,18 @@
-uuid: f67a25c1-5eb2-42fb-bc0a-419b284a49a6
+uuid: 3d651c63-d3fc-4bcb-bdc3-1187c3ca4845
 langcode: en
 status: true
 dependencies:
-  config:
-    - filter.format.basic_html
   module:
-    - contact
-    - filter
     - media
-    - search
-    - shortcut
+    - search_api_autocomplete
     - system
 _core:
-  default_config_hash: PhpjKGbPRzHm1FDviTaPLu3g-svxhir96cooP-e8wSM
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
 label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
-  - 'search content'
-  - 'use text format basic_html'
+  - 'use search_api_autocomplete for search'
   - 'view media'

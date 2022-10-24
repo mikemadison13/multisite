@@ -1,34 +1,60 @@
-uuid: 10c8286c-4510-42f9-b73d-6d05b71651e1
+uuid: c89e26af-4417-4c4d-ad2e-d34da937b13a
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
-    - field.field.node.page.layout_builder__layout
+    - field.field.node.page.field_categories
+    - field.field.node.page.field_page_image
+    - field.field.node.page.field_tags
     - node.type.page
   module:
-    - text
+    - smart_trim
     - user
+  enforced:
+    module:
+      - acquia_cms_page
 _core:
-  default_config_hash: na4V1Bt5S3JnMzi2a0QoPZIiYNdeyg9WMwN_oQvcV7M
+  default_config_hash: PgLAjs4co__I_2H_ipbhBv5IWwacfNrckbht7pUT4Uw
 id: node.page.teaser
 targetEntityType: node
 bundle: page
 mode: teaser
 content:
   body:
-    type: text_summary_or_trimmed
+    type: smart_trim
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 128
+      trim_type: chars
+      trim_suffix: ...
+      wrap_output: false
+      wrap_class: trimmed
+      more_link: false
+      more_class: more-link
+      more_text: More
+      summary_handler: trim
+      trim_options:
+        text: false
+        trim_zero: false
     third_party_settings: {  }
-    weight: 100
+    weight: 2
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
     region: content
   links:
-    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
-  content_moderation_control: true
+  field_categories: true
+  field_layout_canvas: true
+  field_page_image: true
+  field_tags: true
   langcode: true
-  layout_builder__layout: true
+  search_api_excerpt: true

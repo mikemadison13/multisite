@@ -1,0 +1,22 @@
+uuid: 8fdbd2d2-93c0-4457-a7a1-3ff18938a810
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - filter.format.full_html
+  module:
+    - filter
+    - system
+    - toolbar
+_core:
+  default_config_hash: QpdDtHT4nYSt8auctJ7DBsMfV_LjoImBFBqXi3x34x8
+id: site_builder
+label: 'Site Builder'
+weight: -8
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'use text format filtered_html'
+  - 'use text format full_html'
+  - 'view the administration theme'

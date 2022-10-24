@@ -1,0 +1,25 @@
+uuid: f744d282-ed39-4e69-8561-081ccfb15121
+langcode: en
+status: true
+dependencies:
+  module:
+    - geofield
+    - node
+  enforced:
+    module:
+      - acquia_cms_place
+_core:
+  default_config_hash: K6zczflmx98h5UwutEImTXg5SYFuMAZEfvNnboMOFHo
+id: node.field_geofield
+field_name: field_geofield
+entity_type: node
+type: geofield
+settings:
+  backend: geofield_backend_default
+module: geofield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

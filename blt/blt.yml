@@ -1,7 +1,7 @@
 project:
   machine_name: multisite
   profile:
-    name: demo_umami
+    name: minimal
 git:
   default_branch: main
   remotes:

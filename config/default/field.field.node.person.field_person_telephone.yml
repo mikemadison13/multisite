@@ -1,0 +1,26 @@
+uuid: 4723cd31-7d2f-4ce7-9c8e-9b5992294642
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_telephone
+    - node.type.person
+  module:
+    - telephone
+  enforced:
+    module:
+      - acquia_cms_person
+_core:
+  default_config_hash: AFUW8NLPfJlYr4-6j1P7VvYLn1QRRhkpy5D6-Fl6cVU
+id: node.person.field_person_telephone
+field_name: field_person_telephone
+entity_type: node
+bundle: person
+label: Telephone
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

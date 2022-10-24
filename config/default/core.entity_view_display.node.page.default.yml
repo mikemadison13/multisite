@@ -1,37 +1,29 @@
-uuid: 46b0b4fe-ec87-4905-9c0e-1e28b94a6677
+uuid: 98dd9328-3dc7-40fd-b48d-46b98c0e38bc
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.layout_builder__layout
+    - field.field.node.page.field_categories
+    - field.field.node.page.field_page_image
+    - field.field.node.page.field_tags
     - node.type.page
   module:
-    - layout_builder
-    - text
     - user
-third_party_settings:
-  layout_builder:
-    enabled: false
-    allow_custom: false
+  enforced:
+    module:
+      - acquia_cms_page
 _core:
-  default_config_hash: nf-xZyg3er73bGDKl9i6dC3jMV523j9uEX9AYXYokXg
+  default_config_hash: JX1Vkec-PfpxCVEWBxFbiCuI7zKK9LPy0GSSCFWYIWA
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
   content_moderation_control:
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
   links:
     settings: {  }
@@ -39,5 +31,9 @@ content:
     weight: 1
     region: content
 hidden:
+  body: true
+  field_categories: true
+  field_page_image: true
+  field_tags: true
   langcode: true
-  layout_builder__layout: true
+  search_api_excerpt: true

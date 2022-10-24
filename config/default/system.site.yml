@@ -1,14 +1,14 @@
 _core:
-  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: 72e7a243-71d7-4356-ae6c-2d5a91b0418b
-name: 'Drush Site-Install'
+uuid: 203e4fbf-03f4-45df-9111-4e91d4f1cdf2
+name: 'Acquia CMS Community'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

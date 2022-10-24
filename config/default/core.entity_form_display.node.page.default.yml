@@ -1,18 +1,43 @@
-uuid: f45757b2-5c4e-4943-b916-dc9d464d8894
+uuid: 05eae4f6-ad24-477c-8f00-0463add7962b
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.layout_builder__layout
+    - field.field.node.page.field_categories
+    - field.field.node.page.field_page_image
+    - field.field.node.page.field_tags
     - node.type.page
     - workflows.workflow.editorial
   module:
     - content_moderation
+    - field_group
+    - media_library
     - path
+    - scheduler
+    - scheduler_content_moderation_integration
     - text
+  enforced:
+    module:
+      - acquia_cms_page
+third_party_settings:
+  field_group:
+    group_taxonomy:
+      children:
+        - field_categories
+        - field_tags
+      label: Taxonomy
+      region: content
+      parent_name: ''
+      weight: 4
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
 _core:
-  default_config_hash: bSaCNjQVqm0mI_ghsiOMVHGXiNTjwlSljer-HLgy1uw
+  default_config_hash: 4EXw1bHtrNksqfvbvLo5gCr2mLfGGO26fyng9BgeWx8
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -20,7 +45,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 6
+    weight: 1
     region: content
     settings:
       rows: 9
@@ -30,9 +55,32 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 2
+    weight: 7
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_categories:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_page_image:
+    type: media_library_widget
+    weight: 3
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_autocomplete_tags
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -43,36 +91,37 @@ content:
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default
-    weight: 8
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
-  promote:
-    type: boolean_checkbox
-    weight: 3
+  publish_on:
+    type: datetime_timestamp_no_default
+    weight: 30
     region: content
-    settings:
-      display_label: true
+    settings: {  }
     third_party_settings: {  }
-  status:
-    type: boolean_checkbox
-    weight: 7
+  publish_state:
+    type: scheduler_moderation
+    weight: 30
     region: content
-    settings:
-      display_label: true
+    settings: {  }
     third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    weight: 4
+  scheduler_settings:
+    weight: 20
     region: content
-    settings:
-      display_label: true
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -89,7 +138,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 1
+    weight: 6
     region: content
     settings:
       match_operator: CONTAINS
@@ -97,5 +146,24 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  unpublish_on:
+    type: datetime_timestamp_no_default
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  unpublish_state:
+    type: scheduler_moderation
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  url_redirects:
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
-  layout_builder__layout: true
+  promote: true
+  status: true
+  sticky: true

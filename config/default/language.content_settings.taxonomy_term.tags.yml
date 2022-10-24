@@ -1,4 +1,4 @@
-uuid: 71f8a319-e449-4874-b39f-3bf77f571dc2
+uuid: de6c953b-153c-4c77-a43a-adae30ad3b4f
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,10 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
-  default_config_hash: nm4_dGToP6SyYBVO8GcLc0q_Q08WuyD98A8rvZVpoSw
+  default_config_hash: OspRoZzRa6OXW1-meICuk-26VTMrFG08W62H9OtuYG8
 id: taxonomy_term.tags
 target_entity_type_id: taxonomy_term
 target_bundle: tags

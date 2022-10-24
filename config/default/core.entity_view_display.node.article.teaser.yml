@@ -1,55 +1,65 @@
-uuid: 8cd557c4-24dc-4077-b0a1-fd8156fcd650
+uuid: c62e196b-ed3d-46b7-937b-200b11d90a9f
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
-    - field.field.node.article.field_media_image
+    - field.field.node.article.field_article_image
+    - field.field.node.article.field_article_media
+    - field.field.node.article.field_article_type
+    - field.field.node.article.field_categories
+    - field.field.node.article.field_display_author
     - field.field.node.article.field_tags
-    - field.field.node.article.layout_builder__layout
     - node.type.article
   module:
-    - text
+    - smart_trim
     - user
+  enforced:
+    module:
+      - acquia_cms_article
 _core:
-  default_config_hash: MhG-M4NWrXFUsvNY-DdBxcZw5JnvIDzN4Ke5z29ScAw
+  default_config_hash: Dt8Cw8SDrmaGBG6UuqxxnbozpT9FiUu-F211Clq4HIE
 id: node.article.teaser
 targetEntityType: node
 bundle: article
 mode: teaser
 content:
   body:
-    type: text_summary_or_trimmed
+    type: smart_trim
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 128
+      trim_type: chars
+      trim_suffix: ...
+      wrap_output: false
+      wrap_class: trimmed
+      more_link: false
+      more_class: more-link
+      more_text: More
+      summary_handler: trim
+      trim_options:
+        text: false
+        trim_zero: false
     third_party_settings: {  }
     weight: 2
     region: content
-  field_media_image:
-    type: entity_reference_entity_view
-    label: hidden
-    settings:
-      view_mode: responsive_3x2
-      link: false
+  content_moderation_control:
+    settings: {  }
     third_party_settings: {  }
-    weight: 1
-    region: content
-  field_tags:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 3
+    weight: 0
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 4
+    weight: 1
     region: content
 hidden:
-  content_moderation_control: true
+  field_article_image: true
+  field_article_media: true
+  field_article_type: true
+  field_categories: true
+  field_display_author: true
+  field_tags: true
   langcode: true
-  layout_builder__layout: true
+  search_api_excerpt: true

@@ -1,0 +1,18 @@
+uuid: 9abf0883-14f9-4fe8-8209-7119244fbc03
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_place
+_core:
+  default_config_hash: Om9NPOWmkgvqLgIPxamNCERb3AHSYz2JPMVJ4wDf82U
+id: googlemaps
+label: GoogleMaps
+plugin: googlemaps
+configuration:
+  region: ''
+  apiKey: ''
+  throttle:
+    period: null
+    limit: null
