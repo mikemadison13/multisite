@@ -1,18 +1,11 @@
-uuid: 40fea56e-619e-4140-834a-243b1633b84b
+uuid: 8fdbd2d2-93c0-4457-a7a1-3ff18938a810
 langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.cohesion
     - filter.format.filtered_html
     - filter.format.full_html
   module:
-    - cohesion
-    - cohesion_custom_styles
-    - cohesion_elements
-    - cohesion_style_guide
-    - cohesion_style_helpers
-    - cohesion_sync
     - filter
     - system
     - toolbar
@@ -23,18 +16,7 @@ label: 'Site Builder'
 weight: -8
 is_admin: null
 permissions:
-  - 'access cohesion sync'
   - 'access toolbar'
-  - 'administer cohesion'
-  - 'administer component categories'
-  - 'administer component content'
-  - 'administer components'
-  - 'administer custom styles'
-  - 'administer helper categories'
-  - 'administer helpers'
-  - 'administer style helpers'
-  - 'administer style_guide'
-  - 'use text format cohesion'
   - 'use text format filtered_html'
   - 'use text format full_html'
   - 'view the administration theme'

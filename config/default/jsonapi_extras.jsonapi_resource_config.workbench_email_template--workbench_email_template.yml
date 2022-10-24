@@ -1,4 +1,4 @@
-uuid: 2de99e25-663b-42f1-b21d-a52611627e5d
+uuid: 1beb8bd7-bcc7-4115-ab1b-efa28d807086
 langcode: en
 status: true
 dependencies:
@@ -12,74 +12,74 @@ path: workbench_email_template/workbench_email_template
 resourceType: workbench_email_template--workbench_email_template
 resourceFields:
   uuid:
-    disabled: false
     fieldName: uuid
     publicName: uuid
     enhancer:
       id: ''
-  langcode:
     disabled: false
+  langcode:
     fieldName: langcode
     publicName: langcode
     enhancer:
       id: ''
-  status:
     disabled: false
+  status:
     fieldName: status
     publicName: status
     enhancer:
       id: ''
-  dependencies:
     disabled: false
+  dependencies:
     fieldName: dependencies
     publicName: dependencies
     enhancer:
       id: ''
-  third_party_settings:
     disabled: false
+  third_party_settings:
     fieldName: third_party_settings
     publicName: third_party_settings
     enhancer:
       id: ''
-  _core:
     disabled: false
+  _core:
     fieldName: _core
     publicName: _core
     enhancer:
       id: ''
-  id:
     disabled: false
+  id:
     fieldName: id
     publicName: id
     enhancer:
       id: ''
-  label:
     disabled: false
+  label:
     fieldName: label
     publicName: label
     enhancer:
       id: ''
-  subject:
     disabled: false
+  subject:
     fieldName: subject
     publicName: subject
     enhancer:
       id: ''
-  body:
     disabled: false
+  body:
     fieldName: body
     publicName: body
     enhancer:
       id: ''
-  bundles:
     disabled: false
+  bundles:
     fieldName: bundles
     publicName: bundles
     enhancer:
       id: ''
-  recipient_types:
     disabled: false
+  recipient_types:
     fieldName: recipient_types
     publicName: recipient_types
     enhancer:
       id: ''
+    disabled: false

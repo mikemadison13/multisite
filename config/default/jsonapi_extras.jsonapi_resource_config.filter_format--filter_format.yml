@@ -1,4 +1,4 @@
-uuid: aa05e8f0-4bda-413e-9f28-545b4fd7ece4
+uuid: 63c67034-477b-4e4b-975e-5b7b241a2f45
 langcode: en
 status: true
 dependencies:
@@ -12,68 +12,68 @@ path: filter_format/filter_format
 resourceType: filter_format--filter_format
 resourceFields:
   uuid:
-    disabled: false
     fieldName: uuid
     publicName: uuid
     enhancer:
       id: ''
-  langcode:
     disabled: false
+  langcode:
     fieldName: langcode
     publicName: langcode
     enhancer:
       id: ''
-  status:
     disabled: false
+  status:
     fieldName: status
     publicName: status
     enhancer:
       id: ''
-  dependencies:
     disabled: false
+  dependencies:
     fieldName: dependencies
     publicName: dependencies
     enhancer:
       id: ''
-  third_party_settings:
     disabled: false
+  third_party_settings:
     fieldName: third_party_settings
     publicName: third_party_settings
     enhancer:
       id: ''
-  _core:
     disabled: false
+  _core:
     fieldName: _core
     publicName: _core
     enhancer:
       id: ''
-  name:
     disabled: false
+  name:
     fieldName: name
     publicName: name
     enhancer:
       id: ''
-  format:
     disabled: false
+  format:
     fieldName: format
     publicName: format
     enhancer:
       id: ''
-  weight:
     disabled: false
+  weight:
     fieldName: weight
     publicName: weight
     enhancer:
       id: ''
-  roles:
     disabled: false
+  roles:
     fieldName: roles
     publicName: roles
     enhancer:
       id: ''
-  filters:
     disabled: false
+  filters:
     fieldName: filters
     publicName: filters
     enhancer:
       id: ''
+    disabled: false

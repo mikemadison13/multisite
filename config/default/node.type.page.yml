@@ -1,11 +1,10 @@
-uuid: 4754d7f2-c4d6-40fd-8f86-9ccd2ab26f29
+uuid: 6da0e2fc-393f-4c48-8cca-9162d96f691f
 langcode: en
 status: true
 dependencies:
   module:
     - acquia_cms_common
     - menu_ui
-    - node_revision_delete
     - scheduler
   enforced:
     module:
@@ -43,10 +42,6 @@ third_party_settings:
     unpublish_enable: true
     unpublish_required: false
     unpublish_revision: false
-  node_revision_delete:
-    minimum_revisions_to_keep: 30
-    minimum_age_to_delete: 0
-    when_to_delete: 0
 _core:
   default_config_hash: Z4O1NshvwyEuf26tFFZYC8VV8MNmrmLmfBbO566QEBM
 name: Page

@@ -1,4 +1,4 @@
-uuid: 33e2996b-a5f9-4a72-a334-9eadea832b90
+uuid: 096bfdcd-4e97-44c5-a193-f2f734d48502
 langcode: en
 status: 0
 dependencies: {  }
@@ -11,4 +11,4 @@ orientation: portrait
 dimensions:
   width: 768
   height: 1280
-  dppx: !!float 2
+  dppx: 2

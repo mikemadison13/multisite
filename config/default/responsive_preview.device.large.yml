@@ -1,4 +1,4 @@
-uuid: bad3be92-638b-4bd3-a906-dd1c075ee98b
+uuid: 78a8ebb2-f7c3-4480-9835-1dc402be0879
 langcode: en
 status: 0
 dependencies: {  }
@@ -11,4 +11,4 @@ orientation: landscape
 dimensions:
   width: 1366
   height: 768
-  dppx: !!float 1
+  dppx: 1

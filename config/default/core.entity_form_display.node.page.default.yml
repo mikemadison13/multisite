@@ -1,17 +1,15 @@
-uuid: d4a85773-a41c-426e-9be6-974a1752f7de
+uuid: 05eae4f6-ad24-477c-8f00-0463add7962b
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_categories
-    - field.field.node.page.field_layout_canvas
     - field.field.node.page.field_page_image
     - field.field.node.page.field_tags
     - node.type.page
     - workflows.workflow.editorial
   module:
-    - cohesion_elements
     - content_moderation
     - field_group
     - media_library
@@ -64,12 +62,6 @@ content:
   field_categories:
     type: options_select
     weight: 3
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_layout_canvas:
-    type: cohesion_layout_builder_widget
-    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -172,7 +164,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_layout_canvas: true
   promote: true
   status: true
   sticky: true

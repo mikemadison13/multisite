@@ -1,4 +1,4 @@
-uuid: f5e16164-34a3-4020-a697-fa25416df6ac
+uuid: 60726b81-e6cb-4ab8-9c7a-4b719543d18f
 langcode: en
 status: true
 dependencies:
@@ -15,16 +15,26 @@ _core:
   default_config_hash: BdBwYNh6tZMksVB27MJKsJq1ogqyjWusJbdX8o6Fh7A
 id: search_content_type
 name: 'Content Type'
+url_alias: content_type
 weight: 0
 min_count: 1
 missing: false
 missing_label: others
-url_alias: content_type
-facet_source_id: 'search_api:views_page__search__search'
+show_only_one_result: true
 field_identifier: type
+facet_source_id: 'search_api:views_page__search__search'
+widget:
+  type: links
+  config:
+    show_numbers: true
+    soft_limit: 0
+    soft_limit_settings:
+      show_less_label: 'Show less'
+      show_more_label: 'Show more'
+    show_reset_link: false
+    reset_text: 'Show all'
+    hide_reset_when_no_selection: false
 query_operator: or
-hard_limit: 0
-exclude: false
 use_hierarchy: false
 keep_hierarchy_parents_active: false
 hierarchy:
@@ -32,22 +42,9 @@ hierarchy:
   config: {  }
 expand_hierarchy: false
 enable_parent_when_child_gets_disabled: true
-widget:
-  type: links
-  config:
-    show_numbers: true
-    soft_limit: 0
-    show_reset_link: false
-    reset_text: 'Show all'
-    hide_reset_when_no_selection: false
-    soft_limit_settings:
-      show_less_label: 'Show less'
-      show_more_label: 'Show more'
-empty_behavior:
-  behavior: none
+hard_limit: 0
+exclude: false
 only_visible_when_facet_source_is_visible: true
-show_only_one_result: true
-show_title: false
 processor_configs:
   active_widget_order:
     processor_id: active_widget_order
@@ -78,3 +75,6 @@ processor_configs:
       pre_query: 50
       build: 15
     settings: {  }
+empty_behavior:
+  behavior: none
+show_title: false

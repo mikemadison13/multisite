@@ -1,4 +1,4 @@
-uuid: 60620924-b1fd-46d6-aad0-d5ef28b5309f
+uuid: 9abf0883-14f9-4fe8-8209-7119244fbc03
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ id: googlemaps
 label: GoogleMaps
 plugin: googlemaps
 configuration:
+  region: ''
+  apiKey: ''
   throttle:
     period: null
     limit: null
-  apiKey: ''
-  region: ''

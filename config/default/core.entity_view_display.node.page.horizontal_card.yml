@@ -1,4 +1,4 @@
-uuid: e7c3abab-4a53-40f4-af5b-821bc5a41b49
+uuid: 40b5f930-38f8-4964-a9be-e425007a4dc2
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,10 @@ dependencies:
     - core.entity_view_mode.node.horizontal_card
     - field.field.node.page.body
     - field.field.node.page.field_categories
-    - field.field.node.page.field_layout_canvas
     - field.field.node.page.field_page_image
     - field.field.node.page.field_tags
     - node.type.page
   module:
-    - cohesion_elements
     - text
     - user
   enforced:
@@ -37,15 +35,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_layout_canvas:
-    type: cohesion_entity_reference_revisions_entity_view
-    label: hidden
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
-    weight: 2
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
@@ -53,7 +42,6 @@ content:
     region: content
 hidden:
   field_categories: true
-  field_layout_canvas: true
   field_page_image: true
   field_tags: true
   langcode: true

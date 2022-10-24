@@ -21,6 +21,3 @@ site-studio:
   sync-import: false
   rebuild: false
   package-import: false
-cm:
-  core:
-    install_from_config: true

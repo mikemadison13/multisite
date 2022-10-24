@@ -1,4 +1,4 @@
-uuid: 261b93e2-22e2-4026-b38d-ac9e6d6798b8
+uuid: d2cc6fa1-37fd-4b38-b4db-8986bc631915
 langcode: en
 status: true
 dependencies:
@@ -12,32 +12,32 @@ path: search_api_task/search_api_task
 resourceType: search_api_task--search_api_task
 resourceFields:
   id:
-    disabled: false
     fieldName: id
     publicName: id
     enhancer:
       id: ''
-  type:
     disabled: false
+  type:
     fieldName: type
     publicName: type
     enhancer:
       id: ''
-  server_id:
     disabled: false
+  server_id:
     fieldName: server_id
     publicName: server_id
     enhancer:
       id: ''
-  index_id:
     disabled: false
+  index_id:
     fieldName: index_id
     publicName: index_id
     enhancer:
       id: ''
-  data:
     disabled: false
+  data:
     fieldName: data
     publicName: data
     enhancer:
       id: ''
+    disabled: false

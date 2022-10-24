@@ -1,4 +1,4 @@
-uuid: 8d6f46f9-40ba-46e9-921f-5b248ffd1643
+uuid: 68a2e08a-7566-4f03-b60f-323fc3276efd
 langcode: en
 status: true
 dependencies: {  }
@@ -10,8 +10,8 @@ description: 'Configuration for site administrators'
 conf:
   usertab: false
   extensions: '*'
-  maxsize: !!float 0
-  quota: !!float 0
+  maxsize: 0
+  quota: 0
   maxwidth: 0
   maxheight: 0
   replace: 0

@@ -1,4 +1,4 @@
-uuid: b8a9cbf7-4f54-46c3-8f57-f922ad2e33c1
+uuid: 4c4364f5-5007-4887-85a1-3b26b1ccb24a
 langcode: en
 status: true
 dependencies:
@@ -16,6 +16,10 @@ id: to_published
 label: 'To Published'
 format: null
 subject: '[node:title] State Changed'
+body:
+  value: '[node:title] is published now'
+  format: plain_text
+bundles: {  }
 recipient_types:
   author:
     id: author
@@ -57,8 +61,4 @@ recipient_types:
     status: false
     settings:
       roles: {  }
-bundles: {  }
-body:
-  value: '[node:title] is published now'
-  format: plain_text
 replyTo: null

@@ -1,4 +1,4 @@
-uuid: 332fc08b-63ae-457f-ac57-6e6dd5d58cb8
+uuid: c018d575-f690-49a7-9241-1f2ad0625a2e
 langcode: en
 status: true
 dependencies:
@@ -16,8 +16,8 @@ id: node.page.body
 field_name: body
 entity_type: node
 bundle: page
-label: 'Search Description'
-description: 'A short description or teaser which will be displayed in search results.'
+label: Body
+description: ''
 required: false
 translatable: true
 default_value: {  }

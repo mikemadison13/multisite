@@ -1,4 +1,4 @@
-uuid: 3d8efe0a-fada-47cc-8e34-256ab510b0bf
+uuid: 52fcf94b-6f76-4dfe-8b23-dd6ce9ca6e44
 langcode: en
 status: true
 dependencies:
@@ -12,110 +12,110 @@ path: field_storage_config/field_storage_config
 resourceType: field_storage_config--field_storage_config
 resourceFields:
   uuid:
-    disabled: false
     fieldName: uuid
     publicName: uuid
     enhancer:
       id: ''
-  langcode:
     disabled: false
+  langcode:
     fieldName: langcode
     publicName: langcode
     enhancer:
       id: ''
-  status:
     disabled: false
+  status:
     fieldName: status
     publicName: status
     enhancer:
       id: ''
-  dependencies:
     disabled: false
+  dependencies:
     fieldName: dependencies
     publicName: dependencies
     enhancer:
       id: ''
-  third_party_settings:
     disabled: false
+  third_party_settings:
     fieldName: third_party_settings
     publicName: third_party_settings
     enhancer:
       id: ''
-  _core:
     disabled: false
+  _core:
     fieldName: _core
     publicName: _core
     enhancer:
       id: ''
-  id:
     disabled: false
+  id:
     fieldName: id
     publicName: id
     enhancer:
       id: ''
-  field_name:
     disabled: false
+  field_name:
     fieldName: field_name
     publicName: field_name
     enhancer:
       id: ''
-  entity_type:
     disabled: false
+  entity_type:
     fieldName: entity_type
     publicName: entity_type
     enhancer:
       id: ''
-  type:
     disabled: false
+  type:
     fieldName: type
     publicName: type
     enhancer:
       id: ''
-  settings:
     disabled: false
+  settings:
     fieldName: settings
     publicName: settings
     enhancer:
       id: ''
-  module:
     disabled: false
+  module:
     fieldName: module
     publicName: module
     enhancer:
       id: ''
-  locked:
     disabled: false
+  locked:
     fieldName: locked
     publicName: locked
     enhancer:
       id: ''
-  cardinality:
     disabled: false
+  cardinality:
     fieldName: cardinality
     publicName: cardinality
     enhancer:
       id: ''
-  translatable:
     disabled: false
+  translatable:
     fieldName: translatable
     publicName: translatable
     enhancer:
       id: ''
-  indexes:
     disabled: false
+  indexes:
     fieldName: indexes
     publicName: indexes
     enhancer:
       id: ''
-  persist_with_no_fields:
     disabled: false
+  persist_with_no_fields:
     fieldName: persist_with_no_fields
     publicName: persist_with_no_fields
     enhancer:
       id: ''
-  custom_storage:
     disabled: false
+  custom_storage:
     fieldName: custom_storage
     publicName: custom_storage
     enhancer:
       id: ''
+    disabled: false

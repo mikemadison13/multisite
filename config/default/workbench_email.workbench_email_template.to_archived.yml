@@ -1,4 +1,4 @@
-uuid: ed47bbd1-05bc-4721-8f82-5a79c106f5f2
+uuid: b0b7f6d7-d1b5-4bc7-a2e8-a42fa2b33fb1
 langcode: en
 status: true
 dependencies:
@@ -15,6 +15,10 @@ id: to_archived
 label: 'To Archived'
 format: null
 subject: '[node:title] State Changed'
+body:
+  value: '[node:title] is archived now'
+  format: plain_text
+bundles: {  }
 recipient_types:
   author:
     id: author
@@ -56,8 +60,4 @@ recipient_types:
     status: false
     settings:
       roles: {  }
-bundles: {  }
-body:
-  value: '[node:title] is archived now'
-  format: plain_text
 replyTo: null

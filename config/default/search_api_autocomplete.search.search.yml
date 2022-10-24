@@ -1,4 +1,4 @@
-uuid: 1e7860b8-bea2-4771-b325-20a939cde172
+uuid: a903de1b-26b7-4e05-87fc-5017df99e782
 langcode: en
 status: true
 dependencies:
@@ -16,11 +16,11 @@ index_id: content
 suggester_settings:
   live_results:
     fields: {  }
+    view_modes: {  }
     highlight:
       enabled: false
       field: ''
     suggest_keys: false
-    view_modes: {  }
   server:
     fields: {  }
 suggester_weights:
@@ -36,6 +36,6 @@ options:
   limit: 10
   min_length: 1
   show_count: false
-  delay: null
-  submit_button_selector: ':submit'
   autosubmit: true
+  submit_button_selector: ':submit'
+  delay: null

@@ -1,4 +1,4 @@
-uuid: a7c076a2-1776-493e-ad37-695ecc3fcce3
+uuid: b1d3e4ee-8c98-429f-879b-8a495062b18b
 langcode: en
 status: true
 dependencies:
@@ -23,11 +23,11 @@ third_party_settings:
         open_graph: open_graph
         schema_article: schema_article
         twitter_cards: twitter_cards
+    search_index: content
     subtype:
       field: field_article_type
       facet: articles_article_type
     sitemap_variant: default
-    search_index: content
   menu_ui:
     available_menus:
       - main

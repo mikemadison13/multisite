@@ -3,19 +3,14 @@ _core:
 module:
   acquia_cms_article: 0
   acquia_cms_common: 0
-  acquia_cms_document: 0
   acquia_cms_event: 0
   acquia_cms_image: 0
   acquia_cms_page: 0
   acquia_cms_person: 0
   acquia_cms_place: 0
   acquia_cms_search: 0
-  acquia_cms_site_studio: 0
-  acquia_cms_site_studio_content: 0
-  acquia_cms_starter: 0
   acquia_cms_toolbar: 0
   acquia_cms_tour: 0
-  acquia_cms_video: 0
   acquia_purge: 0
   acquia_telemetry: 0
   address: 0
@@ -24,15 +19,6 @@ module:
   block: 0
   breakpoint: 0
   ckeditor: 0
-  cohesion: 0
-  cohesion_base_styles: 0
-  cohesion_custom_styles: 0
-  cohesion_elements: 0
-  cohesion_style_guide: 0
-  cohesion_style_helpers: 0
-  cohesion_sync: 0
-  cohesion_templates: 0
-  cohesion_website_settings: 0
   collapsiblock: 0
   config: 0
   config_filter: 0
@@ -41,7 +27,6 @@ module:
   config_split: 0
   config_translation: 0
   content_moderation: 0
-  contextual: 0
   crop: 0
   ctools: 0
   datetime: 0
@@ -50,7 +35,6 @@ module:
   dynamic_page_cache: 0
   editor: 0
   entity_clone: 0
-  entity_reference_revisions: 0
   facets: 0
   facets_pretty_paths: 0
   field: 0
@@ -83,7 +67,6 @@ module:
   moderation_sidebar: 0
   mysql: 0
   node: 0
-  node_revision_delete: 0
   options: 0
   page_manager: 0
   panels: 0
@@ -100,7 +83,6 @@ module:
   redirect: 0
   reroute_email: 0
   responsive_preview: 0
-  rest: 0
   scheduler: 0
   scheduler_content_moderation_integration: 0
   schema_article: 0
@@ -114,7 +96,6 @@ module:
   seckit: 0
   serialization: 0
   simple_sitemap: 0
-  sitestudio_page_builder: 0
   smart_trim: 0
   syslog: 0
   system: 0
@@ -127,8 +108,6 @@ module:
   user: 0
   username_enumeration_prevention: 0
   views_ui: 0
-  webform: 0
-  webform_ui: 0
   workbench_email: 0
   workflows: 0
   pathauto: 1
@@ -141,6 +120,4 @@ theme:
   olivero: 0
   claro: 0
   acquia_claro: 0
-  stable: 0
-  cohesion_theme: 0
 profile: minimal

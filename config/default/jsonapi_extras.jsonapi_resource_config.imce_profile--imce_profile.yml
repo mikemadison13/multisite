@@ -1,4 +1,4 @@
-uuid: 5b806e00-e6b7-45a9-ba55-9fa37e6ada50
+uuid: 65c91349-b77b-4d4e-b517-46515e9f6a8e
 langcode: en
 status: true
 dependencies:
@@ -12,62 +12,62 @@ path: imce_profile/imce_profile
 resourceType: imce_profile--imce_profile
 resourceFields:
   uuid:
-    disabled: false
     fieldName: uuid
     publicName: uuid
     enhancer:
       id: ''
-  langcode:
     disabled: false
+  langcode:
     fieldName: langcode
     publicName: langcode
     enhancer:
       id: ''
-  status:
     disabled: false
+  status:
     fieldName: status
     publicName: status
     enhancer:
       id: ''
-  dependencies:
     disabled: false
+  dependencies:
     fieldName: dependencies
     publicName: dependencies
     enhancer:
       id: ''
-  third_party_settings:
     disabled: false
+  third_party_settings:
     fieldName: third_party_settings
     publicName: third_party_settings
     enhancer:
       id: ''
-  _core:
     disabled: false
+  _core:
     fieldName: _core
     publicName: _core
     enhancer:
       id: ''
-  id:
     disabled: false
+  id:
     fieldName: id
     publicName: id
     enhancer:
       id: ''
-  label:
     disabled: false
+  label:
     fieldName: label
     publicName: label
     enhancer:
       id: ''
-  description:
     disabled: false
+  description:
     fieldName: description
     publicName: description
     enhancer:
       id: ''
-  conf:
     disabled: false
+  conf:
     fieldName: conf
     publicName: conf
     enhancer:
       id: ''
+    disabled: false

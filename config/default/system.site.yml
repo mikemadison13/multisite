@@ -1,14 +1,14 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: ea5d6910-8791-455d-aab8-549b2c94ecf6
-name: 'Acquia CMS Enterprise Low-code'
+uuid: 203e4fbf-03f4-45df-9111-4e91d4f1cdf2
+name: 'Acquia CMS Community'
 mail: admin@example.com
 slogan: ''
 page:
-  front: /home-sitestudio
-  0: ''
-  1: ''
+  403: ''
+  404: ''
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

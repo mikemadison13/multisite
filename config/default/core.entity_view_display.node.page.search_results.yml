@@ -1,4 +1,4 @@
-uuid: 35398330-64e6-41e0-a217-287e54d247cf
+uuid: 088a486f-ef86-46b5-9184-fc0a0aedfe0d
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.search_results
     - field.field.node.page.body
     - field.field.node.page.field_categories
-    - field.field.node.page.field_layout_canvas
     - field.field.node.page.field_page_image
     - field.field.node.page.field_tags
     - node.type.page

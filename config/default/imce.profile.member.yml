@@ -1,4 +1,4 @@
-uuid: 3c2ad02d-dc22-40f1-9281-f33a0ef8a2cb
+uuid: d6435966-b7d2-4101-90c4-05d7c1bd1a81
 langcode: en
 status: true
 dependencies: {  }
@@ -10,8 +10,8 @@ description: 'Configuration for site members'
 conf:
   usertab: false
   extensions: 'jpg png gif'
-  maxsize: !!float 2
-  quota: !!float 50
+  maxsize: 2
+  quota: 50
   maxwidth: 1024
   maxheight: 1024
   replace: 0

@@ -1,4 +1,4 @@
-uuid: 0d1efbd5-7ae0-460d-a9e2-a8af801f7f20
+uuid: 2ed25009-e0bc-4fa3-8b8a-72c9e036d2d1
 langcode: en
 status: true
 dependencies:
@@ -15,18 +15,18 @@ third_party_settings:
   geocoder_field:
     method: geocode
     weight: 0
-    field: field_place_address
     skip_not_empty_value: false
     disabled: false
     hidden: false
     providers:
       - googlemaps
     dumper: wkt
-    delta_handling: s_to_m
     failure:
       handling: preserve
       status_message: true
       log: true
+    field: field_place_address
+    delta_handling: s_to_m
 _core:
   default_config_hash: t7pjrK5tWBcbciRSJeSXRtezpIlgluubNcSuhmJCwoo
 id: node.place.field_geofield

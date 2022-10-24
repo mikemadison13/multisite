@@ -1,4 +1,4 @@
-uuid: 1636d677-6df6-45c9-8e61-36f1f1f7ed26
+uuid: 52c5a2f7-7196-47c2-bc96-23f5bc2b1cef
 langcode: en
 status: true
 dependencies:
@@ -12,86 +12,86 @@ path: view/view
 resourceType: view--view
 resourceFields:
   uuid:
-    disabled: false
     fieldName: uuid
     publicName: uuid
     enhancer:
       id: ''
-  langcode:
     disabled: false
+  langcode:
     fieldName: langcode
     publicName: langcode
     enhancer:
       id: ''
-  status:
     disabled: false
+  status:
     fieldName: status
     publicName: status
     enhancer:
       id: ''
-  dependencies:
     disabled: false
+  dependencies:
     fieldName: dependencies
     publicName: dependencies
     enhancer:
       id: ''
-  third_party_settings:
     disabled: false
+  third_party_settings:
     fieldName: third_party_settings
     publicName: third_party_settings
     enhancer:
       id: ''
-  _core:
     disabled: false
+  _core:
     fieldName: _core
     publicName: _core
     enhancer:
       id: ''
-  id:
     disabled: false
+  id:
     fieldName: id
     publicName: id
     enhancer:
       id: ''
-  label:
     disabled: false
+  label:
     fieldName: label
     publicName: label
     enhancer:
       id: ''
-  module:
     disabled: false
+  module:
     fieldName: module
     publicName: module
     enhancer:
       id: ''
-  description:
     disabled: false
+  description:
     fieldName: description
     publicName: description
     enhancer:
       id: ''
-  tag:
     disabled: false
+  tag:
     fieldName: tag
     publicName: tag
     enhancer:
       id: ''
-  base_table:
     disabled: false
+  base_table:
     fieldName: base_table
     publicName: base_table
     enhancer:
       id: ''
-  base_field:
     disabled: false
+  base_field:
     fieldName: base_field
     publicName: base_field
     enhancer:
       id: ''
-  display:
     disabled: false
+  display:
     fieldName: display
     publicName: display
     enhancer:
       id: ''
+    disabled: false
