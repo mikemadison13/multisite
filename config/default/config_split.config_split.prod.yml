@@ -7,7 +7,9 @@ label: Prod
 description: ''
 weight: 1
 folder: ../config/envs/prod
-module: {  }
+module:
+  acquia_connector: 0
+  shield: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }
