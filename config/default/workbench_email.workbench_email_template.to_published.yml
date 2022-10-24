@@ -16,10 +16,6 @@ id: to_published
 label: 'To Published'
 format: null
 subject: '[node:title] State Changed'
-body:
-  value: '[node:title] is published now'
-  format: plain_text
-bundles: {  }
 recipient_types:
   author:
     id: author
@@ -61,4 +57,8 @@ recipient_types:
     status: false
     settings:
       roles: {  }
+bundles: {  }
+body:
+  value: '[node:title] is published now'
+  format: plain_text
 replyTo: null
