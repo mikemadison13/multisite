@@ -23,24 +23,7 @@ id: transition_to_review
 label: 'Transition to Review'
 format: null
 subject: '[node:title] State Changed'
-body:
-  value: '[node:title] needs review.'
-  format: plain_text
-bundles:
-  'node:article': 'node:article'
-  'node:event': 'node:event'
-  'node:page': 'node:page'
-  'node:person': 'node:person'
-  'node:place': 'node:place'
 recipient_types:
-  role:
-    id: role
-    provider: workbench_email
-    status: true
-    settings:
-      roles:
-        content_administrator: content_administrator
-        content_editor: content_editor
   author:
     id: author
     provider: workbench_email
@@ -69,10 +52,27 @@ recipient_types:
     provider: workbench_email
     status: false
     settings: {  }
+  role:
+    id: role
+    provider: workbench_email
+    status: true
+    settings:
+      roles:
+        content_administrator: content_administrator
+        content_editor: content_editor
   roles_with_access:
     id: roles_with_access
     provider: workbench_email
     status: false
     settings:
       roles: {  }
+bundles:
+  'node:article': 'node:article'
+  'node:event': 'node:event'
+  'node:page': 'node:page'
+  'node:person': 'node:person'
+  'node:place': 'node:place'
+body:
+  value: '[node:title] needs review.'
+  format: plain_text
 replyTo: null

@@ -15,10 +15,6 @@ id: back_to_draft
 label: 'Back to Draft'
 format: null
 subject: '[node:title] State Changed'
-body:
-  value: '[node:title] is moved back to draft, Please check.'
-  format: plain_text
-bundles: {  }
 recipient_types:
   author:
     id: author
@@ -60,4 +56,8 @@ recipient_types:
     status: false
     settings:
       roles: {  }
+bundles: {  }
+body:
+  value: '[node:title] is moved back to draft, Please check.'
+  format: plain_text
 replyTo: null
