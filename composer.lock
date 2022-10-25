@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e43c4fada77147e0de3084682fe0836e",
+    "content-hash": "b6a2324a48bb9f4e35cdde77a7b6407c",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -399,6 +399,49 @@
                 "source": "https://github.com/acquia/blt-behat/tree/v1.3.0"
             },
             "time": "2022-03-23T17:14:13+00:00"
+        },
+        {
+            "name": "acquia/blt-ide-local",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pavlosdan/blt-ide-local.git",
+                "reference": "38987563b248486ece85ac0ef5663c8bb8263ee7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pavlosdan/blt-ide-local/zipball/38987563b248486ece85ac0ef5663c8bb8263ee7",
+                "reference": "38987563b248486ece85ac0ef5663c8bb8263ee7",
+                "shasum": ""
+            },
+            "conflict": {
+                "acquia/blt": "<13.5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Acquia\\BltIdeLocal\\": "./src/"
+                },
+                "classmap": [
+                    "src/Blt/Plugin/EnvironmentDetector/IdeDetector.php"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Acquia Engineering",
+                    "homepage": "https://www.acquia.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Allows BLT to treat an Acquia IDE environment as local",
+            "support": {
+                "source": "https://github.com/pavlosdan/blt-ide-local/tree/1.1",
+                "issues": "https://github.com/pavlosdan/blt-ide-local/issues"
+            },
+            "time": "2022-08-30T18:07:20+00:00"
         },
         {
             "name": "acquia/blt-multisite",
@@ -23061,5 +23104,5 @@
         "php": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -14,6 +14,7 @@
         "acquia/acquia_cms": "^2",
         "acquia/blt": "^13",
         "acquia/blt-behat": "^1.2",
+        "acquia/blt-ide-local": "^1.1",
         "acquia/blt-multisite": "^1.0",
         "acquia/blt-phpcs": "^1.0",
         "acquia/blt-site-studio": "^2",
@@ -132,6 +133,10 @@
             "type": "vcs",
             "url": "https://github.com/davidtrainer/blt-site-studio.git",
             "no-api": true
+        },
+        "blt-ide-local": {
+            "type": "vcs",
+            "url": "https://github.com/pavlosdan/blt-ide-local.git"
         }
     },
     "minimum-stability": "dev",
