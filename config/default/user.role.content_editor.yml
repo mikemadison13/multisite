@@ -1,11 +1,13 @@
-uuid: 81543564-efa6-4fc1-8efc-7339b4cab622
+uuid: 96679f2d-fde5-4fd0-a378-07218920654a
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.filtered_html
     - filter.format.full_html
+    - media.type.document
     - media.type.image
+    - media.type.video
     - node.type.article
     - node.type.event
     - node.type.page
@@ -35,17 +37,21 @@ permissions:
   - 'access toolbar'
   - 'clone node entity'
   - 'delete any article content'
+  - 'delete any document media'
   - 'delete any event content'
   - 'delete any image media'
   - 'delete any page content'
   - 'delete any person content'
   - 'delete any place content'
+  - 'delete any video media'
   - 'edit any article content'
+  - 'edit any document media'
   - 'edit any event content'
   - 'edit any image media'
   - 'edit any page content'
   - 'edit any person content'
   - 'edit any place content'
+  - 'edit any video media'
   - 'schedule publishing of nodes'
   - 'use editorial transition archive'
   - 'use editorial transition create_new_draft'
