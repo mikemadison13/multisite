@@ -3,14 +3,17 @@ _core:
 module:
   acquia_cms_article: 0
   acquia_cms_common: 0
+  acquia_cms_document: 0
   acquia_cms_event: 0
   acquia_cms_image: 0
   acquia_cms_page: 0
   acquia_cms_person: 0
   acquia_cms_place: 0
   acquia_cms_search: 0
+  acquia_cms_starter: 0
   acquia_cms_toolbar: 0
   acquia_cms_tour: 0
+  acquia_cms_video: 0
   acquia_purge: 0
   acquia_telemetry: 0
   address: 0
@@ -108,6 +111,8 @@ module:
   user: 0
   username_enumeration_prevention: 0
   views_ui: 0
+  webform: 0
+  webform_ui: 0
   workbench_email: 0
   workflows: 0
   pathauto: 1

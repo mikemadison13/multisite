@@ -18,7 +18,7 @@ default_unpublish_enable: false
 default_unpublish_required: false
 default_unpublish_revision: false
 hide_seconds: false
-lightweight_cron_access_key: 232fbd4fb88b4238a139
+lightweight_cron_access_key: 804fdb2d00f7682ab5bd
 log: true
 time_letters: hHgGisaA
 time_only_format: 'H:i:s'
