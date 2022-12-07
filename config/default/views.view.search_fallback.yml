@@ -1,13 +1,9 @@
-uuid: dbe9f83e-2a7b-43e6-921f-6a62531785b2
+uuid: f55e82d8-16b3-4d95-857c-ff49f46f12b0
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.article
-    - node.type.event
-    - node.type.person
-    - node.type.place
   module:
     - node
     - user

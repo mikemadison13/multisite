@@ -1,15 +1,10 @@
-uuid: 2ce1311d-a1f3-4070-8f2d-697464e4b4cc
+uuid: b118684f-3c82-48e0-ae93-4faf4ee35448
 langcode: en
 status: true
 dependencies:
   module:
-    - acquia_cms_common
     - node
     - text
-third_party_settings:
-  acquia_cms_common:
-    search_index: content
-    search_label: Body
 _core:
   default_config_hash: EBUo7qOWqaiZaQ_RC9sLY5IoDKphS34v77VIHSACmVY
 id: node.body

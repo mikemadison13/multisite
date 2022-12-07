@@ -1,0 +1,28 @@
+uuid: 4f174bbf-b927-44f2-b4c6-b1ede6203ee6
+langcode: en
+status: true
+dependencies:
+  module:
+    - acquia_cms_headless
+    - content_moderation
+    - node
+    - subrequests
+  enforced:
+    module:
+      - acquia_cms_headless
+_core:
+  default_config_hash: tH1mk9tKR74gG_zOBkcfMgB8PiiCENLTfDKDtE1i7KE
+id: headless
+label: 'Headless Administrator'
+weight: 3
+is_admin: false
+permissions:
+  - 'access acquia cms headless api dashboard'
+  - 'access user profiles'
+  - 'administer acquia cms headless configuration'
+  - 'administer acquia cms headless keys'
+  - 'bypass node access'
+  - 'issue subrequests'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'

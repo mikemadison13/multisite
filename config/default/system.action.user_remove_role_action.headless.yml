@@ -1,0 +1,14 @@
+uuid: 7cd94465-0671-491f-aa62-582ac72966c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.headless
+  module:
+    - user
+id: user_remove_role_action.headless
+label: 'Remove the Headless Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: headless

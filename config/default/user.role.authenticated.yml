@@ -1,10 +1,11 @@
-uuid: e4a0ec0c-5b74-459b-9760-894faa5ff7a7
+uuid: 8c1cb714-7e0b-433a-80bd-2f2c9636b674
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - search_api_autocomplete
+    - subrequests
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
@@ -14,5 +15,6 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'issue subrequests'
   - 'use search_api_autocomplete for search'
   - 'view media'

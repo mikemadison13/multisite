@@ -1,0 +1,20 @@
+uuid: a916ed96-594c-49d3-9a6f-406fff018b8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_moderation
+    - node
+  enforced:
+    module:
+      - acquia_cms_headless
+_core:
+  default_config_hash: WKbGryYgxWA-0RVV67G8XOWDfqzG4I0VMQ36e5NfaVc
+id: frontend_preview_headless
+label: 'Frontend site with preview'
+weight: 4
+is_admin: false
+permissions:
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'

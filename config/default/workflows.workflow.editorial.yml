@@ -2,12 +2,6 @@ uuid: null
 langcode: en
 status: true
 dependencies:
-  config:
-    - node.type.article
-    - node.type.event
-    - node.type.page
-    - node.type.person
-    - node.type.place
   module:
     - content_moderation
     - workbench_email
@@ -23,8 +17,6 @@ third_party_settings:
         to_published: to_published
       archived_published:
         to_published: to_published
-      review:
-        transition_to_review: transition_to_review
 id: editorial
 label: Editorial
 type: content_moderation
@@ -87,11 +79,5 @@ type_settings:
         - review
       to: review
       weight: 0
-  entity_types:
-    node:
-      - article
-      - event
-      - page
-      - person
-      - place
+  entity_types: {  }
   default_moderation_state: draft

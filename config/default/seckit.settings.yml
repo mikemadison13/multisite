@@ -32,7 +32,7 @@ seckit_csrf:
 seckit_clickjacking:
   js_css_noscript: false
   noscript_message: 'Sorry, you need to enable JavaScript to visit this website.'
-  x_frame: '1'
+  x_frame: '0'
   x_frame_allow_from: ''
 seckit_ssl:
   hsts: false

@@ -1,0 +1,14 @@
+uuid: 84273234-f94d-4314-94e6-8ae2f9e9f19f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.frontend_preview_headless
+  module:
+    - user
+id: user_remove_role_action.frontend_preview_headless
+label: 'Remove the Frontend site with preview role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: frontend_preview_headless
