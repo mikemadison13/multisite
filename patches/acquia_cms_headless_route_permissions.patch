@@ -1,0 +1,19 @@
+diff --git a/modules/acquia_cms_headless_ui/acquia_cms_headless_ui.routing.yml b/modules/acquia_cms_headless_ui/acquia_cms_headless_ui.routing.yml
+index 9effc49..c254f34 100644
+--- a/modules/acquia_cms_headless_ui/acquia_cms_headless_ui.routing.yml
++++ b/modules/acquia_cms_headless_ui/acquia_cms_headless_ui.routing.yml
+@@ -28,7 +28,7 @@ admin.content_models:
+     _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+     _title: Content Models
+   requirements:
+-    _permission: 'administer site configuration'
++    _permission: 'access administration pages'
+ 
+ admin.cms:
+   path: '/admin/cms'
+@@ -36,4 +36,4 @@ admin.cms:
+     _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+     _title: System administration
+   requirements:
+-    _permission: 'administer site configuration'
++    _permission: 'access administration pages'

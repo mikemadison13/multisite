@@ -119,6 +119,9 @@
             },
             "acquia/blt": {
                 "debugging": "patches/debug.patch"
+            },
+            "drupal/acquia_cms_headless": {
+                "change route permissions": "patches/acquia_cms_headless_route_permissions.patch"
             }
         }
     },
