@@ -41,6 +41,7 @@
         "drupal/gin": "^3.0@RC",
         "drupal/gin_login": "^2.0",
         "drupal/gin_toolbar": "^1.0@RC",
+        "drupal/jsonapi_hypermedia": "^1.9",
         "drupal/media_acquiadam": "^1.47",
         "drupal/search_api_solr": "^4.1",
         "drupal/site_audit": "3.x-dev",
