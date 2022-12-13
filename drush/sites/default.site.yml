@@ -14,7 +14,7 @@ test:
   host: eemmadisonstg.ssh.prod.acquia-sites.com
   options: {  }
   paths: { dump-dir: /mnt/tmp }
-  root: /var/www/html/eemmadison.dev/docroot
+  root: /var/www/html/eemmadison.test/docroot
   user: eemmadison.test
   ssh: { options: '-p 22' }
 
@@ -23,7 +23,7 @@ prod:
   host: eemmadison.ssh.prod.acquia-sites.com
   options: {  }
   paths: { dump-dir: /mnt/tmp }
-  root: /var/www/html/eemmadison.dev/docroot
+  root: /var/www/html/eemmadison.prod/docroot
   user: eemmadison.prod
   ssh: { options: '-p 22' }
 
