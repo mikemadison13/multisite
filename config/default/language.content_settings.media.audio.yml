@@ -1,0 +1,20 @@
+uuid: 51e36e9b-b260-4099-be4a-fa3539bafdd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.audio
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: S1KWvljTI82odyFi5yTTCxS5nKsR4y0XebHloKByBUs
+id: media.audio
+target_entity_type_id: media
+target_bundle: audio
+default_langcode: site_default
+language_alterable: true

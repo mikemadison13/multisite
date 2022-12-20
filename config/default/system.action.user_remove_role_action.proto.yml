@@ -1,0 +1,14 @@
+uuid: 566659b2-c29d-4ba6-b1f9-0807b950ae60
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.proto
+  module:
+    - user
+id: user_remove_role_action.proto
+label: 'Remove the Proto role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: proto

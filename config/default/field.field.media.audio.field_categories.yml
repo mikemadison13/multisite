@@ -1,0 +1,34 @@
+uuid: a72f6cc5-78c7-423a-8ffe-064f4e1f4b54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_categories
+    - media.type.audio
+    - taxonomy.vocabulary.categories
+  enforced:
+    module:
+      - acquia_cms_audio
+_core:
+  default_config_hash: EAP_-0WjZwmXUS7ZM5SPUETu8q9x9K2ZDDR7YquZem4
+id: media.audio.field_categories
+field_name: field_categories
+entity_type: media
+bundle: audio
+label: Categories
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories: categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

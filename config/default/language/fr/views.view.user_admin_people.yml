@@ -1,0 +1,15 @@
+display:
+  default:
+    display_options:
+      fields:
+        status:
+          label: État
+          settings:
+            format_custom_true: Actif
+      filters:
+        status:
+          group_info:
+            label: État
+            group_items:
+              1:
+                title: Actif

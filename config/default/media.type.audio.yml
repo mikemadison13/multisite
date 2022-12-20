@@ -1,0 +1,24 @@
+uuid: 2165fc72-2731-48a1-9b0a-363bfff5b208
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_soundcloud
+  enforced:
+    module:
+      - acquia_cms_audio
+third_party_settings:
+  crop:
+    image_field: null
+_core:
+  default_config_hash: x-sqVUSgG9fis5fKNXMznbHGu4TM4WJhrNVAKA3P8Ss
+id: audio
+label: Audio
+description: 'Remotely hosted audio from external sources soundcloud.'
+source: soundcloud
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_soundcloud
+field_map: {  }

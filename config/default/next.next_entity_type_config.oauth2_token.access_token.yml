@@ -1,0 +1,9 @@
+uuid: f28a2b6e-2b88-49da-bc56-3cc37b439e97
+langcode: en
+status: true
+dependencies: {  }
+id: oauth2_token.access_token
+site_resolver: ''
+configuration: {  }
+revalidator: ''
+revalidator_configuration: {  }

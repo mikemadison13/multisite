@@ -1,0 +1,28 @@
+uuid: 0dd22ce6-1649-40c4-9dab-0622d573b09a
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - media
+  enforced:
+    module:
+      - acquia_cms_document
+_core:
+  default_config_hash: z2HbxGobB9jfzOSD0__GxILCQ5UrBH6amyMeI8c6cmI
+id: media.field_media_file
+field_name: field_media_file
+entity_type: media
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

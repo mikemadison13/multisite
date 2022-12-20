@@ -1,0 +1,20 @@
+uuid: 145a55e0-e1be-4711-97f9-22908f89fab7
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_image
+_core:
+  default_config_hash: yDJXucCLu9QkqEkJ4-mTqjhwLmC7BJ8iU8qLQEiFfRE
+name: coh_xx_small
+label: 'XX Small (160)'
+effects:
+  2a065202-6189-4909-bc43-3e7e7aa8e3f6:
+    uuid: 2a065202-6189-4909-bc43-3e7e7aa8e3f6
+    id: image_scale
+    weight: 1
+    data:
+      width: 160
+      height: null
+      upscale: false
