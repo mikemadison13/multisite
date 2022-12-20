@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.embedded
+    - core.entity_view_mode.media.full
   module:
     - editor
     - media
@@ -42,7 +43,9 @@ filters:
     weight: -43
     settings:
       default_view_mode: embedded
-      allowed_view_modes: {  }
+      allowed_view_modes:
+        embedded: embedded
+        full: full
       allowed_media_types: {  }
   editor_file_reference:
     id: editor_file_reference

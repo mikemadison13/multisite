@@ -1,0 +1,24 @@
+uuid: 20e36421-40ce-4852-acc5-47a633634d8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_soundcloud
+    - media.type.audio
+  enforced:
+    module:
+      - acquia_cms_audio
+_core:
+  default_config_hash: NaG_BKmdySGCTIDUDDtaU9tUZSehJ4zcAmOdjkWwlP0
+id: media.audio.field_media_soundcloud
+field_name: field_media_soundcloud
+entity_type: media
+bundle: audio
+label: 'Soundcloud audio URL'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -128,7 +128,8 @@
                 "debugging": "patches/debug.patch"
             },
             "drupal/acquia_cms_headless": {
-                "change route permissions": "patches/acquia_cms_headless_route_permissions.patch"
+                "change route permissions": "patches/acquia_cms_headless_route_permissions.patch",
+                "fixes fatal error": "https://git.drupalcode.org/project/acquia_cms_headless/-/merge_requests/3.patch"
             }
         }
     },

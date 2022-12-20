@@ -1,0 +1,18 @@
+uuid: 442a83e8-7031-4a70-88e4-071f640d3bd7
+langcode: en
+status: true
+dependencies:
+  module:
+    - consumers
+id: consumer.consumer.metatag
+field_name: metatag
+entity_type: consumer
+bundle: consumer
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

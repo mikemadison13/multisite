@@ -1,0 +1,52 @@
+uuid: 8da7529c-b4ca-4069-bfea-0238a996f5e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - acquia_cms_headless
+    - content_translation
+    - field_ui
+    - filter
+    - language
+    - media
+    - node
+    - scheduler
+    - system
+    - toolbar
+    - workflows
+id: proto
+label: Proto
+weight: 5
+is_admin: null
+permissions:
+  - 'access acquia cms headless dashboard'
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'administer account settings'
+  - 'administer acquia cms headless configuration'
+  - 'administer acquia cms headless keys'
+  - 'administer content translation'
+  - 'administer content types'
+  - 'administer languages'
+  - 'administer media'
+  - 'administer menu'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer users'
+  - 'administer workflows'
+  - 'bypass node access'
+  - 'create content translations'
+  - 'delete content translations'
+  - 'schedule publishing of nodes'
+  - 'translate any entity'
+  - 'translate editable entities'
+  - 'update content translations'
+  - 'use text format full_html'
+  - 'view scheduled content'
+  - 'view the administration theme'

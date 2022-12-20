@@ -1,0 +1,18 @@
+uuid: e48e30f9-7e98-4bdf-966b-af625daee82b
+langcode: und
+status: true
+dependencies:
+  enforced:
+    module:
+      - acquia_cms_image
+_core:
+  default_config_hash: DviFd3u5EMWBUFqR4DJLcAg_Qfi-3vkLoIiS_fShSJY
+id: image
+label: Image
+description: 'Locally hosted images.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: image
+field_map: {  }

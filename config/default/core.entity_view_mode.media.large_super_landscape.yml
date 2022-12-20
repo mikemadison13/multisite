@@ -1,0 +1,10 @@
+uuid: c9f6357c-9ccc-4f86-9d8b-ee3739da311e
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.large_super_landscape
+label: 'Large super landscape'
+targetEntityType: media
+cache: true

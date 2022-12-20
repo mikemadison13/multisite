@@ -1,0 +1,43 @@
+uuid: 67277f60-4902-4b9d-ac80-9804e6282e91
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.audio.field_categories
+    - field.field.media.audio.field_media_soundcloud
+    - field.field.media.audio.field_tags
+    - image.style.medium
+    - media.type.audio
+  module:
+    - image
+  enforced:
+    module:
+      - acquia_cms_audio
+_core:
+  default_config_hash: 9QwAwxgAbG29ZSrTKg4J9Dn_MU4s-mw3ORdmmyYCVe0
+id: media.audio.media_library
+targetEntityType: media
+bundle: audio
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_categories: true
+  field_media_soundcloud: true
+  field_tags: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  uid: true

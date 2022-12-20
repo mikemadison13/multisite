@@ -7,5 +7,5 @@ label: 'Headless Site'
 base_url: 'http://localhost:3000'
 preview_url: 'http://localhost:3000/api/preview/'
 preview_secret: LnLL4.DaQn~G
-revalidate_url: null
-revalidate_secret: null
+revalidate_url: ''
+revalidate_secret: ''

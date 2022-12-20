@@ -1,0 +1,22 @@
+uuid: 6e5df3a8-c42d-4e27-981e-d2dc19e89a7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: test_alias
+label: 'Test Alias'
+type: 'canonical_entities:node'
+pattern: 'test/[node:title]'
+selection_criteria:
+  cd922355-36c7-465b-8df1-c39d70c6905d:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: cd922355-36c7-465b-8df1-c39d70c6905d
+    context_mapping:
+      node: node
+    bundles:
+      test: test
+selection_logic: and
+weight: -5
+relationships: {  }
