@@ -811,5 +811,3 @@ if (AcquiaDrupalEnvironmentDetector::isAhEnv()) {
     $databases = array_merge_recursive($databases, $default_settings);
   }
 }
-
-require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";

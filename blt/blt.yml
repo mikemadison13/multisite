@@ -21,3 +21,6 @@ site-studio:
   sync-import: false
   rebuild: false
   package-import: false
+phpunit:
+  path: '${repo.root}/docroot/modules/custom'
+  config: '${repo.root}/phpunit.xml'
