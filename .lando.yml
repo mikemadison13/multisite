@@ -54,6 +54,9 @@ services:
         PHP_IDE_CONFIG: "serverName=appserver"
         DRUSH_OPTIONS_URI: "https://multisite.lndo.site"
         SSH_AUTH_SOCK: /run/host-services/ssh-auth.sock
+        SIMPLETEST_BASE_URL: "http://zero.lndo.site/"
+        SIMPLETEST_DB: "mysql://drupal9:drupal9@database/drupal9"
+        BROWSERTEST_OUTPUT_DIRECTORY: "/app/phpunit-results"
 tooling:
   blt:
     service: appserver

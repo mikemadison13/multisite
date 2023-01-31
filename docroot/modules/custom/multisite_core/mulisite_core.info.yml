@@ -1,0 +1,5 @@
+name: Multisite Core
+description: Core Module for Multisite Codebase
+package: Custom
+type: module
+core_version_requirement: ^9 || ^10
