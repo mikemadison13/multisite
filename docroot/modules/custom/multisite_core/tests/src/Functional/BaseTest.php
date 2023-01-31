@@ -5,6 +5,8 @@ namespace Drupal\Tests\multisite_core\Functional;
 use Drupal\Tests\BrowserTestBase;
 
 /**
+ * Tests for Multisite Codebase.
+ *
  * @group multisite
  */
 class BaseTest extends BrowserTestBase {
