@@ -27,13 +27,17 @@
         "drupal/acquia_lift": "^4.3",
         "drupal/config_split": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
+        "drupal/core-dev": "^9.5",
         "drupal/core-recommended": "^9.2",
         "drupal/devel": "^4.1",
         "drupal/environment_indicator": "^4.0",
         "drupal/media_acquiadam": "^1.47",
         "drupal/search_api_solr": "^4.1",
         "drupal/site_audit": "3.x-dev",
-        "drush/drush": "^11"
+        "drush/drush": "^11",
+        "mglaman/phpstan-drupal": "^1.1",
+        "phpstan/extension-installer": "^1.2",
+        "phpstan/phpstan": "^1.9"
     },
     "config": {
         "sort-packages": true,
@@ -42,7 +46,8 @@
             "cweagans/composer-patches": true,
             "composer/installers": true,
             "ergebnis/composer-normalize": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "phpstan/extension-installer": true
         }
     },
     "extra": {
@@ -140,6 +145,10 @@
     },
     "prefer-stable": true,
     "require-dev": {
-        "phpspec/prophecy-phpunit": "^2"
+        "acquia/coding-standards": "^1.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+        "micheh/phpcs-gitlab": "^1.1",
+        "phpspec/prophecy-phpunit": "^2",
+        "squizlabs/php_codesniffer": "^3.7"
     }
 }
